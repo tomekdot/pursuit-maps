@@ -1,152 +1,176 @@
-#	Map name	Author login	Environment	Uploaded at	UID	MapType	Notes	YN Rating	YN Votes	5-Star Avg	5-Star Total
-126	B r u i s e  b y  z i y x	cime62	Canyon	2020-05-08T18:11:13.09	lOOKK8MpDsxtwP9XFjMoV8PJjT4	PursuitArena		3.8/5	313	3.8/5	313
-127	Pursuit Fun 2,0	--rudi--	Stadium	2024-02-14T17:01:35.223	Ndb1KtLeK6CaIHEJaU4GRV_fwIk	PursuitArena		3.9/5	81	3.9/5	81
-128	Pursuit - N64 Skyscraper	ziberty	Stadium	2018-07-10T18:52:40.53	sEyBQGVnJXL6iBFlTX0M0ejWpC2	PursuitArena		3.7/5	110	3.7/5	110
-129	Pursuit - Cube	--rudi--	Stadium	2024-02-14T16:20:12.897	tA64HL_j06TfW5sjdPxlkJHd28b	Race		3.7/5	63	3.7/5	63
-130	Getting Over It  b y  z i y x	cime62	Canyon	2018-06-27T18:09:51.883	4PtKjXAVj5erxCVPqb4IWfr8qF5	PursuitArena		3.5/5	65	3.5/5	65
-131	Pursuit - Sunshine Labyrinth 2019	domino54	Stadium	2019-07-25T21:18:58.04	w49Qgx2Q8ksUvht2xJ_i35Hq42m	PursuitArena		3.5/5	452	3.5/5	452
-132	Hide&amp;Sick  b y  z i y x	cime62	Stadium	2018-07-05T23:32:18.337	ykQk7vBPl0KECiChlSbidCXjbL1	PursuitArena		3.8/5	37	3.8/5	37
-133	PURSUIT - Edge of the Past	thoren22	Stadium	2020-06-28T14:20:56.14	_f6kQmjh8n_uJewsZ9_kmwaONC5	PursuitArena		3.5/5	33	3.5/5	33
-134	Pursuit - Passage	fanatyq07	Stadium	2019-05-28T17:06:34.323	jHAZfH2sOaOJj9zUXHhlYjhQZM5	PursuitArena		3.5/5	592	3.5/5	592
+#	Map name	Author	Environment	Uploaded at	UID	MapType	Notes	YN Rating	YN Votes	5-Star Avg	5-Star Total
+126	B r u i s e  b y  z i y x	cime62	Canyon	2020-05-08T18:11:13.09	lOOKK8MpDsxtwP9XFjMoV8PJjT4	PursuitArena		/5	0	3.8/5	313
+127	Pursuit Fun 2,0	--rudi--	Stadium	2024-02-14T17:01:35.223	Ndb1KtLeK6CaIHEJaU4GRV_fwIk	PursuitArena		/5	0	3.9/5	81
+128	Pursuit - N64 Skyscraper	ziberty	Stadium	2018-07-10T18:52:40.53	sEyBQGVnJXL6iBFlTX0M0ejWpC2	PursuitArena		/5	0	3.7/5	110
+129	Pursuit - Cube	--rudi--	Stadium	2024-02-14T16:20:12.897	tA64HL_j06TfW5sjdPxlkJHd28b	Race		/5	0	3.7/5	63
+130	Getting Over It  b y  z i y x	cime62	Canyon	2018-06-27T18:09:51.883	4PtKjXAVj5erxCVPqb4IWfr8qF5	PursuitArena		/5	0	3.5/5	65
+131	Pursuit - Sunshine Labyrinth 2019	domino54	Stadium	2019-07-25T21:18:58.04	w49Qgx2Q8ksUvht2xJ_i35Hq42m	PursuitArena		/5	0	3.5/5	452
+132	Hide&amp;Sick  b y  z i y x	cime62	Stadium	2018-07-05T23:32:18.337	ykQk7vBPl0KECiChlSbidCXjbL1	PursuitArena		/5	0	3.8/5	37
+133	PURSUIT - Edge of the Past	thoren22	Stadium	2020-06-28T14:20:56.14	_f6kQmjh8n_uJewsZ9_kmwaONC5	PursuitArena		/5	0	3.5/5	33
+134	Pursuit - Passage	fanatyq07	Stadium	2019-05-28T17:06:34.323	jHAZfH2sOaOJj9zUXHhlYjhQZM5	PursuitArena		/5	0	3.5/5	592
 135	Pursuit - I Really Don&#039;t Know!	owen8900	Stadium	2019-02-20T14:29:26.757	AK3xn2KUfHjTynpCYMD6pPf5ZO9	PursuitArena		2.8/5	233	3.4/5	790
-136	Pursuit - Cliff Hopper	skymidnight	Valley	2020-06-15T22:56:18.793	Ks6SvJe3BW3SfloUHLi1rr_ZgO4	PursuitArena		3.6/5	399	3.6/5	399
+136	Pursuit - Cliff Hopper	skymidnight	Valley	2020-06-15T22:56:18.793	Ks6SvJe3BW3SfloUHLi1rr_ZgO4	PursuitArena		/5	0	3.6/5	399
 137	Pursuit - Tower Escape 1·5!	owen8900	Canyon	2018-10-10T18:00:45.887	ajiN4OoCyku4Ry3C_aR0iB1u5ni	PursuitArena		3.5/5	796	3.8/5	53
 138	Pursuit - BlockFort	tomek_k.	Stadium	2019-05-11T20:14:27.853	swCSsUGUPim7lTe1mynNOHTdKS1	PursuitArena		3.7/5	63	4.1/5	76
-139	Pursuit - Tom &amp; Jerry				vaHPWRzpJU0dr9qYkG0b1qBBB99			3.6/5	824	3.6/5	824
-140	Pursuit - Bunker	ziberty	Stadium	2019-02-19T17:04:55.97	8dagtKC6od4hD0iMJVB4J6stF86	PursuitArena		3.7/5	35	3.7/5	35
-141	Pursuit - ѕyмeтrιcα	ziberty	Stadium	2018-07-09T12:04:00.62	GaoOaPC662TAV3ZDtMrJFFie9af	PursuitArena		3.6/5	21	3.6/5	21
-142	Pursuit - Testing Arena	domino54	Stadium	2019-07-13T23:44:49.98	zhGRyVaRefOrhbfHU7BLrWVp3_l	PursuitArena		3.8/5	60	3.8/5	60
+139	Pursuit - Tom &amp; Jerry				vaHPWRzpJU0dr9qYkG0b1qBBB99			/5	0	3.6/5	824
+140	Pursuit - Bunker	ziberty	Stadium	2019-02-19T17:04:55.97	8dagtKC6od4hD0iMJVB4J6stF86	PursuitArena		/5	0	3.7/5	35
+141	Pursuit - ѕyмeтrιcα	ziberty	Stadium	2018-07-09T12:04:00.62	GaoOaPC662TAV3ZDtMrJFFie9af	PursuitArena		/5	0	3.6/5	21
+142	Pursuit - Testing Arena	domino54	Stadium	2019-07-13T23:44:49.98	zhGRyVaRefOrhbfHU7BLrWVp3_l	PursuitArena		/5	0	3.8/5	60
 143	Pursuit - Basketball	tomek_k.	Stadium	2019-02-04T15:16:08.84	HHszqQkm5wsqGIww7JCybGoD9Fd	PursuitArena		3.4/5	504	3.6/5	64
 144	Pursuit - Huge Arena	tomek_k.	Stadium	2018-11-26T18:35:02.94	EOE2oYauh7gdLKhIu4sv0T2vEF4	PursuitArena		3.1/5	225	3.3/5	81
-145	Pursuit - Abandoned Playground				XdqRrIjHV4gDTSOhYNW5qgzDHlf			3.4/5	86	3.4/5	86
-146	Pursuit - Crayzee Rampage	tomek_k.	Stadium	2019-09-21T18:35:14.523	Dj06ETrCoeSx3gdbSWpNUkPhRe0	PursuitArena		3.6/5	105	3.6/5	105
+145	Pursuit - Abandoned Playground				XdqRrIjHV4gDTSOhYNW5qgzDHlf			/5	0	3.4/5	86
+146	Pursuit - Crayzee Rampage	tomek_k.	Stadium	2019-09-21T18:35:14.523	Dj06ETrCoeSx3gdbSWpNUkPhRe0	PursuitArena		/5	0	3.6/5	105
 147	Pursuit - Turn Around	adri69310	Stadium	2018-12-27T20:21:10.147	V8oaUy9Vit8TUqi1fncJMHNv1ac	PursuitArena		3.5/5	682	4.0/5	130
-148	Pursuit - Who needs space anyway	dogestar_tm	Stadium	2024-09-03T00:21:58.05	t7U0ha1NOYMfM7PNkuEttUSyBie	PursuitArena		3.7/5	32	3.7/5	32
-149	Pursuit -  Tunnels areFun!	lukin27	Lagoon	2024-09-01T18:55:19.263	NOfajMueuhlqaGMZBUk_Trdni98	PursuitArena		3.4/5	29	3.4/5	29
-150	Pursuit - Ferizz Wheel (v1)	lukin27	Lagoon	2024-09-02T11:03:05.583	Qa273lZmWFaj1dayQF1U0s0kuA5	PursuitArena		4.2/5	40	4.2/5	40
-151	Pursuit - ckeyunk Mountain (V3)	lukin27	Valley	2024-09-02T15:49:21.767	boDlJcAVBL1IwDHoosHEq3NE0Ab	PursuitArena		3.9/5	32	3.9/5	32
-152	Pursuit - FourCrappyRoads	lukin27	Canyon	2024-09-12T14:15:50.62	gSep7XW7Zw5P4BoiebD5t0B10Gb	PursuitArena		3.4/5	34	3.4/5	34
-153	Pursuit - Tanker v1	lukin27	Stadium	2024-09-02T11:00:19.35	BZ0IqECzcfGkMbiyC3bcWBaz_Z7	PursuitArena		3.3/5	21	3.3/5	21
-154	Pursuit - RageReef	lukin27	Lagoon	2024-09-15T17:40:50.53	ZL5g6IB6_gA5sGtFkdR0IxXHgUa	PursuitArena		3.6/5	28	3.6/5	28
-155	Pursuit? -  TotallyNormal ip	lukin27	Stadium	2024-09-13T15:43:17.917	qnNtXaZ_lBGkqlq8P0fGE8SbsI7	PursuitArena		3.7/5	35	3.7/5	35
-156	Pursuit - Underwater Fuel Hunt Revised	dogestar_tm	Stadium	2024-09-12T02:27:10.34	iYrlTpCUEVlQLEzBvQ_gRsVbVJ0	PursuitArena		3.5/5	27	3.5/5	27
-157	Pursuit - Simple Fuel Hunt	dogestar_tm	Stadium	2024-09-12T02:28:44.767	I3wwm6Woy97CJOScWK8vG3jRoGc	PursuitArena		3.9/5	27	3.9/5	27
-158	Goal Hunt - Lagoon A08!	owen8900	Lagoon	2018-04-23T20:41:30.19	A7TstZsq_1tWYzol63C8YqGMf5b	GoalHuntArena		3.4/5	49	3.4/5	49
-159	Pursuit - WatchTheStep2	lukin27	Lagoon	2024-09-29T12:01:33.71	qGEN0_FtU43r70GN4PB_BDryp1h	PursuitArena		3.7/5	36	3.7/5	36
-160	Goal Hunt - Valley A08!	owen8900	Valley	2018-04-23T20:40:46.61	y4jXpEcqxwLX1hc7Z7dImz1mhEa	GoalHuntArena		3.9/5	52	3.9/5	52
-161	Goal Hunt - Canyon A08!	owen8900	Canyon	2018-04-23T20:39:05.557	ZwFCeZ1nVNE5aRviAG2BV1F_GAm	GoalHuntArena		3.6/5	62	3.6/5	62
-162	Goal Hunt - Stadium A08!	owen8900	Stadium	2018-04-23T20:39:55.503	FXANO9aDYQN3J636Kn35wdNrS4e	GoalHuntArena		3.5/5	48	3.5/5	48
-163	Pursuit - Open Air	--rudi--	Stadium	2018-02-02T16:02:07.45	eSiU9sBP23Y4Be2H1qPoBPppMAk	PursuitArena		4.0/5	46	4.0/5	46
-164	Castle Club	--rudi--	Stadium	2024-10-10T14:13:12.967	C5keqE1VRqaqbgfB4PtIaCQZJc2	PursuitArena		3.8/5	51	3.8/5	51
-165	Goal Hunt - Islands!	owen8900	Stadium	2018-04-22T20:23:08.44	fy4cohzUMJfI8axqwpkJldAz7d9	GoalHuntArena		3.5/5	48	3.5/5	48
-166	Pursuit - SNES Battle Course 4 Revised	sparkster	Stadium	2024-10-27T12:58:19.303	hHo3hi7C5eWTmekItwICpImJT6f	PursuitArena		3.6/5	40	3.6/5	40
-167	Pursuit - Priority Revised				ak7SevlfBWWaOTKV5_CYhb7QY_e			4.0/5	12	4.0/5	12
-168	Pursuit - Police Chase Revised				LDyf8yJhz8HJq3B_ps0M1dRXzcf			4.0/5	12	4.0/5	12
-169	Pursuit - Disco Revised				MEOq1gVjgGV2VxceUF1O8acMXub			3.5/5	34	3.5/5	34
-170	Pursuit - #4 Revised				5vF28Z1zmNNT3XIz1KbQXTXsEa7			3.9/5	22	3.9/5	22
-171	Pursuit - Arena! (by hubble) Revised				9C8TiB1kqsFRP2astnEZAIuhfPd			3.6/5	25	3.6/5	25
-172	Pursuit - Squares Revised	dogestar_tm	Stadium	2024-10-28T14:50:09.28	w8RLI9aelWP0ljskUbq8E7ktGZ6	PursuitArena		3.7/5	33	3.7/5	33
-173	Pursuit - Beer &amp; Dane by Hazard Revised				NBxzeB83RrnRpdLn20D5YSIuGB1			3.9/5	18	3.9/5	18
-174	Pursuit - Train Wipeout	dogestar_tm	Valley	2024-10-28T23:45:52.793	zetGSy_SNea1zuG_LFi3geXLsr9	PursuitArena		3.3/5	67	3.3/5	67
-175	[Pursuit][LOL][Big] UpsideDown Demo Revised				qUyIkD7QpihSK_CSs8EaLfxJ6w3			4.1/5	15	4.1/5	15
-176	[Pursuit][LOL][Medium][2024]UpsideDown_Demo_revised_v2	not_avaliable	Stadium	2024-11-07T04:01:59.42	2_bh3VQXKhTgxEmIs_EDCOv3c8g	PursuitArena		2.5/5	18	2.5/5	18
-177	Pursuit - Grandiosa	--rudi--	Stadium	2024-11-12T11:35:02.493	Dc6uEbFd3M6dlUL6Xw8WeOQHyff	PursuitArena		3.4/5	33	3.4/5	33
-178	Pursuit - Deep Dip Floor 0 and 1 but from Temu	dogestar_tm	Canyon	2024-11-17T18:24:37.113	JdYyzYYVPzknJbD9ZuxPhwDaIek	PursuitArena		3.3/5	24	3.3/5	24
-179	Pursuit - Mud Cake	--rudi--	Stadium	2024-11-26T20:52:47.213	uJKeNpfieeCdSWDu5LS7WkcjDNj	PursuitArena		3.5/5	37	3.5/5	37
-180	Goal Hunt - Underwater Park	dogestar_tm	Stadium	2024-11-27T19:37:52.63	RFJR7p2qJABgNZyeTREj1NfDPZ7	GoalHuntArena		3.3/5	13	3.3/5	13
-181	[Lati Goal Hunt] Fast Rotation	tra.la.la.la	Lagoon	2025-11-18T15:49:05.1	924DTjPG8t1nbbDuMKxGqSdRgB0	GoalHuntArena		3.6/5	39	3.6/5	39
-182	Goal Hunt - Puddingland	tra.la.la.la	Stadium	2024-11-29T17:39:07.54	lG8Umw70a8twWeOvrizhTzo_aJ7	GoalHuntArena		3.9/5	76	3.9/5	76
-183	Goal Hunt Christmas #1 Candy Cane Hunt	dogestar_tm	Stadium	2024-12-01T13:34:59.693	MZDl05mhswd8uJrAaqTTh2bMTZg	GoalHuntArena		3.6/5	21	3.6/5	21
-184	Goal Hunt Christmas #2 Winter Basin	dogestar_tm	Canyon	2024-12-02T02:00:12.017	9iX2DjsMLXwaTSNuajkMtxZZyF7	GoalHuntArena		3.6/5	24	3.6/5	24
-185	[Pursuit] - First Contribution	thelevelcode	Canyon	2024-10-05T00:55:04.133	c569tdJsd8NuVA0FzNQncfM4xNf	PursuitArena		3.8/5	27	3.8/5	27
-186	Goal Hunt Christmas #3 Stadium A08 but with more A08	dogestar_tm	Stadium	2024-12-03T21:51:06.283	pq4JadwDbsKeKCPsvLNaMHx7f0a	GoalHuntArena		3.6/5	39	3.6/5	39
-187	Goal Hunt Christmas #4 Who needs space anyway 2	dogestar_tm	Valley	2024-12-04T14:10:47.417	nJyyxAwZ8yn0UK9SZofVAKpM7Aj	GoalHuntArena		3.8/5	30	3.8/5	30
-188	Goal Hunt Christmas #5 I heard you like wood	dogestar_tm	Lagoon	2024-12-04T23:39:32.28	zxjxVNSkqIWbnykecBIoBKO44s7	GoalHuntArena		3.3/5	23	3.3/5	23
-189	Goal Hunt Christmas #6 Train Wipeout 2	dogestar_tm	Valley	2024-12-06T00:51:11.063	pjI5bIv_AwgVAlCGaUhTiNJPVud	GoalHuntArena		3.9/5	31	3.9/5	31
-190	Goal Hunt Christmas #7 Snowy Offroad	dogestar_tm	Stadium	2024-12-07T03:37:01.617	2Rud58wLhMUqeaIQMfdH2MOlC6c	GoalHuntArena		2.7/5	38	2.7/5	38
-191	Pursuit - Lunar Landing	dogestar_tm	Canyon	2024-09-07T02:24:01.043	j7uLU45C1TQ1O0fpGrFGEPxze7a	PursuitArena		4.3/5	32	4.3/5	32
-192	Goal Hunt Christmas #8 Lunar Landing DX	dogestar_tm	Canyon	2024-12-08T00:38:08.003	MueOpY0PjYXJ79AoCXsHzQG5lKe	GoalHuntArena		3.3/5	28	3.3/5	28
-193	Goal Hunt Christmas #9 Simple Goal Hunt	dogestar_tm	Stadium	2024-12-09T02:33:27.727	vzocE7kMeQ0AKF1eBZUt8OLNG3f	GoalHuntArena		4.0/5	24	4.0/5	24
-194	Goal Hunt Christmas #10 Goal Hunt Bowl	dogestar_tm	Stadium	2024-12-11T00:39:47.443	WHm4vrOPrJyY9yVlOd9_5atQx82	GoalHuntArena		3.8/5	31	3.8/5	31
-195	Goal Hunt Christmas #11 Ferris Harbor	dogestar_tm	Lagoon	2024-12-11T00:46:05.347	zhX6JxVZqSRPpKqdryUORlouBM0	GoalHuntArena		4.2/5	20	4.2/5	20
-196	Goal Hunt Christmas #12 Smol	dogestar_tm	Canyon	2024-12-12T00:33:22.41	5SodGFVmT3uJ04dvp4DzOWSKD05	GoalHuntArena		4.0/5	33	4.0/5	33
-197	Goal Hunt Christmas #13 Snow Fields	dogestar_tm	Valley	2024-12-13T00:27:15.203	kEYxPyEaktZwaKVmx22vF7b59ac	GoalHuntArena		3.7/5	33	3.7/5	33
-198	Goal Hunt Christmas #14 Speedmapping this is	dogestar_tm	Stadium	2024-12-14T04:25:30.247	6Pw0SoS1jDKqTPTj7WlZQvANb2g	GoalHuntArena		4.0/5	34	4.0/5	34
-199	Goal Hunt Christmas #15 When the H	dogestar_tm	Stadium	2024-12-14T19:16:38.11	vQyYZ4FhboV5u_o2FJKnEUDYTH2	GoalHuntArena		3.9/5	36	3.9/5	36
-200	Goal Hunt Christmas #16 Night Rush	dogestar_tm	Stadium	2024-12-15T22:47:16.633	6BEsU8_Zf8emodVlY6L6DvLOBH5	GoalHuntArena		4.0/5	24	4.0/5	24
-201	Goal Hunt Christmas #17 Ice Trenches	dogestar_tm	Stadium	2024-12-17T14:24:58.923	8mK2IS_NdpfbBi8vnnX_xQRB2h3	GoalHuntArena		3.7/5	32	3.7/5	32
-202	Goal Hunt Christmas #20 &quot;Another dirt map?&quot; &quot;yes al&quot;	dogestar_tm	Stadium	2024-12-20T03:26:10.427	sIQHk_Zg30pJo3UXqIX1BS_0waa	GoalHuntArena		4.3/5	20	4.3/5	20
-203	Goal Hunt Christmas #21 It&#039;s a map	dogestar_tm	Canyon	2024-12-21T01:37:45.487	zfNXsMexjMu48Qo3ri8qza2zR_n	GoalHuntArena		4.0/5	44	4.0/5	44
-204	Goal Hunt Christmas #22 Deck the Halls	dogestar_tm	Stadium	2024-12-21T20:43:59.003	QLPlUIKV7lQ7NZ8nXcklI1Lj6F9	GoalHuntArena		3.5/5	36	3.5/5	36
-205	Goal Hunt Christmas #23 Who needs space anyway 3!	dogestar_tm	Stadium	2024-12-23T12:54:28.983	gOUHfNVXudhQfPfwAygQvEl4bui	GoalHuntArena		3.5/5	24	3.5/5	24
-206	Goal Hunt Christmas #24 + 25 Christmas Plaza	dogestar_tm	Stadium	2024-12-25T19:18:57.45	yWjIt03xFOQ2ZS49Fk5psughqB9	GoalHuntArena		4.1/5	33	4.1/5	33
-207	Goal Hunt - Lightshow	tra.la.la.la	Canyon	2024-12-25T19:39:48.81	38wvynxgUhlRgh2aiF2HOqKxw_a	GoalHuntArena		3.9/5	50	3.9/5	50
-208	Goal Hunt - Ula Ula	sparkster	Lagoon	2024-12-31T17:37:24	H6kyeR1uiGFUbgePWp1xK3Om1Lj	GoalHuntArena		3.9/5	33	3.9/5	33
-209	Interstate Valley	dogestar_tm	Valley	2025-01-01T17:11:58	T8MxHlIMkxRwFYm9eA0zjlptFtf	PursuitArena		3.6/5	26	3.6/5	26
-210	pursuit - a difficult map about climbing V2				0WC1RENo8qnrj7BE1Vw8Zm5OiFm			3.8/5	24	3.8/5	24
-211	goal hunt-i dont know what to name this bnfvghvndxsc				vtsrtSFzqdJr8cVETNlfPIyvTR9			3.9/5	37	3.9/5	37
-212	pursuit - 1 block				NGZyRTBMUHKkePXJ4oEzLgi_vH2			3.3/5	40	3.3/5	40
-213	Goal Hunt - Dirty Adventure				EKXOKCDqqe5aIlF7wCcORErwWp			3.8/5	43	3.8/5	43
-214	Goal Hunt - Space Claw	lukin27	Stadium	2025-01-02T21:49:41	4AUlnsqhuuPVIgPPf51Xt83xZD0	GoalHuntArena		4.2/5	25	4.2/5	25
-215	Goal Hunt - HIGH (no not like that)				0abcU7gkG2kxklRSpjg9NOY6k6d			3.3/5	24	3.3/5	24
-216	Pursuit - what is my purpose on the planet?				YdyS2JVylhcn8S2VcsU5f8e6Hz1			3.9/5	20	3.9/5	20
-217	42K ants [WR]	tms_mathieu_17	Stadium	2025-01-01T17:42:10	vCqoFAEA_5HtD4dV2i_Yep7KSz7	PursuitArena		4.3/5	26	4.3/5	26
-218	Pursuit  - Memory of Molki&#039;s Dream	tms_mathieu_17	Stadium	2025-01-01T17:51:07	b2auhSU4iUXGxLxijtfz1r8zXee	PursuitArena		3.9/5	27	3.9/5	27
-219	Pursuit - Journey to Arnhemland	lukin27	Lagoon	2025-01-03T21:16:06	fWEZIViAgaRfqUlruvS4q2ZtyAb	PursuitArena		3.7/5	23	3.7/5	23
-220	KEKL - GoalHunt but it&#039;s finishes and you finish the map instead of getting points but it&#039;s actually GoalHunt now	tushy444trackmaniagamer	Stadium	2025-01-04T23:53:23	Pmbh4NLUWQzJk2pwxj6kIBEHzT	GoalHuntArena		3.2/5	31	3.2/5	31
-221	Goal Hunt - Slug Hunt	lukin27	Valley	2025-01-05T19:20:57	DbAmvEYgq2Zs6G4VcmYRcJR3Yod	GoalHuntArena		3.6/5	27	3.6/5	27
-222	Pursuit - Manifest Destiny	lukin27	Lagoon	2025-01-05T20:30:29	IAx5XHPuvJGpETPnWtnMxT_S14h	PursuitArena		3.5/5	18	3.5/5	18
-223	Pursuit - Rocket Mania	--rudi--	Stadium	2025-01-09T10:54:54	PxrhjfURIqIr2rsCu8n1ZZHrEaj	PursuitArena		4.2/5	35	4.2/5	35
-224	Pursuit - When The Elevator Stops Working Revised! V2				Vy9tufPZV7exCND5mAPJLUhHF78			3.8/5	36	3.8/5	36
-225	Goal Hunt TMNF E03	tomek_k.	Stadium	2025-01-12T21:44:00	1J1_SFuNLNXsZozZvs6IsZxjHLa	GoalHuntArena		3.7/5	51	3.7/5	51
-226	Liminal Maze Tower	dogestar_tm	Stadium	2025-01-22T13:57:27.075	xmPnj0qC1jmfw6x4X53VjWNXfpj	PursuitArena		3.9/5	30	3.9/5	30
-227	Pursuit - Balloonia	--rudi--	Stadium	2025-01-29T09:24:11.575	QL9dwAlhjV1pwqnmzcLGVfdSmjm	PursuitArena		3.8/5	25	3.8/5	25
-228	Pursuit - Virtual Insanity	lukin27	Stadium	2025-01-30T21:04:40.629	kV0YYCwBXkM13KU_1_Se2VCVpma	PursuitArena		3.9/5	13	3.9/5	13
-229	Pursuit - Didjerama	lukin27	Lagoon	2025-01-30T21:03:25.724	nk3FzWYbDSwJtnRnJ2tZOOngo6b	PursuitArena		3.2/5	15	3.2/5	15
-230	Goal Hunt - Use the Force	lukin27	Lagoon	2025-01-30T21:02:37.292	naaeMXUARQETV1sfMzL2FyWWw6b	GoalHuntArena		3.4/5	30	3.4/5	30
-231	Pursuit - islands				4DuFx8VHnSaiudOfDX6RwHoReX9			3.3/5	28	3.3/5	28
-232	Pursuit - Blind	lukin27	Stadium	2025-02-02T18:47:12.757	aTtpWQLse56OmTsVsBfUSwYK3ol	PursuitArena		3.0/5	22	3.0/5	22
-233	Goal Hunt - Bullet	lukin27	Stadium	2025-02-09T19:30:09.021	Nc5ogy_R_m76gIkGZFLqB5ApuFi	GoalHuntArena		2.0/5	11	2.0/5	11
-234	Pursuit - Blow Your Mind	lukin27	Valley	2025-02-09T19:26:43.74	jmJtJfJzqMR0VfEJW3guJXl2Yec	PursuitArena		3.5/5	22	3.5/5	22
-235	Pursuit - Roberto	lukin27	Valley	2025-02-25T20:23:11.267	6RPGZNE55_Hg0KMy7pyJ3iMb7Yk	PursuitArena		3.8/5	16	3.8/5	16
-236	Pursuit - Morning Glory	lukin27	Lagoon	2025-02-25T20:21:20.359	HViaKhTXNjt9NugjiBa2ltKrbW2	PursuitArena		3.8/5	12	3.8/5	12
-237	Pursuit - Kakjallamonumentano Mountain	lukin27	Valley	2025-02-26T13:25:40.079	nAJAbntpi_4EkizLNi7howlLzo9	PursuitArena		3.3/5	31	3.3/5	31
-238	Pursuit - Riolu Colloseum	lukin27	Canyon	2025-03-16T12:00:32.643	zIf8Dke5IGF78c3lQbbssgF93qf	PursuitArena		3.3/5	21	3.3/5	21
-239	Pursuit - bowl	minigod	Canyon	2015-03-08T20:33:27.033	U_y9lP7XvPxwEhUSOvDSsMJ51Pj	Race		3.3/5	26	3.3/5	26
-240	Pursuit - this map exists because im bored V2				Z0b8MaNyoYynDVx45ROI_BeREaf			4.2/5	25	4.2/5	25
-241	MESA PROSPEKT	gamerhook053	Canyon	2025-06-11T03:00:43.128	ATMZzNLpglWrqTVmL0areccHVp3	PursuitArena		3.3/5	18	3.3/5	18
-242	Goal Hunt - Bolognaland	lukin27	Stadium	2025-01-30T21:05:41.77	8cPdCKF3tqehj2D_2uZzuJSUChd	GoalHuntArena		4.0/5	29	4.0/5	29
-243	Pursuit - Bugslide Hell	dogestar_tm	Stadium	2024-09-29T01:01:48.21	L10av8HNvUwQK6dOO_1kb__YLhc	PursuitArena		3.8/5	21	3.8/5	21
-244	Pursuit - Thunderbowl	faithyfast	Canyon	2025-07-12T19:04:49.971	QR9lgsB0v0zdcUhpvrCD3OONGRm	PursuitArena		4.2/5	20	4.2/5	20
-245	Pursuit-you like empty maps like turn around so here you go!				uDe9rtl4dS_ngmbn7NUv68JAVQ9			3.9/5	28	3.9/5	28
-246	Pursuit - Interstate Valley 2  -  City Chase	dogestar_tm	Valley	2025-07-17T16:50:02.072	05xfUXiASci979Soiq88mJepJv4	PursuitArena		3.9/5	20	3.9/5	20
-247	Pursuit - Interstate Valley 2  -  Trap Trenches	dogestar_tm	Valley	2025-07-17T17:13:17.697	egbMAGbvBgQn0KLVn8Dqj_F_ad4	PursuitArena		3.7/5	7	3.7/5	7
-248	Pursuit - Interstate Valley 2  - Open Outskirts	dogestar_tm	Valley	2025-07-17T17:19:59.562	yK7bQf4SiHsHoxPUr0vG3sf_c7h	PursuitArena		3.5/5	15	3.5/5	15
-249	Pursuit - Interstate Valley 2  - Magnet Madness	dogestar_tm	Valley	2025-07-17T17:25:33.482	Lcx2FQC6VY_FwxMx7f28j17fXJ5	PursuitArena		2.9/5	18	2.9/5	18
-250	Pursuit - MapObjetive´s Party				mp_fQSprsxxVxokVdNApaY5l9Gi			3.1/5	14	3.1/5	14
-251	Pursuit !!! - FIND YOUR TARGET				VqKYM3aTsgqm1F1hBj2MqZL2x2n			4.0/5	36	4.0/5	36
-252	Goal Hunt - A05 !				BSW45khBDPApIybih1uQygk0M5h			4.1/5	26	4.1/5	26
-253	Pursuit - actual one block map				MENRbMmgAMZghsbeb1vsj7CilZ5			2.6/5	18	2.6/5	18
-254	Pursuit - Power Slider	skymidnight	Canyon	2020-06-17T15:24:13.683	KzlhEADO_aFN4fBKjqJZPeAMwjj	PursuitArena		3.6/5	518	3.6/5	518
-255	Pursuit - The Sun	--rudi--	Stadium	2025-11-11T12:20:28.271	Azb9sYN4ihp_wzxg_F3f4Kq2t8j	PursuitArena		4.4/5	16	4.4/5	16
-256	F l a r i s  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:13:12.597	SVkh_6JNgEANoEymZJdMrxe13zg	PursuitArena		3.7/5	20	3.7/5	20
-257	Z e n i t h  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:14:03.923	cApDdXnHY9WRtSXe5fH8C3vtR37	PursuitArena		3.8/5	15	3.8/5	15
-258	P l u s  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:15:14.48	FN1R_33tBlvQw3DjYHa_gFc2y4f	PursuitArena		4.3/5	25	4.3/5	25
-259	L o b o  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:45:01.514	Vyv2ouggAC7P0WuWtONbBo5S_Ol	PursuitArena		4.4/5	13	4.4/5	13
-260	L o k o m o  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:43:08.675	J_ujENLwNFnghfHxHuV9lRExp1n	PursuitArena		4.0/5	21	4.0/5	21
-261	P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:46:02.946	_8a3sQFrZNbS4A8bKejRHiwqor3	PursuitArena		4.0/5	23	4.0/5	23
-262	GHC2! #19 Bowl Hopping	dogestar_tm	Stadium	2025-12-21T19:32:37.65	8SElzvb0sNlE3R6zLVBjjJsHjAf	GoalHuntArena		3.8/5	12	3.8/5	12
-263	GoalHunt - AlienSignal				CY_2q_cDXvPKO07ICNaQOphLjY0			3.3/5	7	3.3/5	7
-264	The future is REALLY bright	rodger80	Stadium	2026-01-26T15:04:50.357	0lzsElcgT1KkMRi7AA9JhOxb2Tb	PursuitArena		3.2/5	9	3.2/5	9
-265	PURSUIT - Salon	jmtracks	Canyon	2026-02-23T23:14:46.496	ttj0Bw_ACkSta4uqfxj80_8iSh4	PursuitArena		3.7/5	17	3.7/5	17
-266	pursuit - my first map	aspymain	Lagoon	2026-02-25T21:18:02.706	eVSO1sFc2sYip8vlEv4OQ_pgqOe	PursuitArena		3.6/5	9	3.6/5	9
-267	Pursuit - three islands	aspymain	Lagoon	2026-02-27T12:18:04.018	O6dyHlHftJTD5Y0Kj2rlcr7FsN1	PursuitArena		3.4/5	5	3.4/5	5
-268	Pursuit - Big Village	aspymain	Valley	2026-03-21T15:05:52.162	b0838y0TaQdkxQCZEG1ZwLVK0q2	PursuitArena		4.1/5	7	4.1/5	7
-269	Pursuit - snail race				4VL0mPspn7oAkNaIPkTSds2KA40			4.6/5	7	4.6/5	7
-270	Goal Hunt - map name				Vo4FS0SqRkxTjtw3TKQ8wzON0O5			4.1/5	7	4.1/5	7
-271	Pursuit - IslandCar Vs BayCar	jmtracks	Canyon	2026-03-14T22:39:55.376	sQkgqquk_sNj73lS2me91lrVZNi	PursuitArena		4.4/5	8	4.4/5	8
-272	Pursuit - wanted to make a -1 star map, deal with it	dogestar_tm	Valley	2026-03-29T15:38:26.088	T45ZfL8kMr390_VlsTUKI5RZ8F0	PursuitArena		3.3/5	6	3.3/5	6
-273	PRIL FOOLS #1	krongtekk	Stadium	2026-03-10T17:27:27.967	_wU_BDYSLIXkV_SdQFOeVuf_hA9	PursuitArena		4.2/5	14	4.2/5	14
-274	Pursuit - 6^3				f_jrojLYyvhRFq6i1NYUAq6aZZ8			4.0/5	4	4.0/5	4
-275	Pursuit - The Mall &#039;&#039;&#039;&#039;	fabio_m	Stadium	2016-02-24T18:26:12.923	9zMow0b58EphH0h5ek_Aapvmjzc	Race		5.0/5	3	5.0/5	3
-276	Pursuit - Community Map #04	domino54	Canyon	2019-01-09T23:26:03.713	TISJLeThBMr8PQ1rNSDxktLk6Zi	PursuitArena		2.7/5	489	3.3/5	548
+148	Pursuit - Who needs space anyway	dogestar_tm	Stadium	2024-09-03T00:21:58.05	t7U0ha1NOYMfM7PNkuEttUSyBie	PursuitArena		/5	0	3.7/5	32
+149	Pursuit -  Tunnels areFun!	lukin27	Lagoon	2024-09-01T18:55:19.263	NOfajMueuhlqaGMZBUk_Trdni98	PursuitArena		/5	0	3.4/5	29
+150	Pursuit - Ferizz Wheel (v1)	lukin27	Lagoon	2024-09-02T11:03:05.583	Qa273lZmWFaj1dayQF1U0s0kuA5	PursuitArena		/5	0	4.2/5	40
+151	Pursuit - ckeyunk Mountain (V3)	lukin27	Valley	2024-09-02T15:49:21.767	boDlJcAVBL1IwDHoosHEq3NE0Ab	PursuitArena		/5	0	3.9/5	32
+152	Pursuit - FourCrappyRoads	lukin27	Canyon	2024-09-12T14:15:50.62	gSep7XW7Zw5P4BoiebD5t0B10Gb	PursuitArena		/5	0	3.4/5	34
+153	Pursuit - Tanker v1	lukin27	Stadium	2024-09-02T11:00:19.35	BZ0IqECzcfGkMbiyC3bcWBaz_Z7	PursuitArena		/5	0	3.3/5	21
+154	Pursuit - RageReef	lukin27	Lagoon	2024-09-15T17:40:50.53	ZL5g6IB6_gA5sGtFkdR0IxXHgUa	PursuitArena		/5	0	3.6/5	28
+155	Pursuit? -  TotallyNormal ip	lukin27	Stadium	2024-09-13T15:43:17.917	qnNtXaZ_lBGkqlq8P0fGE8SbsI7	PursuitArena		/5	0	3.7/5	35
+156	Pursuit - Underwater Fuel Hunt Revised	dogestar_tm	Stadium	2024-09-12T02:27:10.34	iYrlTpCUEVlQLEzBvQ_gRsVbVJ0	PursuitArena		/5	0	3.5/5	27
+157	Pursuit - Simple Fuel Hunt	dogestar_tm	Stadium	2024-09-12T02:28:44.767	I3wwm6Woy97CJOScWK8vG3jRoGc	PursuitArena		/5	0	3.9/5	27
+158	Goal Hunt - Lagoon A08!	owen8900	Lagoon	2018-04-23T20:41:30.19	A7TstZsq_1tWYzol63C8YqGMf5b	GoalHuntArena		/5	0	3.4/5	49
+159	Pursuit - WatchTheStep2	lukin27	Lagoon	2024-09-29T12:01:33.71	qGEN0_FtU43r70GN4PB_BDryp1h	PursuitArena		/5	0	3.7/5	36
+160	Goal Hunt - Valley A08!	owen8900	Valley	2018-04-23T20:40:46.61	y4jXpEcqxwLX1hc7Z7dImz1mhEa	GoalHuntArena		/5	0	3.9/5	52
+161	Goal Hunt - Canyon A08!	owen8900	Canyon	2018-04-23T20:39:05.557	ZwFCeZ1nVNE5aRviAG2BV1F_GAm	GoalHuntArena		/5	0	3.6/5	62
+162	Goal Hunt - Stadium A08!	owen8900	Stadium	2018-04-23T20:39:55.503	FXANO9aDYQN3J636Kn35wdNrS4e	GoalHuntArena		/5	0	3.5/5	48
+163	Pursuit - Open Air	--rudi--	Stadium	2018-02-02T16:02:07.45	eSiU9sBP23Y4Be2H1qPoBPppMAk	PursuitArena		/5	0	4.0/5	46
+164	Castle Club	--rudi--	Stadium	2024-10-10T14:13:12.967	C5keqE1VRqaqbgfB4PtIaCQZJc2	PursuitArena		/5	0	3.8/5	51
+165	Goal Hunt - Islands!	owen8900	Stadium	2018-04-22T20:23:08.44	fy4cohzUMJfI8axqwpkJldAz7d9	GoalHuntArena		/5	0	3.5/5	48
+166	Pursuit - SNES Battle Course 4 Revised	sparkster	Stadium	2024-10-27T12:58:19.303	hHo3hi7C5eWTmekItwICpImJT6f	PursuitArena		/5	0	3.6/5	40
+167	Pursuit - Priority Revised				ak7SevlfBWWaOTKV5_CYhb7QY_e			/5	0	4.0/5	12
+168	Pursuit - Police Chase Revised				LDyf8yJhz8HJq3B_ps0M1dRXzcf			/5	0	4.0/5	12
+169	Pursuit - Disco Revised				MEOq1gVjgGV2VxceUF1O8acMXub			/5	0	3.5/5	34
+170	Pursuit - #4 Revised				5vF28Z1zmNNT3XIz1KbQXTXsEa7			/5	0	3.9/5	22
+171	Pursuit - Arena! (by hubble) Revised				9C8TiB1kqsFRP2astnEZAIuhfPd			/5	0	3.6/5	25
+172	Pursuit - Squares Revised	dogestar_tm	Stadium	2024-10-28T14:50:09.28	w8RLI9aelWP0ljskUbq8E7ktGZ6	PursuitArena		/5	0	3.7/5	33
+173	Pursuit - Beer &amp; Dane by Hazard Revised				NBxzeB83RrnRpdLn20D5YSIuGB1			/5	0	3.9/5	18
+174	Pursuit - Train Wipeout	dogestar_tm	Valley	2024-10-28T23:45:52.793	zetGSy_SNea1zuG_LFi3geXLsr9	PursuitArena		/5	0	3.3/5	67
+175	[Pursuit][LOL][Big] UpsideDown Demo Revised				qUyIkD7QpihSK_CSs8EaLfxJ6w3			/5	0	4.1/5	15
+176	[Pursuit][LOL][Medium][2024]UpsideDown_Demo_revised_v2	not_avaliable	Stadium	2024-11-07T04:01:59.42	2_bh3VQXKhTgxEmIs_EDCOv3c8g	PursuitArena		/5	0	2.5/5	18
+177	Pursuit - Grandiosa	--rudi--	Stadium	2024-11-12T11:35:02.493	Dc6uEbFd3M6dlUL6Xw8WeOQHyff	PursuitArena		/5	0	3.4/5	33
+178	Pursuit - Deep Dip Floor 0 and 1 but from Temu	dogestar_tm	Canyon	2024-11-17T18:24:37.113	JdYyzYYVPzknJbD9ZuxPhwDaIek	PursuitArena		/5	0	3.3/5	24
+179	Pursuit - Mud Cake	--rudi--	Stadium	2024-11-26T20:52:47.213	uJKeNpfieeCdSWDu5LS7WkcjDNj	PursuitArena		/5	0	3.5/5	37
+180	Goal Hunt - Underwater Park	dogestar_tm	Stadium	2024-11-27T19:37:52.63	RFJR7p2qJABgNZyeTREj1NfDPZ7	GoalHuntArena		/5	0	3.3/5	13
+181	[Lati Goal Hunt] Fast Rotation	tra.la.la.la	Lagoon	2025-11-18T15:49:05.1	924DTjPG8t1nbbDuMKxGqSdRgB0	GoalHuntArena		/5	0	3.6/5	39
+182	Goal Hunt - Puddingland	tra.la.la.la	Stadium	2024-11-29T17:39:07.54	lG8Umw70a8twWeOvrizhTzo_aJ7	GoalHuntArena		/5	0	3.9/5	76
+183	Goal Hunt Christmas #1 Candy Cane Hunt	dogestar_tm	Stadium	2024-12-01T13:34:59.693	MZDl05mhswd8uJrAaqTTh2bMTZg	GoalHuntArena		/5	0	3.6/5	21
+184	Goal Hunt Christmas #2 Winter Basin	dogestar_tm	Canyon	2024-12-02T02:00:12.017	9iX2DjsMLXwaTSNuajkMtxZZyF7	GoalHuntArena		/5	0	3.6/5	24
+185	[Pursuit] - First Contribution	thelevelcode	Canyon	2024-10-05T00:55:04.133	c569tdJsd8NuVA0FzNQncfM4xNf	PursuitArena		/5	0	3.8/5	27
+186	Goal Hunt Christmas #3 Stadium A08 but with more A08	dogestar_tm	Stadium	2024-12-03T21:51:06.283	pq4JadwDbsKeKCPsvLNaMHx7f0a	GoalHuntArena		/5	0	3.6/5	39
+187	Goal Hunt Christmas #4 Who needs space anyway 2	dogestar_tm	Valley	2024-12-04T14:10:47.417	nJyyxAwZ8yn0UK9SZofVAKpM7Aj	GoalHuntArena		/5	0	3.8/5	30
+188	Goal Hunt Christmas #5 I heard you like wood	dogestar_tm	Lagoon	2024-12-04T23:39:32.28	zxjxVNSkqIWbnykecBIoBKO44s7	GoalHuntArena		/5	0	3.3/5	23
+189	Goal Hunt Christmas #6 Train Wipeout 2	dogestar_tm	Valley	2024-12-06T00:51:11.063	pjI5bIv_AwgVAlCGaUhTiNJPVud	GoalHuntArena		/5	0	3.9/5	31
+190	Goal Hunt Christmas #7 Snowy Offroad	dogestar_tm	Stadium	2024-12-07T03:37:01.617	2Rud58wLhMUqeaIQMfdH2MOlC6c	GoalHuntArena		/5	0	2.7/5	38
+191	Pursuit - Lunar Landing	dogestar_tm	Canyon	2024-09-07T02:24:01.043	j7uLU45C1TQ1O0fpGrFGEPxze7a	PursuitArena		/5	0	4.3/5	32
+192	Goal Hunt Christmas #8 Lunar Landing DX	dogestar_tm	Canyon	2024-12-08T00:38:08.003	MueOpY0PjYXJ79AoCXsHzQG5lKe	GoalHuntArena		/5	0	3.3/5	28
+193	Goal Hunt Christmas #9 Simple Goal Hunt	dogestar_tm	Stadium	2024-12-09T02:33:27.727	vzocE7kMeQ0AKF1eBZUt8OLNG3f	GoalHuntArena		/5	0	4.0/5	24
+194	Goal Hunt Christmas #10 Goal Hunt Bowl	dogestar_tm	Stadium	2024-12-11T00:39:47.443	WHm4vrOPrJyY9yVlOd9_5atQx82	GoalHuntArena		/5	0	3.8/5	31
+195	Goal Hunt Christmas #11 Ferris Harbor	dogestar_tm	Lagoon	2024-12-11T00:46:05.347	zhX6JxVZqSRPpKqdryUORlouBM0	GoalHuntArena		/5	0	4.2/5	20
+196	Goal Hunt Christmas #12 Smol	dogestar_tm	Canyon	2024-12-12T00:33:22.41	5SodGFVmT3uJ04dvp4DzOWSKD05	GoalHuntArena		/5	0	4.0/5	33
+197	Goal Hunt Christmas #13 Snow Fields	dogestar_tm	Valley	2024-12-13T00:27:15.203	kEYxPyEaktZwaKVmx22vF7b59ac	GoalHuntArena		/5	0	3.7/5	33
+198	Goal Hunt Christmas #14 Speedmapping this is	dogestar_tm	Stadium	2024-12-14T04:25:30.247	6Pw0SoS1jDKqTPTj7WlZQvANb2g	GoalHuntArena		/5	0	4.0/5	34
+199	Goal Hunt Christmas #15 When the H	dogestar_tm	Stadium	2024-12-14T19:16:38.11	vQyYZ4FhboV5u_o2FJKnEUDYTH2	GoalHuntArena		/5	0	3.9/5	36
+200	Goal Hunt Christmas #16 Night Rush	dogestar_tm	Stadium	2024-12-15T22:47:16.633	6BEsU8_Zf8emodVlY6L6DvLOBH5	GoalHuntArena		/5	0	4.0/5	24
+201	Goal Hunt Christmas #17 Ice Trenches	dogestar_tm	Stadium	2024-12-17T14:24:58.923	8mK2IS_NdpfbBi8vnnX_xQRB2h3	GoalHuntArena		/5	0	3.7/5	32
+202	Goal Hunt Christmas #20 &quot;Another dirt map?&quot; &quot;yes al&quot;	dogestar_tm	Stadium	2024-12-20T03:26:10.427	sIQHk_Zg30pJo3UXqIX1BS_0waa	GoalHuntArena		/5	0	4.3/5	20
+203	Goal Hunt Christmas #21 It&#039;s a map	dogestar_tm	Canyon	2024-12-21T01:37:45.487	zfNXsMexjMu48Qo3ri8qza2zR_n	GoalHuntArena		/5	0	4.0/5	44
+204	Goal Hunt Christmas #22 Deck the Halls	dogestar_tm	Stadium	2024-12-21T20:43:59.003	QLPlUIKV7lQ7NZ8nXcklI1Lj6F9	GoalHuntArena		/5	0	3.5/5	36
+205	Goal Hunt Christmas #23 Who needs space anyway 3!	dogestar_tm	Stadium	2024-12-23T12:54:28.983	gOUHfNVXudhQfPfwAygQvEl4bui	GoalHuntArena		/5	0	3.5/5	24
+206	Goal Hunt Christmas #24 + 25 Christmas Plaza	dogestar_tm	Stadium	2024-12-25T19:18:57.45	yWjIt03xFOQ2ZS49Fk5psughqB9	GoalHuntArena		/5	0	4.1/5	33
+207	Goal Hunt - Lightshow	tra.la.la.la	Canyon	2024-12-25T19:39:48.81	38wvynxgUhlRgh2aiF2HOqKxw_a	GoalHuntArena		/5	0	3.9/5	50
+208	Goal Hunt - Ula Ula	sparkster	Lagoon	2024-12-31T17:37:24	H6kyeR1uiGFUbgePWp1xK3Om1Lj	GoalHuntArena		/5	0	3.9/5	33
+209	Interstate Valley	dogestar_tm	Valley	2025-01-01T17:11:58	T8MxHlIMkxRwFYm9eA0zjlptFtf	PursuitArena		/5	0	3.6/5	26
+210	pursuit - a difficult map about climbing V2				0WC1RENo8qnrj7BE1Vw8Zm5OiFm			/5	0	3.8/5	24
+211	goal hunt-i dont know what to name this bnfvghvndxsc				vtsrtSFzqdJr8cVETNlfPIyvTR9			/5	0	3.9/5	37
+212	pursuit - 1 block				NGZyRTBMUHKkePXJ4oEzLgi_vH2			/5	0	3.3/5	40
+213	Goal Hunt - Dirty Adventure				EKXOKCDqqe5aIlF7wCcORErwWp			/5	0	3.8/5	43
+214	Goal Hunt - Space Claw	lukin27	Stadium	2025-01-02T21:49:41	4AUlnsqhuuPVIgPPf51Xt83xZD0	GoalHuntArena		/5	0	4.2/5	25
+215	Goal Hunt - HIGH (no not like that)				0abcU7gkG2kxklRSpjg9NOY6k6d			/5	0	3.3/5	24
+216	Pursuit - what is my purpose on the planet?				YdyS2JVylhcn8S2VcsU5f8e6Hz1			/5	0	3.9/5	20
+217	42K ants [WR]	tms_mathieu_17	Stadium	2025-01-01T17:42:10	vCqoFAEA_5HtD4dV2i_Yep7KSz7	PursuitArena		/5	0	4.3/5	26
+218	Pursuit  - Memory of Molki&#039;s Dream	tms_mathieu_17	Stadium	2025-01-01T17:51:07	b2auhSU4iUXGxLxijtfz1r8zXee	PursuitArena		/5	0	3.9/5	27
+219	Pursuit - Journey to Arnhemland	lukin27	Lagoon	2025-01-03T21:16:06	fWEZIViAgaRfqUlruvS4q2ZtyAb	PursuitArena		/5	0	3.7/5	23
+220	KEKL - GoalHunt but it&#039;s finishes and you finish the map instead of getting points but it&#039;s actually GoalHunt now	tushy444trackmaniagamer	Stadium	2025-01-04T23:53:23	Pmbh4NLUWQzJk2pwxj6kIBEHzT	GoalHuntArena		/5	0	3.2/5	31
+221	Goal Hunt - Slug Hunt	lukin27	Valley	2025-01-05T19:20:57	DbAmvEYgq2Zs6G4VcmYRcJR3Yod	GoalHuntArena		/5	0	3.6/5	27
+222	Pursuit - Manifest Destiny	lukin27	Lagoon	2025-01-05T20:30:29	IAx5XHPuvJGpETPnWtnMxT_S14h	PursuitArena		/5	0	3.5/5	18
+223	Pursuit - Rocket Mania	--rudi--	Stadium	2025-01-09T10:54:54	PxrhjfURIqIr2rsCu8n1ZZHrEaj	PursuitArena		/5	0	4.2/5	35
+224	Pursuit - When The Elevator Stops Working Revised! V2				Vy9tufPZV7exCND5mAPJLUhHF78			/5	0	3.8/5	36
+225	Goal Hunt TMNF E03	tomek_k.	Stadium	2025-01-12T21:44:00	1J1_SFuNLNXsZozZvs6IsZxjHLa	GoalHuntArena		/5	0	3.7/5	51
+226	Liminal Maze Tower	dogestar_tm	Stadium	2025-01-22T13:57:27.075	xmPnj0qC1jmfw6x4X53VjWNXfpj	PursuitArena		/5	0	3.9/5	30
+227	Pursuit - Balloonia	--rudi--	Stadium	2025-01-29T09:24:11.575	QL9dwAlhjV1pwqnmzcLGVfdSmjm	PursuitArena		/5	0	3.8/5	25
+228	Pursuit - Virtual Insanity	lukin27	Stadium	2025-01-30T21:04:40.629	kV0YYCwBXkM13KU_1_Se2VCVpma	PursuitArena		/5	0	3.9/5	13
+229	Pursuit - Didjerama	lukin27	Lagoon	2025-01-30T21:03:25.724	nk3FzWYbDSwJtnRnJ2tZOOngo6b	PursuitArena		/5	0	3.2/5	15
+230	Goal Hunt - Use the Force	lukin27	Lagoon	2025-01-30T21:02:37.292	naaeMXUARQETV1sfMzL2FyWWw6b	GoalHuntArena		/5	0	3.4/5	30
+231	Pursuit - islands				4DuFx8VHnSaiudOfDX6RwHoReX9			/5	0	3.3/5	28
+232	Pursuit - Blind	lukin27	Stadium	2025-02-02T18:47:12.757	aTtpWQLse56OmTsVsBfUSwYK3ol	PursuitArena		/5	0	3.0/5	22
+233	Goal Hunt - Bullet	lukin27	Stadium	2025-02-09T19:30:09.021	Nc5ogy_R_m76gIkGZFLqB5ApuFi	GoalHuntArena		/5	0	2.0/5	11
+234	Pursuit - Blow Your Mind	lukin27	Valley	2025-02-09T19:26:43.74	jmJtJfJzqMR0VfEJW3guJXl2Yec	PursuitArena		/5	0	3.5/5	22
+235	Pursuit - Roberto	lukin27	Valley	2025-02-25T20:23:11.267	6RPGZNE55_Hg0KMy7pyJ3iMb7Yk	PursuitArena		/5	0	3.8/5	16
+236	Pursuit - Morning Glory	lukin27	Lagoon	2025-02-25T20:21:20.359	HViaKhTXNjt9NugjiBa2ltKrbW2	PursuitArena		/5	0	3.8/5	12
+237	Pursuit - Kakjallamonumentano Mountain	lukin27	Valley	2025-02-26T13:25:40.079	nAJAbntpi_4EkizLNi7howlLzo9	PursuitArena		/5	0	3.3/5	31
+238	Pursuit - Riolu Colloseum	lukin27	Canyon	2025-03-16T12:00:32.643	zIf8Dke5IGF78c3lQbbssgF93qf	PursuitArena		/5	0	3.3/5	21
+239	Pursuit - bowl	minigod	Canyon	2015-03-08T20:33:27.033	U_y9lP7XvPxwEhUSOvDSsMJ51Pj	Race		/5	0	3.3/5	26
+240	Pursuit - this map exists because im bored V2				Z0b8MaNyoYynDVx45ROI_BeREaf			/5	0	4.2/5	25
+241	MESA PROSPEKT	gamerhook053	Canyon	2025-06-11T03:00:43.128	ATMZzNLpglWrqTVmL0areccHVp3	PursuitArena		/5	0	3.3/5	18
+242	Goal Hunt - Bolognaland	lukin27	Stadium	2025-01-30T21:05:41.77	8cPdCKF3tqehj2D_2uZzuJSUChd	GoalHuntArena		/5	0	4.0/5	29
+243	Pursuit - Bugslide Hell	dogestar_tm	Stadium	2024-09-29T01:01:48.21	L10av8HNvUwQK6dOO_1kb__YLhc	PursuitArena		/5	0	3.8/5	21
+244	Pursuit - Thunderbowl	faithyfast	Canyon	2025-07-12T19:04:49.971	QR9lgsB0v0zdcUhpvrCD3OONGRm	PursuitArena		/5	0	4.2/5	20
+245	Pursuit-you like empty maps like turn around so here you go!				uDe9rtl4dS_ngmbn7NUv68JAVQ9			/5	0	3.9/5	28
+246	Pursuit - Interstate Valley 2  -  City Chase	dogestar_tm	Valley	2025-07-17T16:50:02.072	05xfUXiASci979Soiq88mJepJv4	PursuitArena		/5	0	3.9/5	20
+247	Pursuit - Interstate Valley 2  -  Trap Trenches	dogestar_tm	Valley	2025-07-17T17:13:17.697	egbMAGbvBgQn0KLVn8Dqj_F_ad4	PursuitArena		/5	0	3.7/5	7
+248	Pursuit - Interstate Valley 2  - Open Outskirts	dogestar_tm	Valley	2025-07-17T17:19:59.562	yK7bQf4SiHsHoxPUr0vG3sf_c7h	PursuitArena		/5	0	3.5/5	15
+249	Pursuit - Interstate Valley 2  - Magnet Madness	dogestar_tm	Valley	2025-07-17T17:25:33.482	Lcx2FQC6VY_FwxMx7f28j17fXJ5	PursuitArena		/5	0	2.9/5	18
+250	[Pursuit] - Third Contribution	thelevelcode	Valley	2025-07-22T13:21:24.202	pdHcfgrPuzYKYG84amT6KREpj97	PursuitArena		/5	0	3.6/5	14
+251	Pursuit - MapObjetive´s Party				mp_fQSprsxxVxokVdNApaY5l9Gi			/5	0	3.1/5	14
+252	Pursuit !!! - FIND YOUR TARGET				VqKYM3aTsgqm1F1hBj2MqZL2x2n			/5	0	4.0/5	36
+253	Goal Hunt - A05 !				BSW45khBDPApIybih1uQygk0M5h			/5	0	4.1/5	26
+254	Pursuit - actual one block map				MENRbMmgAMZghsbeb1vsj7CilZ5			/5	0	2.6/5	18
+255	Pursuit - Power Slider	skymidnight	Canyon	2020-06-17T15:24:13.683	KzlhEADO_aFN4fBKjqJZPeAMwjj	PursuitArena		/5	0	3.6/5	518
+256	Pursuit - The Sun	--rudi--	Stadium	2025-11-11T12:20:28.271	Azb9sYN4ihp_wzxg_F3f4Kq2t8j	PursuitArena		/5	0	4.4/5	16
+257	F l a r i s  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:13:12.597	SVkh_6JNgEANoEymZJdMrxe13zg	PursuitArena		/5	0	3.7/5	20
+258	Z e n i t h  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:14:03.923	cApDdXnHY9WRtSXe5fH8C3vtR37	PursuitArena		/5	0	3.8/5	15
+259	P l u s  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-29T23:15:14.48	FN1R_33tBlvQw3DjYHa_gFc2y4f	PursuitArena		/5	0	4.3/5	25
+260	L o b o  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:45:01.514	Vyv2ouggAC7P0WuWtONbBo5S_Ol	PursuitArena		/5	0	4.4/5	13
+261	L o k o m o  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:43:08.675	J_ujENLwNFnghfHxHuV9lRExp1n	PursuitArena		/5	0	4.0/5	21
+262	P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3	kk113	Lagoon	2025-11-30T21:46:02.946	_8a3sQFrZNbS4A8bKejRHiwqor3	PursuitArena		/5	0	4.0/5	23
+263	GHC2! #1 Freezing Canyon	dogestar_tm	Canyon	2025-11-29T18:12:31.249	LrZjErzClJQITQoeFxbQBVI0aa8	GoalHuntArena		/5	0	4.1/5	10
+264	GHC2! #2 Icy Park	dogestar_tm	Stadium	2025-11-30T22:59:41.147	VOmaIEBfk6ELYUZvgcOxrud0mWf	GoalHuntArena		/5	0	3.2/5	16
+265	GHC2! #3 Bugslide Ice	dogestar_tm	Stadium	2025-12-01T02:12:46.851	EVDnPdRQP6j19NWSv_fHFQedCe0	GoalHuntArena		/5	0	3.3/5	30
+266	GHC2! #4 I heard you like wood + freewheel	dogestar_tm	Lagoon	2025-12-03T14:54:34.386	ELepl7QY_3X0aGZ0EDijVIbBlc3	GoalHuntArena		/5	0	3.5/5	8
+267	GHC2! #5 Valley A08 but with more A08	dogestar_tm	Valley	2025-12-03T18:24:08.653	tMcIZUX6xSc5MAxaIzWmS_bsCc9	GoalHuntArena		/5	0	4.1/5	9
+268	GHC2! #6 Jolly Ravine	dogestar_tm	Canyon	2025-12-05T22:06:07.305	KQpREicgsqwxx3P6GcCJl1MTbJj	GoalHuntArena		/5	0	4.5/5	10
+269	GHC2! #7 Snowy Paradise	dogestar_tm	Lagoon	2025-12-07T02:10:48.609	u3Ac0gI3XM_Iu5qKmmMkMuR31Tb	GoalHuntArena		/5	0	3.5/5	13
+270	GHC2! #8 Negative Degrees	dogestar_tm	Stadium	2025-12-07T19:31:52.056	ga5e9iGUwjIbUEM6vdDNL70cnNh	GoalHuntArena		/5	0	3.8/5	13
+271	GHC2! #9 Going Up and Down!	dogestar_tm	Stadium	2025-12-10T18:41:37.141	zmd8KewHTCbAH8UDT55JeDyspd3	GoalHuntArena		/5	0	3.3/5	8
+272	GHC2! #10 Glacial Plains	dogestar_tm	Valley	2025-12-11T16:23:23.037	xtbaAU4YFq6obybySFCmTsl8J_b	GoalHuntArena		/5	0	3.8/5	14
+273	GHC2! #11 Cold Heights	dogestar_tm	Canyon	2025-12-12T15:35:43.923	WpLujS9GJcfajH916tKF67ow77k	GoalHuntArena		/5	0	4.5/5	20
+274	GHC2! #12 Chilly Sunset	dogestar_tm	Lagoon	2025-12-17T19:28:57.071	DfJrRNWZCG9UEKrdVWBl42SfjBf	GoalHuntArena		/5	0	3.7/5	19
+275	GHC2! #13 when did J	dogestar_tm	Stadium	2025-12-17T19:50:46.361	h6kd081bYtAab_QElzy6fV6fMDb	GoalHuntArena		/5	0	3.3/5	15
+276	GHC2! #14 Unpredictable Slides	dogestar_tm	Canyon	2025-12-18T03:49:54.871	PZTTXM4M_b7AECwnHus6GMbQY0h	GoalHuntArena		/5	0	3.7/5	21
+277	GHC2! #15 Wallriding	dogestar_tm	Stadium	2025-12-18T19:56:20.19	3juzuVbKXlMDhJjkrbOCDTKz7Ki	GoalHuntArena		/5	0	2.9/5	15
+278	GHC2! #16 Who needs space anyway 4!!!	dogestar_tm	Valley	2025-12-18T20:03:03.937	wn10bvhXffy3PmOjSfI1kkJvL93	GoalHuntArena		/5	0	3.4/5	8
+279	GHC2! #17 Simple Goal Hunt 2!	dogestar_tm	Stadium	2025-12-21T19:11:32.201	Cx8s5uEbCEjzBlkYLz0aOJfZoz3	GoalHuntArena		/5	0	4.4/5	9
+280	GHC2! #18 Goal Hunt Bowl 2!	dogestar_tm	Lagoon	2025-12-21T19:24:12.848	da8LooPaWspSPSVvL6onzA_cAme	GoalHuntArena		/5	0	4.0/5	14
+281	GHC2! #19 Bowl Hopping	dogestar_tm	Stadium	2025-12-21T19:32:37.65	8SElzvb0sNlE3R6zLVBjjJsHjAf	GoalHuntArena		/5	0	3.8/5	12
+282	GHC2! #20 Magnet Chaos	dogestar_tm	Canyon	2025-12-21T21:43:16.863	fQCg2UAiFMm1r9FhhkwDas_ygs4	GoalHuntArena		/5	0	4.1/5	11
+283	GHC2! #21 Winter Wonderland	dogestar_tm	Canyon	2025-12-21T21:58:18.626	8gMdIVP0OJl9UvbADYFEQ7tL1we	GoalHuntArena		/5	0	4.1/5	13
+284	GHC2! #22 Snowy Castle	dogestar_tm	Valley	2025-12-22T03:12:18.193	3kq7b2PWJiotnAKwyKDKabNbOLg	GoalHuntArena		/5	0	4.1/5	9
+285	GHC2! #23 Shiver Bay	dogestar_tm	Lagoon	2025-12-24T00:16:03.032	cZw7rokIRiEuKRTytyRLR4aPWn9	GoalHuntArena		/5	0	3.5/5	8
+286	GHC2! #24 Christmas Square	dogestar_tm	Stadium	2025-12-24T00:49:48.18	s3oZLUyEdXk35eEB0MZ6m2H31j2	GoalHuntArena		/5	0	4.0/5	7
+287	GoalHunt - AlienSignal				CY_2q_cDXvPKO07ICNaQOphLjY0			/5	0	3.3/5	7
+288	The future is REALLY bright	rodger80	Stadium	2026-01-26T15:04:50.357	0lzsElcgT1KkMRi7AA9JhOxb2Tb	PursuitArena		/5	0	3.2/5	9
+289	PURSUIT - Salon	jmtracks	Canyon	2026-02-23T23:14:46.496	ttj0Bw_ACkSta4uqfxj80_8iSh4	PursuitArena		/5	0	3.7/5	17
+290	pursuit - my first map	aspymain	Lagoon	2026-02-25T21:18:02.706	eVSO1sFc2sYip8vlEv4OQ_pgqOe	PursuitArena		/5	0	3.6/5	9
+291	Pursuit - three islands	aspymain	Lagoon	2026-02-27T12:18:04.018	O6dyHlHftJTD5Y0Kj2rlcr7FsN1	PursuitArena		/5	0	3.4/5	5
+292	Pursuit - Big Village	aspymain	Valley	2026-03-21T15:05:52.162	b0838y0TaQdkxQCZEG1ZwLVK0q2	PursuitArena		/5	0	4.1/5	7
+293	Pursuit - snail race				4VL0mPspn7oAkNaIPkTSds2KA40			/5	0	4.6/5	7
+294	Goal Hunt - map name				Vo4FS0SqRkxTjtw3TKQ8wzON0O5			/5	0	4.1/5	7
+295	Pursuit - IslandCar Vs BayCar	jmtracks	Canyon	2026-03-14T22:39:55.376	sQkgqquk_sNj73lS2me91lrVZNi	PursuitArena		/5	0	4.4/5	8
+296	Pursuit - wanted to make a -1 star map, deal with it	dogestar_tm	Valley	2026-03-29T15:38:26.088	T45ZfL8kMr390_VlsTUKI5RZ8F0	PursuitArena		/5	0	3.3/5	6
+297	PRIL FOOLS #1	krongtekk	Stadium	2026-03-10T17:27:27.967	_wU_BDYSLIXkV_SdQFOeVuf_hA9	PursuitArena		/5	0	4.2/5	14
+298	Pursuit - 6^3				f_jrojLYyvhRFq6i1NYUAq6aZZ8			/5	0	4.0/5	4
+299	Pursuit - The Mall &#039;&#039;&#039;&#039;	fabio_m	Stadium	2016-02-24T18:26:12.923	9zMow0b58EphH0h5ek_Aapvmjzc	Race		/5	0	5.0/5	3
+300	Pursuit - Community Map #04	domino54	Canyon	2019-01-09T23:26:03.713	TISJLeThBMr8PQ1rNSDxktLk6Zi	PursuitArena		2.7/5	489	3.3/5	548
