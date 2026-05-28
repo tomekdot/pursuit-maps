@@ -30,6 +30,12 @@ var SHEET_NAME = '';
  * Handle HTTP GET requests
  */
 function doGet(e) {
+  if (!e || !e.parameter) {
+    return ContentService.createTextOutput(JSON.stringify({
+      status: 'ok',
+      message: 'Pursuit Maps GAS is alive. Use POST with JSON body.'
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
   var action = e.parameter.action || 'ping';
   
   if (action === 'ping') {
@@ -92,6 +98,12 @@ function doGet(e) {
 function doPost(e) {
   var payload;
   try {
+    if (!e || !e.postData || !e.postData.contents) {
+      return ContentService.createTextOutput(JSON.stringify({
+        status: 'error',
+        message: 'No POST data received'
+      })).setMimeType(ContentService.MimeType.JSON);
+    }
     payload = JSON.parse(e.postData.contents);
   } catch(err) {
     return ContentService.createTextOutput(JSON.stringify({
