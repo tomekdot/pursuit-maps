@@ -1,46 +1,50 @@
-# GAS Web App Setup (one-time)
+# GAS Web App — Deploy Once, Run Forever
 
-## Step 1: Deploy Google Apps Script
-1. Open Sheet: https://docs.google.com/spreadsheets/d/1PwcF1PXHnYhyE23-VPqHewkD_lcNMPIg7LXDN_NaVHQ/edit#gid=763170857
-2. Extensions → Apps Script
-3. Delete everything from editor and paste the contents of `PursuitMaps.gs`
-4. Save (Ctrl+S) - name the project "Pursuit Maps Sync"
-5. Click **Deploy** → **New deployment**
-6. Gear icon (settings) → **Web app**
-7. Settings:
+This script is deployed **inside** your Google Sheet via Extensions → Apps Script.
+It acts as a webhook: the Python pipeline sends HTTP POST requests with JSON data,
+and this script writes to the Sheet on your behalf.
+
+## Setup (one-time, ~2 minutes)
+
+1. Open your Sheet:
+   https://docs.google.com/spreadsheets/d/1PwcF1PXHnYhyE23-VPqHewkD_lcNMPIg7LXDN_NaVHQ/edit#gid=763170857
+
+2. Go to **Extensions → Apps Script**
+
+3. Delete everything in the editor, paste the contents of `PursuitMaps.gs`
+
+4. Save (Ctrl+S), name the project "Pursuit Maps Sync"
+
+5. Click **Deploy → New deployment**
+   - Click the gear icon → **Web app**
    - Description: `Pursuit Maps Sync`
-   - Execute as: **Me** (your account)
+   - Execute as: **Me**
    - Who has access: **Anyone**
-8. Click **Deploy**
-9. Authorize permissions
-10. Copy the **Web app URL** (looks like `https://script.google.com/macros/s/AX.../exec`)
-11. Paste URL into `gas_url.txt` file in this folder
+   - Click **Deploy**
+   - If "unverified app" warning appears: Advanced → Go to Pursuit Maps Sync → Allow
 
-## Step 2: Test
+6. Copy the **Web app URL** from the deployment dialog
+
+7. Save the URL as one of:
+   - Local: `pipeline/gas_url.txt` (in the repo root)
+   - GitHub: Secret `GAS_WEBAPP_URL` (Settings → Secrets → Actions)
+
+## Test
+
 ```bash
-cd gas-webapp
-python3 gas_runner.py --test      # test connection
-python3 gas_runner.py --setup     # add column headers I-L
-python3 gas_runner.py --dry-run   # preview only
-python3 gas_runner.py             # full sync
+python3 pipeline/pipeline.py --action validate
 ```
 
-## Step 3: GitHub Actions
-1. Go to repo → Settings → Secrets → Actions
-2. Add secret: `GAS_WEBAPP_URL` = URL from step 1
-3. GitHub Actions will run automatically at 5:00 UTC
+## How It Works
 
-## Manual Usage
-```bash
-# Sync only (add new maps, fill empty cells)
-python3 gas_runner.py --action sync
+The GAS script exposes two HTTP endpoints via `doPost()`:
 
-# Votes only (update columns I-L)
-python3 gas_runner.py --action votes
+- **sync** — receives `{"action": "sync", "maps": [...], "existing": {...}}`
+  - Adds new rows (columns A-H)
+  - Fills empty cells in existing rows
 
-# Everything
-python3 gas_runner.py
+- **votes** — receives `{"action": "votes", "votes": {"UID": {...}}, "uid_to_row": {}}`
+  - Updates columns I-L (YN Rating, YN Votes, 5-Star Avg, 5-Star Total)
 
-# Preview without saving
-python3 gas_runner.py --dry-run
-```
+- **setup** — receives `{"action": "setup"}`
+  - Adds column headers I-L if missing
