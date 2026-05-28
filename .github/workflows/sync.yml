@@ -1,9 +1,7 @@
 name: Pursuit Maps Sync
-
 on:
   schedule:
-    # Run daily at 6:00 AM UTC
-    - cron: '0 6 * * *'
+    - cron: '0 5 * * *'  # 5:00 AM UTC daily
   workflow_dispatch:
 
 jobs:
@@ -20,20 +18,34 @@ jobs:
       - name: Install dependencies
         run: pip install google-auth google-auth-oauthlib google-api-python-client
 
-      - name: Restore credentials
+      - name: Write service account key
         env:
-          GOOGLE_CLIENT_SECRETS: ${{ secrets.GOOGLE_CLIENT_SECRETS }}
-          GOOGLE_SHEETS_TOKEN: ${{ secrets.GOOGLE_SHEETS_TOKEN }}
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
         run: |
-          echo "$GOOGLE_CLIENT_SECRETS" > client_secrets.json
-          echo "$GOOGLE_SHEETS_TOKEN" > token.json
+          if [ -n "$GOOGLE_SERVICE_ACCOUNT" ]; then
+            echo "$GOOGLE_SERVICE_ACCOUNT" > service_account.json
+            echo "Service account key written"
+          else
+            echo "WARNING: No GOOGLE_SERVICE_ACCOUNT secret set"
+          fi
 
-      - name: Run sync
+      - name: Run sync (feedback + MX + votes -> sheet)
         run: python3 scripts/run_sync.py
+        continue-on-error: true
 
       - name: Upload reports
         uses: actions/upload-artifact@v4
         with:
           name: sync-reports-${{ github.run_number }}
           path: |
-            sheet_fill_report.md
+            feedback_full.json
+            vote_report.md
+            vote_history.json
+
+      - name: Commit data files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add feedback_full.json vote_history.json vote_report.md 2>/dev/null
+          git diff --cached --quiet || git commit -m "Data update $(date -u +%Y-%m-%d-%H%M)"
+          git push

@@ -241,6 +241,62 @@ def enrich_maps(feedback_maps, sheet_maps):
 
 # ── Sheet Writer (Google Sheets API v4) ──────────────────────────────────────
 
+def _get_credentials():
+    """Get credentials - tries service account first, then OAuth token, then OAuth flow."""
+    sa_path = BASE_DIR / "service_account.json"
+    sa_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT", "")
+
+    # Option 1: Service Account (best for CI/GitHub Actions)
+    if sa_path.exists():
+        print("Using Service Account: {}".format(sa_path), file=sys.stderr)
+        from google.oauth2 import service_account as sa
+        return sa.Credentials.from_service_account_file(str(sa_path), scopes=SCOPES)
+    elif sa_env:
+        print("Using Service Account from env", file=sys.stderr)
+        from google.oauth2 import service_account as sa
+        info = json.loads(sa_env)
+        return sa.Credentials.from_service_account_info(info, scopes=SCOPES)
+
+    # Option 2: Saved OAuth token
+    token_path = BASE_DIR / "token.json"
+    token_env = os.environ.get("GOOGLE_SHEETS_TOKEN", "")
+    if token_path.exists():
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+        if creds and creds.valid:
+            return creds
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(GRequest())
+            with open(token_path, "w") as f:
+                f.write(creds.to_json())
+            return creds
+    elif token_env:
+        info = json.loads(token_env)
+        creds = Credentials.from_authorized_user_info(info, SCOPES)
+        if creds and creds.valid:
+            return creds
+
+    # Option 3: OAuth flow (interactive, browser)
+    secrets_path = BASE_DIR / "client_secrets.json"
+    secrets_env = os.environ.get("GOOGLE_CLIENT_SECRETS", "")
+    if secrets_path.exists():
+        print("Opening browser for OAuth...", file=sys.stderr)
+        flow = InstalledAppFlow.from_client_secrets_file(str(secrets_path), SCOPES)
+        creds = flow.run_local_server(port=0)
+        with open(token_path, "w") as f:
+            f.write(creds.to_json())
+        return creds
+    elif secrets_env:
+        print("Starting OAuth from env...", file=sys.stderr)
+        info = json.loads(secrets_env)
+        flow = InstalledAppFlow.from_client_secrets_file(info, SCOPES)
+        creds = flow.run_local_server(port=0)
+        return creds
+
+    print("ERROR: No credentials found!", file=sys.stderr)
+    print("Set GOOGLE_SERVICE_ACCOUNT env var, or run: python3 run_sync.py --auth-only", file=sys.stderr)
+    sys.exit(1)
+
+
 def write_to_sheet(enriched, dry_run):
     """Write new rows + cell updates + votes data to Google Sheets."""
     try:
@@ -253,24 +309,7 @@ def write_to_sheet(enriched, dry_run):
         sys.exit(1)
 
     SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-    token_path = BASE_DIR / "token.json"
-    secrets_path = BASE_DIR / "client_secrets.json"
-
-    creds = None
-    if token_path.exists():
-        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(GRequest())
-        elif secrets_path.exists():
-            print("Opening browser for OAuth...", file=sys.stderr)
-            flow = InstalledAppFlow.from_client_secrets_file(str(secrets_path), SCOPES)
-            creds = flow.run_local_server(port=0)
-            with open(token_path, "w") as f:
-                f.write(creds.to_json())
-        else:
-            print("ERROR: Run --auth-only first!", file=sys.stderr)
-            sys.exit(1)
+    creds = _get_credentials()
 
     service = build("sheets", "v4", credentials=creds, cache_discovery=False)
 
