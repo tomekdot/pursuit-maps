@@ -1,0 +1,40 @@
+name: Pursuit Maps Pipeline
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 5:00 AM UTC daily
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch feedback + MX -> Sheet (GAS)
+        env:
+          GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
+        run: python3 pipeline/pipeline.py --action sync
+
+      - name: Update votes
+        if: always()
+        env:
+          GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
+        run: python3 pipeline/pipeline.py --action votes
+
+      - name: Vote tracker report
+        if: always()
+        run: python3 pipeline/pipeline.py --action report
+
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/ pipeline/ vote_report.md 2>/dev/null
+          git diff --cached --quiet || git commit -m "Pipeline update $(date -u +%Y-%m-%d-%H%M)"
+          git push
