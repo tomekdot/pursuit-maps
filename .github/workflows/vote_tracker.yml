@@ -1,0 +1,33 @@
+name: Vote Tracker
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 5:00 AM UTC daily
+  workflow_dispatch:
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch votes and generate report
+        run: python3 scripts/vote_tracker.py
+
+      - name: Commit report and history
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add vote_report.md vote_history.json
+          git diff --cached --quiet || git commit -m "Vote report $(date -u +%Y-%m-%d-%H%M)"
+          git push
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: vote-report-${{ github.run_number }}
+          path: vote_report.md
