@@ -1,7 +1,5 @@
 # Pursuit Maps - TrackMania ManiaPlanet Feedback S1 E1
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Complete dataset of 249 maps from **TrackMania² Pursuit Multi-environment (Season 1 Episode 1 by Dommy)** sourced from ManiaPlanet Feedback.
 
 ## What's Included
