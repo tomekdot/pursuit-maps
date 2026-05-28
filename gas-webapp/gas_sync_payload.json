@@ -1,0 +1,1365 @@
+{
+  "action": "sync",
+  "maps": [
+    {
+      "uid": "lOOKK8MpDsxtwP9XFjMoV8PJjT4",
+      "name": "B r u i s e  b y  z i y x",
+      "author": "cime62",
+      "env": "Canyon",
+      "uploaded": "2020-05-08T18:11:13.09",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Ndb1KtLeK6CaIHEJaU4GRV_fwIk",
+      "name": "Pursuit Fun 2,0",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2024-02-14T17:01:35.223",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "sEyBQGVnJXL6iBFlTX0M0ejWpC2",
+      "name": "Pursuit - N64 Skyscraper",
+      "author": "ziberty",
+      "env": "Stadium",
+      "uploaded": "2018-07-10T18:52:40.53",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "tA64HL_j06TfW5sjdPxlkJHd28b",
+      "name": "Pursuit - Cube",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2024-02-14T16:20:12.897",
+      "maptype": "Race",
+      "notes": ""
+    },
+    {
+      "uid": "4PtKjXAVj5erxCVPqb4IWfr8qF5",
+      "name": "Getting Over It  b y  z i y x",
+      "author": "cime62",
+      "env": "Canyon",
+      "uploaded": "2018-06-27T18:09:51.883",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "w49Qgx2Q8ksUvht2xJ_i35Hq42m",
+      "name": "Pursuit - Sunshine Labyrinth 2019",
+      "author": "domino54",
+      "env": "Stadium",
+      "uploaded": "2019-07-25T21:18:58.04",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "ykQk7vBPl0KECiChlSbidCXjbL1",
+      "name": "Hide&amp;Sick  b y  z i y x",
+      "author": "cime62",
+      "env": "Stadium",
+      "uploaded": "2018-07-05T23:32:18.337",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "_f6kQmjh8n_uJewsZ9_kmwaONC5",
+      "name": "PURSUIT - Edge of the Past",
+      "author": "thoren22",
+      "env": "Stadium",
+      "uploaded": "2020-06-28T14:20:56.14",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "jHAZfH2sOaOJj9zUXHhlYjhQZM5",
+      "name": "Pursuit - Passage",
+      "author": "fanatyq07",
+      "env": "Stadium",
+      "uploaded": "2019-05-28T17:06:34.323",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "AK3xn2KUfHjTynpCYMD6pPf5ZO9",
+      "name": "Pursuit - I Really Don&#039;t Know!",
+      "author": "owen8900",
+      "env": "Stadium",
+      "uploaded": "2019-02-20T14:29:26.757",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Ks6SvJe3BW3SfloUHLi1rr_ZgO4",
+      "name": "Pursuit - Cliff Hopper",
+      "author": "skymidnight",
+      "env": "Valley",
+      "uploaded": "2020-06-15T22:56:18.793",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "ajiN4OoCyku4Ry3C_aR0iB1u5ni",
+      "name": "Pursuit - Tower Escape 1·5!",
+      "author": "owen8900",
+      "env": "Canyon",
+      "uploaded": "2018-10-10T18:00:45.887",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "swCSsUGUPim7lTe1mynNOHTdKS1",
+      "name": "Pursuit - BlockFort",
+      "author": "tomek_k.",
+      "env": "Stadium",
+      "uploaded": "2019-05-11T20:14:27.853",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "vaHPWRzpJU0dr9qYkG0b1qBBB99",
+      "name": "Pursuit - Tom &amp; Jerry",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "8dagtKC6od4hD0iMJVB4J6stF86",
+      "name": "Pursuit - Bunker",
+      "author": "ziberty",
+      "env": "Stadium",
+      "uploaded": "2019-02-19T17:04:55.97",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "GaoOaPC662TAV3ZDtMrJFFie9af",
+      "name": "Pursuit - ѕyмeтrιcα",
+      "author": "ziberty",
+      "env": "Stadium",
+      "uploaded": "2018-07-09T12:04:00.62",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "zhGRyVaRefOrhbfHU7BLrWVp3_l",
+      "name": "Pursuit - Testing Arena",
+      "author": "domino54",
+      "env": "Stadium",
+      "uploaded": "2019-07-13T23:44:49.98",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "HHszqQkm5wsqGIww7JCybGoD9Fd",
+      "name": "Pursuit - Basketball",
+      "author": "tomek_k.",
+      "env": "Stadium",
+      "uploaded": "2019-02-04T15:16:08.84",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "EOE2oYauh7gdLKhIu4sv0T2vEF4",
+      "name": "Pursuit - Huge Arena",
+      "author": "tomek_k.",
+      "env": "Stadium",
+      "uploaded": "2018-11-26T18:35:02.94",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "XdqRrIjHV4gDTSOhYNW5qgzDHlf",
+      "name": "Pursuit - Abandoned Playground",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "Dj06ETrCoeSx3gdbSWpNUkPhRe0",
+      "name": "Pursuit - Crayzee Rampage",
+      "author": "tomek_k.",
+      "env": "Stadium",
+      "uploaded": "2019-09-21T18:35:14.523",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "V8oaUy9Vit8TUqi1fncJMHNv1ac",
+      "name": "Pursuit - Turn Around",
+      "author": "adri69310",
+      "env": "Stadium",
+      "uploaded": "2018-12-27T20:21:10.147",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "t7U0ha1NOYMfM7PNkuEttUSyBie",
+      "name": "Pursuit - Who needs space anyway",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-09-03T00:21:58.05",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "NOfajMueuhlqaGMZBUk_Trdni98",
+      "name": "Pursuit -  Tunnels areFun!",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2024-09-01T18:55:19.263",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Qa273lZmWFaj1dayQF1U0s0kuA5",
+      "name": "Pursuit - Ferizz Wheel (v1)",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2024-09-02T11:03:05.583",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "boDlJcAVBL1IwDHoosHEq3NE0Ab",
+      "name": "Pursuit - ckeyunk Mountain (V3)",
+      "author": "lukin27",
+      "env": "Valley",
+      "uploaded": "2024-09-02T15:49:21.767",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "gSep7XW7Zw5P4BoiebD5t0B10Gb",
+      "name": "Pursuit - FourCrappyRoads",
+      "author": "lukin27",
+      "env": "Canyon",
+      "uploaded": "2024-09-12T14:15:50.62",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "BZ0IqECzcfGkMbiyC3bcWBaz_Z7",
+      "name": "Pursuit - Tanker v1",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2024-09-02T11:00:19.35",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "ZL5g6IB6_gA5sGtFkdR0IxXHgUa",
+      "name": "Pursuit - RageReef",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2024-09-15T17:40:50.53",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "qnNtXaZ_lBGkqlq8P0fGE8SbsI7",
+      "name": "Pursuit? -  TotallyNormal ip",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2024-09-13T15:43:17.917",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "iYrlTpCUEVlQLEzBvQ_gRsVbVJ0",
+      "name": "Pursuit - Underwater Fuel Hunt Revised",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-09-12T02:27:10.34",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "I3wwm6Woy97CJOScWK8vG3jRoGc",
+      "name": "Pursuit - Simple Fuel Hunt",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-09-12T02:28:44.767",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "A7TstZsq_1tWYzol63C8YqGMf5b",
+      "name": "Goal Hunt - Lagoon A08!",
+      "author": "owen8900",
+      "env": "Lagoon",
+      "uploaded": "2018-04-23T20:41:30.19",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "qGEN0_FtU43r70GN4PB_BDryp1h",
+      "name": "Pursuit - WatchTheStep2",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2024-09-29T12:01:33.71",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "y4jXpEcqxwLX1hc7Z7dImz1mhEa",
+      "name": "Goal Hunt - Valley A08!",
+      "author": "owen8900",
+      "env": "Valley",
+      "uploaded": "2018-04-23T20:40:46.61",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "ZwFCeZ1nVNE5aRviAG2BV1F_GAm",
+      "name": "Goal Hunt - Canyon A08!",
+      "author": "owen8900",
+      "env": "Canyon",
+      "uploaded": "2018-04-23T20:39:05.557",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "FXANO9aDYQN3J636Kn35wdNrS4e",
+      "name": "Goal Hunt - Stadium A08!",
+      "author": "owen8900",
+      "env": "Stadium",
+      "uploaded": "2018-04-23T20:39:55.503",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "eSiU9sBP23Y4Be2H1qPoBPppMAk",
+      "name": "Pursuit - Open Air",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2018-02-02T16:02:07.45",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "C5keqE1VRqaqbgfB4PtIaCQZJc2",
+      "name": "Castle Club",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2024-10-10T14:13:12.967",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "fy4cohzUMJfI8axqwpkJldAz7d9",
+      "name": "Goal Hunt - Islands!",
+      "author": "owen8900",
+      "env": "Stadium",
+      "uploaded": "2018-04-22T20:23:08.44",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "hHo3hi7C5eWTmekItwICpImJT6f",
+      "name": "Pursuit - SNES Battle Course 4 Revised",
+      "author": "sparkster",
+      "env": "Stadium",
+      "uploaded": "2024-10-27T12:58:19.303",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "ak7SevlfBWWaOTKV5_CYhb7QY_e",
+      "name": "Pursuit - Priority Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "LDyf8yJhz8HJq3B_ps0M1dRXzcf",
+      "name": "Pursuit - Police Chase Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "MEOq1gVjgGV2VxceUF1O8acMXub",
+      "name": "Pursuit - Disco Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "5vF28Z1zmNNT3XIz1KbQXTXsEa7",
+      "name": "Pursuit - #4 Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "9C8TiB1kqsFRP2astnEZAIuhfPd",
+      "name": "Pursuit - Arena! (by hubble) Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "w8RLI9aelWP0ljskUbq8E7ktGZ6",
+      "name": "Pursuit - Squares Revised",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-10-28T14:50:09.28",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "NBxzeB83RrnRpdLn20D5YSIuGB1",
+      "name": "Pursuit - Beer &amp; Dane by Hazard Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "zetGSy_SNea1zuG_LFi3geXLsr9",
+      "name": "Pursuit - Train Wipeout",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2024-10-28T23:45:52.793",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "qUyIkD7QpihSK_CSs8EaLfxJ6w3",
+      "name": "[Pursuit][LOL][Big] UpsideDown Demo Revised",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "2_bh3VQXKhTgxEmIs_EDCOv3c8g",
+      "name": "[Pursuit][LOL][Medium][2024]UpsideDown_Demo_revised_v2",
+      "author": "not_avaliable",
+      "env": "Stadium",
+      "uploaded": "2024-11-07T04:01:59.42",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Dc6uEbFd3M6dlUL6Xw8WeOQHyff",
+      "name": "Pursuit - Grandiosa",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2024-11-12T11:35:02.493",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "JdYyzYYVPzknJbD9ZuxPhwDaIek",
+      "name": "Pursuit - Deep Dip Floor 0 and 1 but from Temu",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-11-17T18:24:37.113",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "uJKeNpfieeCdSWDu5LS7WkcjDNj",
+      "name": "Pursuit - Mud Cake",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2024-11-26T20:52:47.213",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "RFJR7p2qJABgNZyeTREj1NfDPZ7",
+      "name": "Goal Hunt - Underwater Park",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-11-27T19:37:52.63",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "924DTjPG8t1nbbDuMKxGqSdRgB0",
+      "name": "[Lati Goal Hunt] Fast Rotation",
+      "author": "tra.la.la.la",
+      "env": "Lagoon",
+      "uploaded": "2025-11-18T15:49:05.1",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "lG8Umw70a8twWeOvrizhTzo_aJ7",
+      "name": "Goal Hunt - Puddingland",
+      "author": "tra.la.la.la",
+      "env": "Stadium",
+      "uploaded": "2024-11-29T17:39:07.54",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "MZDl05mhswd8uJrAaqTTh2bMTZg",
+      "name": "Goal Hunt Christmas #1 Candy Cane Hunt",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-01T13:34:59.693",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "9iX2DjsMLXwaTSNuajkMtxZZyF7",
+      "name": "Goal Hunt Christmas #2 Winter Basin",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-12-02T02:00:12.017",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "c569tdJsd8NuVA0FzNQncfM4xNf",
+      "name": "[Pursuit] - First Contribution",
+      "author": "thelevelcode",
+      "env": "Canyon",
+      "uploaded": "2024-10-05T00:55:04.133",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "pq4JadwDbsKeKCPsvLNaMHx7f0a",
+      "name": "Goal Hunt Christmas #3 Stadium A08 but with more A08",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-03T21:51:06.283",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "nJyyxAwZ8yn0UK9SZofVAKpM7Aj",
+      "name": "Goal Hunt Christmas #4 Who needs space anyway 2",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2024-12-04T14:10:47.417",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "zxjxVNSkqIWbnykecBIoBKO44s7",
+      "name": "Goal Hunt Christmas #5 I heard you like wood",
+      "author": "dogestar_tm",
+      "env": "Lagoon",
+      "uploaded": "2024-12-04T23:39:32.28",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "pjI5bIv_AwgVAlCGaUhTiNJPVud",
+      "name": "Goal Hunt Christmas #6 Train Wipeout 2",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2024-12-06T00:51:11.063",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "2Rud58wLhMUqeaIQMfdH2MOlC6c",
+      "name": "Goal Hunt Christmas #7 Snowy Offroad",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-07T03:37:01.617",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "j7uLU45C1TQ1O0fpGrFGEPxze7a",
+      "name": "Pursuit - Lunar Landing",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-09-07T02:24:01.043",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "MueOpY0PjYXJ79AoCXsHzQG5lKe",
+      "name": "Goal Hunt Christmas #8 Lunar Landing DX",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-12-08T00:38:08.003",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "vzocE7kMeQ0AKF1eBZUt8OLNG3f",
+      "name": "Goal Hunt Christmas #9 Simple Goal Hunt",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-09T02:33:27.727",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "WHm4vrOPrJyY9yVlOd9_5atQx82",
+      "name": "Goal Hunt Christmas #10 Goal Hunt Bowl",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-11T00:39:47.443",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "zhX6JxVZqSRPpKqdryUORlouBM0",
+      "name": "Goal Hunt Christmas #11 Ferris Harbor",
+      "author": "dogestar_tm",
+      "env": "Lagoon",
+      "uploaded": "2024-12-11T00:46:05.347",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "5SodGFVmT3uJ04dvp4DzOWSKD05",
+      "name": "Goal Hunt Christmas #12 Smol",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-12-12T00:33:22.41",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "kEYxPyEaktZwaKVmx22vF7b59ac",
+      "name": "Goal Hunt Christmas #13 Snow Fields",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2024-12-13T00:27:15.203",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "6Pw0SoS1jDKqTPTj7WlZQvANb2g",
+      "name": "Goal Hunt Christmas #14 Speedmapping this is",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-14T04:25:30.247",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "vQyYZ4FhboV5u_o2FJKnEUDYTH2",
+      "name": "Goal Hunt Christmas #15 When the H",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-14T19:16:38.11",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "6BEsU8_Zf8emodVlY6L6DvLOBH5",
+      "name": "Goal Hunt Christmas #16 Night Rush",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-15T22:47:16.633",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "8mK2IS_NdpfbBi8vnnX_xQRB2h3",
+      "name": "Goal Hunt Christmas #17 Ice Trenches",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-17T14:24:58.923",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "sIQHk_Zg30pJo3UXqIX1BS_0waa",
+      "name": "Goal Hunt Christmas #20 &quot;Another dirt map?&quot; &quot;yes al&quot;",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-20T03:26:10.427",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "zfNXsMexjMu48Qo3ri8qza2zR_n",
+      "name": "Goal Hunt Christmas #21 It&#039;s a map",
+      "author": "dogestar_tm",
+      "env": "Canyon",
+      "uploaded": "2024-12-21T01:37:45.487",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "QLPlUIKV7lQ7NZ8nXcklI1Lj6F9",
+      "name": "Goal Hunt Christmas #22 Deck the Halls",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-21T20:43:59.003",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "gOUHfNVXudhQfPfwAygQvEl4bui",
+      "name": "Goal Hunt Christmas #23 Who needs space anyway 3!",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-23T12:54:28.983",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "yWjIt03xFOQ2ZS49Fk5psughqB9",
+      "name": "Goal Hunt Christmas #24 + 25 Christmas Plaza",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-12-25T19:18:57.45",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "38wvynxgUhlRgh2aiF2HOqKxw_a",
+      "name": "Goal Hunt - Lightshow",
+      "author": "tra.la.la.la",
+      "env": "Canyon",
+      "uploaded": "2024-12-25T19:39:48.81",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "H6kyeR1uiGFUbgePWp1xK3Om1Lj",
+      "name": "Goal Hunt - Ula Ula",
+      "author": "sparkster",
+      "env": "Lagoon",
+      "uploaded": "2024-12-31T17:37:24",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "T8MxHlIMkxRwFYm9eA0zjlptFtf",
+      "name": "Interstate Valley",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2025-01-01T17:11:58",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "0WC1RENo8qnrj7BE1Vw8Zm5OiFm",
+      "name": "pursuit - a difficult map about climbing V2",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "vtsrtSFzqdJr8cVETNlfPIyvTR9",
+      "name": "goal hunt-i dont know what to name this bnfvghvndxsc",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "NGZyRTBMUHKkePXJ4oEzLgi_vH2",
+      "name": "pursuit - 1 block",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "EKXOKCDqqe5aIlF7wCcORErwWp",
+      "name": "Goal Hunt - Dirty Adventure",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "4AUlnsqhuuPVIgPPf51Xt83xZD0",
+      "name": "Goal Hunt - Space Claw",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2025-01-02T21:49:41",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "0abcU7gkG2kxklRSpjg9NOY6k6d",
+      "name": "Goal Hunt - HIGH (no not like that)",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "YdyS2JVylhcn8S2VcsU5f8e6Hz1",
+      "name": "Pursuit - what is my purpose on the planet?",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "vCqoFAEA_5HtD4dV2i_Yep7KSz7",
+      "name": "42K ants [WR]",
+      "author": "tms_mathieu_17",
+      "env": "Stadium",
+      "uploaded": "2025-01-01T17:42:10",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "b2auhSU4iUXGxLxijtfz1r8zXee",
+      "name": "Pursuit  - Memory of Molki&#039;s Dream",
+      "author": "tms_mathieu_17",
+      "env": "Stadium",
+      "uploaded": "2025-01-01T17:51:07",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "fWEZIViAgaRfqUlruvS4q2ZtyAb",
+      "name": "Pursuit - Journey to Arnhemland",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2025-01-03T21:16:06",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Pmbh4NLUWQzJk2pwxj6kIBEHzT",
+      "name": "KEKL - GoalHunt but it&#039;s finishes and you finish the map instead of getting points but it&#039;s actually GoalHunt now",
+      "author": "tushy444trackmaniagamer",
+      "env": "Stadium",
+      "uploaded": "2025-01-04T23:53:23",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "DbAmvEYgq2Zs6G4VcmYRcJR3Yod",
+      "name": "Goal Hunt - Slug Hunt",
+      "author": "lukin27",
+      "env": "Valley",
+      "uploaded": "2025-01-05T19:20:57",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "IAx5XHPuvJGpETPnWtnMxT_S14h",
+      "name": "Pursuit - Manifest Destiny",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2025-01-05T20:30:29",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "PxrhjfURIqIr2rsCu8n1ZZHrEaj",
+      "name": "Pursuit - Rocket Mania",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2025-01-09T10:54:54",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Vy9tufPZV7exCND5mAPJLUhHF78",
+      "name": "Pursuit - When The Elevator Stops Working Revised! V2",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "1J1_SFuNLNXsZozZvs6IsZxjHLa",
+      "name": "Goal Hunt TMNF E03",
+      "author": "tomek_k.",
+      "env": "Stadium",
+      "uploaded": "2025-01-12T21:44:00",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "xmPnj0qC1jmfw6x4X53VjWNXfpj",
+      "name": "Liminal Maze Tower",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2025-01-22T13:57:27.075",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "QL9dwAlhjV1pwqnmzcLGVfdSmjm",
+      "name": "Pursuit - Balloonia",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2025-01-29T09:24:11.575",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "kV0YYCwBXkM13KU_1_Se2VCVpma",
+      "name": "Pursuit - Virtual Insanity",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2025-01-30T21:04:40.629",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "nk3FzWYbDSwJtnRnJ2tZOOngo6b",
+      "name": "Pursuit - Didjerama",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2025-01-30T21:03:25.724",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "naaeMXUARQETV1sfMzL2FyWWw6b",
+      "name": "Goal Hunt - Use the Force",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2025-01-30T21:02:37.292",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "4DuFx8VHnSaiudOfDX6RwHoReX9",
+      "name": "Pursuit - islands",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "aTtpWQLse56OmTsVsBfUSwYK3ol",
+      "name": "Pursuit - Blind",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2025-02-02T18:47:12.757",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Nc5ogy_R_m76gIkGZFLqB5ApuFi",
+      "name": "Goal Hunt - Bullet",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2025-02-09T19:30:09.021",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "jmJtJfJzqMR0VfEJW3guJXl2Yec",
+      "name": "Pursuit - Blow Your Mind",
+      "author": "lukin27",
+      "env": "Valley",
+      "uploaded": "2025-02-09T19:26:43.74",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "6RPGZNE55_Hg0KMy7pyJ3iMb7Yk",
+      "name": "Pursuit - Roberto",
+      "author": "lukin27",
+      "env": "Valley",
+      "uploaded": "2025-02-25T20:23:11.267",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "HViaKhTXNjt9NugjiBa2ltKrbW2",
+      "name": "Pursuit - Morning Glory",
+      "author": "lukin27",
+      "env": "Lagoon",
+      "uploaded": "2025-02-25T20:21:20.359",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "nAJAbntpi_4EkizLNi7howlLzo9",
+      "name": "Pursuit - Kakjallamonumentano Mountain",
+      "author": "lukin27",
+      "env": "Valley",
+      "uploaded": "2025-02-26T13:25:40.079",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "zIf8Dke5IGF78c3lQbbssgF93qf",
+      "name": "Pursuit - Riolu Colloseum",
+      "author": "lukin27",
+      "env": "Canyon",
+      "uploaded": "2025-03-16T12:00:32.643",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "U_y9lP7XvPxwEhUSOvDSsMJ51Pj",
+      "name": "Pursuit - bowl",
+      "author": "minigod",
+      "env": "Canyon",
+      "uploaded": "2015-03-08T20:33:27.033",
+      "maptype": "Race",
+      "notes": ""
+    },
+    {
+      "uid": "Z0b8MaNyoYynDVx45ROI_BeREaf",
+      "name": "Pursuit - this map exists because im bored V2",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "ATMZzNLpglWrqTVmL0areccHVp3",
+      "name": "MESA PROSPEKT",
+      "author": "gamerhook053",
+      "env": "Canyon",
+      "uploaded": "2025-06-11T03:00:43.128",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "8cPdCKF3tqehj2D_2uZzuJSUChd",
+      "name": "Goal Hunt - Bolognaland",
+      "author": "lukin27",
+      "env": "Stadium",
+      "uploaded": "2025-01-30T21:05:41.77",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "L10av8HNvUwQK6dOO_1kb__YLhc",
+      "name": "Pursuit - Bugslide Hell",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2024-09-29T01:01:48.21",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "QR9lgsB0v0zdcUhpvrCD3OONGRm",
+      "name": "Pursuit - Thunderbowl",
+      "author": "faithyfast",
+      "env": "Canyon",
+      "uploaded": "2025-07-12T19:04:49.971",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "uDe9rtl4dS_ngmbn7NUv68JAVQ9",
+      "name": "Pursuit-you like empty maps like turn around so here you go!",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "05xfUXiASci979Soiq88mJepJv4",
+      "name": "Pursuit - Interstate Valley 2  -  City Chase",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2025-07-17T16:50:02.072",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "egbMAGbvBgQn0KLVn8Dqj_F_ad4",
+      "name": "Pursuit - Interstate Valley 2  -  Trap Trenches",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2025-07-17T17:13:17.697",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "yK7bQf4SiHsHoxPUr0vG3sf_c7h",
+      "name": "Pursuit - Interstate Valley 2  - Open Outskirts",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2025-07-17T17:19:59.562",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Lcx2FQC6VY_FwxMx7f28j17fXJ5",
+      "name": "Pursuit - Interstate Valley 2  - Magnet Madness",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2025-07-17T17:25:33.482",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "mp_fQSprsxxVxokVdNApaY5l9Gi",
+      "name": "Pursuit - MapObjetive´s Party",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "VqKYM3aTsgqm1F1hBj2MqZL2x2n",
+      "name": "Pursuit !!! - FIND YOUR TARGET",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "BSW45khBDPApIybih1uQygk0M5h",
+      "name": "Goal Hunt - A05 !",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "MENRbMmgAMZghsbeb1vsj7CilZ5",
+      "name": "Pursuit - actual one block map",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "KzlhEADO_aFN4fBKjqJZPeAMwjj",
+      "name": "Pursuit - Power Slider",
+      "author": "skymidnight",
+      "env": "Canyon",
+      "uploaded": "2020-06-17T15:24:13.683",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Azb9sYN4ihp_wzxg_F3f4Kq2t8j",
+      "name": "Pursuit - The Sun",
+      "author": "--rudi--",
+      "env": "Stadium",
+      "uploaded": "2025-11-11T12:20:28.271",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "SVkh_6JNgEANoEymZJdMrxe13zg",
+      "name": "F l a r i s  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-29T23:13:12.597",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "cApDdXnHY9WRtSXe5fH8C3vtR37",
+      "name": "Z e n i t h  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-29T23:14:03.923",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "FN1R_33tBlvQw3DjYHa_gFc2y4f",
+      "name": "P l u s  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-29T23:15:14.48",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "Vyv2ouggAC7P0WuWtONbBo5S_Ol",
+      "name": "L o b o  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-30T21:45:01.514",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "J_ujENLwNFnghfHxHuV9lRExp1n",
+      "name": "L o k o m o  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-30T21:43:08.675",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "_8a3sQFrZNbS4A8bKejRHiwqor3",
+      "name": "P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3",
+      "author": "kk113",
+      "env": "Lagoon",
+      "uploaded": "2025-11-30T21:46:02.946",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "8SElzvb0sNlE3R6zLVBjjJsHjAf",
+      "name": "GHC2! #19 Bowl Hopping",
+      "author": "dogestar_tm",
+      "env": "Stadium",
+      "uploaded": "2025-12-21T19:32:37.65",
+      "maptype": "GoalHuntArena",
+      "notes": ""
+    },
+    {
+      "uid": "CY_2q_cDXvPKO07ICNaQOphLjY0",
+      "name": "GoalHunt - AlienSignal",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "0lzsElcgT1KkMRi7AA9JhOxb2Tb",
+      "name": "The future is REALLY bright",
+      "author": "rodger80",
+      "env": "Stadium",
+      "uploaded": "2026-01-26T15:04:50.357",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "ttj0Bw_ACkSta4uqfxj80_8iSh4",
+      "name": "PURSUIT - Salon",
+      "author": "jmtracks",
+      "env": "Canyon",
+      "uploaded": "2026-02-23T23:14:46.496",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "eVSO1sFc2sYip8vlEv4OQ_pgqOe",
+      "name": "pursuit - my first map",
+      "author": "aspymain",
+      "env": "Lagoon",
+      "uploaded": "2026-02-25T21:18:02.706",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "O6dyHlHftJTD5Y0Kj2rlcr7FsN1",
+      "name": "Pursuit - three islands",
+      "author": "aspymain",
+      "env": "Lagoon",
+      "uploaded": "2026-02-27T12:18:04.018",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "b0838y0TaQdkxQCZEG1ZwLVK0q2",
+      "name": "Pursuit - Big Village",
+      "author": "aspymain",
+      "env": "Valley",
+      "uploaded": "2026-03-21T15:05:52.162",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "4VL0mPspn7oAkNaIPkTSds2KA40",
+      "name": "Pursuit - snail race",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "Vo4FS0SqRkxTjtw3TKQ8wzON0O5",
+      "name": "Goal Hunt - map name",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "sQkgqquk_sNj73lS2me91lrVZNi",
+      "name": "Pursuit - IslandCar Vs BayCar",
+      "author": "jmtracks",
+      "env": "Canyon",
+      "uploaded": "2026-03-14T22:39:55.376",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "T45ZfL8kMr390_VlsTUKI5RZ8F0",
+      "name": "Pursuit - wanted to make a -1 star map, deal with it",
+      "author": "dogestar_tm",
+      "env": "Valley",
+      "uploaded": "2026-03-29T15:38:26.088",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "_wU_BDYSLIXkV_SdQFOeVuf_hA9",
+      "name": "PRIL FOOLS #1",
+      "author": "krongtekk",
+      "env": "Stadium",
+      "uploaded": "2026-03-10T17:27:27.967",
+      "maptype": "PursuitArena",
+      "notes": ""
+    },
+    {
+      "uid": "f_jrojLYyvhRFq6i1NYUAq6aZZ8",
+      "name": "Pursuit - 6^3",
+      "author": "",
+      "env": "",
+      "uploaded": "",
+      "maptype": "",
+      "notes": ""
+    },
+    {
+      "uid": "9zMow0b58EphH0h5ek_Aapvmjzc",
+      "name": "Pursuit - The Mall &#039;&#039;&#039;&#039;",
+      "author": "fabio_m",
+      "env": "Stadium",
+      "uploaded": "2016-02-24T18:26:12.923",
+      "maptype": "Race",
+      "notes": ""
+    },
+    {
+      "uid": "TISJLeThBMr8PQ1rNSDxktLk6Zi",
+      "name": "Pursuit - Community Map #04",
+      "author": "domino54",
+      "env": "Canyon",
+      "uploaded": "2019-01-09T23:26:03.713",
+      "maptype": "PursuitArena",
+      "notes": ""
+    }
+  ],
+  "existing": {}
+}
