@@ -138,8 +138,6 @@ Row 125: UID pdHcfgrPuzYKYG84amT6KREpj97
 
 All 24 GHC2 maps have empty Author login, Environment, Uploaded at, and MapType.
 
-### Notes for known data from feedback (only environment known from filename patterns):
-
 | Row | Map Name | Missing fields |
 |-----|----------|---------------|
 | 126 | GHC2! #1 Freezing Canyon | Author, Uploaded at, MapType, Notes |
@@ -177,4 +175,4 @@ Note: "GHC2" = Goal Hunt Christmas Season 2. All maps have UID and Name but Auth
 - Missing Notes only: ~112
 - Missing Map name + Uploaded at: 1 (Third Contribution)
 - Missing Author+Env+Date+Type (GHC2): 24 maps
-- Already complete with all data: ~12 (including ones with notes like "no OffZone wall", "missing link", "outdated mode")
+- Already complete with all data: ~12
