@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """
-Pursuit Maps - One-Click Sync & Update Sheets
-=============================================
-Fetches data from all sources, compares, and updates Google Sheets.
+Pursuit Maps - Full Sync with Votes & Stars
+===========================================
+Fetches from ManiaPlanet Feedback (249 maps with star ratings + vote counts),
+Google Sheets, enriches via ManiaExchange API, and writes everything to Google Sheet.
+
+New columns vs original sheet:
+  I = YES/NO Rating (e.g. "3.5/5")
+  J = YES/NO Votes (e.g. "32")
+  K = 5-Star Avg (e.g. "4.2/5")
+  L = 5-Star Total (e.g. "565")
 
 Usage:
     python3 run_sync.py              # full sync + update sheets
-    python3 run_sync.py --dry-run    # preview only, no sheet writes
-    python3 run_sync.py --auth-only  # just do OAuth setup
+    python3 run_sync.py --dry-run    # preview only
+    python3 run_sync.py --auth-only  # OAuth setup only
 """
 
 import argparse
@@ -20,7 +27,6 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-# Fix sys.path
 sys.path = [p for p in sys.path if "Python313" not in p and "Python314" not in p]
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -33,24 +39,18 @@ SHEET_URL = (
 )
 MX_API = "https://tm.mania.exchange/api/maps/get_map_info/id"
 FEEDBACK_URL = "https://feedback.prod.live.maniaplanet.com/votes/display/106"
-BASE_DIR = Path(__file__).parent.resolve()
+BASE_DIR = Path(__file__).parent.parent.resolve()
 
-# Column mapping: field_name -> (column_letter, source)
-FIELD_MAP = {
-    "name":     ("B", "Map name"),
-    "author":   ("C", "Author login"),
-    "env":      ("D", "Environment"),
-    "uploaded": ("E", "Uploaded at"),
-    "maptype":  ("G", "MapType"),
-    "notes":    ("H", "Notes"),
-}
+# Column layout in Sheet:
+# A=#, B=Map name, C=Author, D=Environment, E=Uploaded at, F=UID, G=MapType, H=Notes
+# I=YN Rating, J=YN Votes, K=5-Star Avg, L=5-Star Total  (NEW)
 
 
 def http_get(url, timeout=30, retries=2, delay=1):
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers={
-                "User-Agent": "Mozilla/5.0 (PursuitMaps-Sync/1.0)"
+                "User-Agent": "Mozilla/5.0 (PursuitMaps-Sync/2.0)"
             })
             resp = urllib.request.urlopen(req, timeout=timeout)
             return resp.read().decode("utf-8")
@@ -60,41 +60,72 @@ def http_get(url, timeout=30, retries=2, delay=1):
     return None
 
 
+def clean(v):
+    return "" if v is None else str(v).strip()
+
+
 # ── Fetch Functions ───────────────────────────────────────────────────────────
 
 def fetch_feedback():
-    """Fetch maps from ManiaPlanet Feedback page."""
+    """Fetch 249 maps from ManiaPlanet Feedback with star ratings + vote counts."""
     html = http_get(FEEDBACK_URL)
     if not html:
-        print("  ERROR: Cannot fetch feedback page", file=sys.stderr)
+        print("  ERROR: Cannot fetch feedback", file=sys.stderr)
         return None
 
-    img_pattern = re.findall(
-        r'src=["\']https://files-v4\.live\.maniaplanet\.com/maps/([a-f0-9]+)/([a-zA-Z0-9_\-]+)\.jpg["\']',
-        html
+    img_splits = re.split(
+        r'(?=<img[^>]*src="[^"]*files-v4\.live\.maniaplanet\.com/maps/)', html
     )
-    h6_pattern = re.findall(r'<h6[^>]*>(.*?)</h6>', html, re.DOTALL)
-    names = []
-    for h6 in h6_pattern:
-        text = re.sub(r'<[^>]+>', '', h6).strip()
-        if text and text not in ('YES/NO', '5 STARS', '', 'YES', 'NO'):
-            names.append(text)
-
     maps = []
-    seen = set()
-    for i, (hash_val, uid) in enumerate(img_pattern):
-        if uid not in seen:
-            seen.add(uid)
-            maps.append({
-                "uid": uid,
-                "name": names[i] if i < len(names) else "",
-                "hash": hash_val,
-            })
+    for section in img_splits[1:]:
+        uid_m = re.search(r'/maps/([a-f0-9]+)/([a-zA-Z0-9_\-]+)\.jpg', section)
+        if not uid_m:
+            continue
+        uid = uid_m.group(2)
+        hash_val = uid_m.group(1)
+
+        name_m = re.search(r'title="([^"]+)"', section)
+        name = name_m.group(1).strip() if name_m else ""
+
+        s = re.sub(r'\s+', ' ', section)
+
+        # YES/NO section: rating + vote count
+        yesno_rating = 0.0
+        yesno_votes = 0
+        yn_m = re.search(
+            r'YES.*?NO.*?<span style="color: gold[^"]*">.*?</span>\s*([\d.]+)\s*\((\d+)\)',
+            s, re.DOTALL
+        )
+        if yn_m:
+            yesno_rating = float(yn_m.group(1))
+            yesno_votes = int(yn_m.group(2))
+
+        # 5 STARS section: avg + total + distribution
+        stars_avg = 0.0
+        stars_total = 0
+        star_pcts = []
+        st_m = re.search(
+            r'5 STARS.*?<span style="color: gold[^"]*">.*?</span>\s*([\d.]+)\s*\((\d+)\)',
+            s, re.DOTALL
+        )
+        if st_m:
+            stars_avg = float(st_m.group(1))
+            stars_total = int(st_m.group(2))
+            after = s[s.find(st_m.group(0)) + len(st_m.group(0)):]
+            bars = re.findall(r'width:\s*(\d+)%', after[:500])
+            star_pcts = [int(b) for b in bars[:5]]
+
+        maps.append({
+            "uid": uid, "hash": hash_val, "name": name,
+            "yesno_rating": yesno_rating, "yesno_votes": yesno_votes,
+            "stars_avg": stars_avg, "stars_total": stars_total,
+            "star_pcts": star_pcts,
+        })
     return maps
 
 
 def fetch_sheet():
-    """Fetch current Google Sheets data via gviz."""
+    """Fetch current Sheet data via gviz API."""
     raw = http_get(SHEET_URL)
     if not raw:
         return None
@@ -114,10 +145,12 @@ def fetch_sheet():
                 if v is None:
                     return ""
                 if isinstance(v, str) and v.startswith("Date("):
-                    m = re.match(r"Date\((\d+),(\d+),(\d+)(?:,(\d+),(\d+),(\d+))?\)", v)
-                    if m:
-                        y, mo, d = int(m.group(1)), int(m.group(2))+1, int(m.group(3))
-                        h = int(m.group(4) or 0); mi = int(m.group(5) or 0); s = int(m.group(6) or 0)
+                    dm = re.match(r"Date\((\d+),(\d+),(\d+)(?:,(\d+),(\d+),(\d+))?\)", v)
+                    if dm:
+                        y, mo, d = int(dm.group(1)), int(dm.group(2)) + 1, int(dm.group(3))
+                        h = int(dm.group(4) or 0)
+                        mi = int(dm.group(5) or 0)
+                        s = int(dm.group(6) or 0)
                         return f"{y:04d}-{mo:02d}-{d:02d} {h:02d}:{mi:02d}:{s:02d}"
                 if isinstance(v, float) and v == int(v):
                     return str(int(v))
@@ -147,116 +180,76 @@ def fetch_mx(uid):
     return {}
 
 
-# ── Sync Logic ────────────────────────────────────────────────────────────────
+# ── Enrichment ────────────────────────────────────────────────────────────────
 
-def build_enriched_maps(feedback_maps, sheet_maps):
-    """Build enriched map list from all sources."""
+def enrich_maps(feedback_maps, sheet_maps):
+    """Enrich feedback maps with MX data and cross-reference with sheet."""
     sheet_by_uid = {m["uid"]: m for m in sheet_maps} if sheet_maps else {}
 
     enriched = []
-    for fb in feedback_maps:
+    mx_found = 0
+    for i, fb in enumerate(feedback_maps):
         uid = fb["uid"]
         mx = fetch_mx(uid)
-
         sh = sheet_by_uid.get(uid, {})
 
-        # Best name: feedback > MX > sheet
-        name = fb.get("name", "") or clean(mx.get("Name", "")) or sh.get("_name", "")
-        # Best author: MX > sheet
         author = clean(mx.get("AuthorLogin", "")) or sh.get("_author", "")
-        # Best env: MX > sheet
         env = clean(mx.get("EnvironmentName", "")) or sh.get("_env", "")
-        # Best maptype: MX > sheet (normalize TrackMania\PursuitArena -> PursuitArena)
         raw_mt = clean(mx.get("MapType", "")) or sh.get("_maptype", "")
         maptype = raw_mt.split("\\")[-1] if "\\" in raw_mt else raw_mt
-        # Best uploaded: sheet > MX
         uploaded = sh.get("_uploaded", "") or clean(mx.get("UploadedAt", ""))
-        # Notes: sheet > empty
         notes = sh.get("_notes", "")
 
-        # Track what data we can fill
-        fill_from_mx = {}
+        # Values to fill in sheet empty cells
+        fill = {}
+        if not sh.get("_name") and fb.get("name"):
+            fill["B"] = fb["name"]
         if not sh.get("_author") and author:
-            fill_from_mx["author"] = author
+            fill["C"] = author
         if not sh.get("_env") and env:
-            fill_from_mx["env"] = env
+            fill["D"] = env
         if not sh.get("_maptype") and maptype:
-            fill_from_mx["maptype"] = maptype
-        if not sh.get("_name") and name:
-            fill_from_mx["name"] = name
-        if not sh.get("_uploaded") and uploaded:
-            fill_from_mx["uploaded"] = uploaded
+            fill["G"] = maptype
+        if not sh.get("_name") and fb.get("name"):
+            fill["B"] = fb["name"]
 
         enriched.append({
-            "uid": uid,
-            "name": name,
-            "author": author,
-            "env": env,
-            "uploaded": uploaded,
-            "maptype": maptype,
-            "notes": notes,
-            "hash": fb.get("hash", ""),
+            "uid": uid, "hash": fb.get("hash", ""),
+            "name": fb.get("name", ""),
+            "author": author, "env": env, "uploaded": uploaded,
+            "maptype": maptype, "notes": notes,
+            "yesno_rating": fb.get("yesno_rating", 0),
+            "yesno_votes": fb.get("yesno_votes", 0),
+            "stars_avg": fb.get("stars_avg", 0),
+            "stars_total": fb.get("stars_total", 0),
+            "star_pcts": fb.get("star_pcts", []),
             "mx_trackid": mx.get("TrackID", ""),
-            "fill_from_mx": fill_from_mx,
-            "sheet_row": sh.get("_row", ""),
+            "fill": fill,
             "in_sheet": uid in sheet_by_uid,
+            "sheet_row": sh.get("_row", ""),
         })
 
+        if mx.get("TrackID"):
+            mx_found += 1
         time.sleep(0.15)
+
+        if (i + 1) % 50 == 0:
+            print(f"  MX [{i+1}/{len(feedback_maps)}] enriched={mx_found}", file=sys.stderr)
 
     return enriched
 
 
-def clean(v):
-    if v is None:
-        return ""
-    return str(v).strip()
+# ── Sheet Writer (Google Sheets API v4) ──────────────────────────────────────
 
-
-def generate_sheet_operations(enriched):
-    """Generate list of sheet operations from enriched data."""
-    new_rows = []       # Maps not in sheet to be appended
-    cell_updates = []   # Empty cells to fill: (row, col_letter, value, description)
-
-    for m in enriched:
-        if not m["in_sheet"]:
-            new_rows.append(m)
-        else:
-            row = m["sheet_row"]
-            if isinstance(row, str) and row.replace("?", "").strip().isdigit():
-                row_num = int(row)
-            elif isinstance(row, (int, float)):
-                row_num = int(row)
-            else:
-                continue  # skip rows we can't identify
-
-            # Check each field
-            if m["fill_from_mx"].get("name"):
-                cell_updates.append((row_num, "B", m["fill_from_mx"]["name"], f"name='{m['fill_from_mx']['name']}'"))
-            if m["fill_from_mx"].get("author"):
-                cell_updates.append((row_num, "C", m["fill_from_mx"]["author"], f"author='{m['fill_from_mx']['author']}'"))
-            if m["fill_from_mx"].get("env"):
-                cell_updates.append((row_num, "D", m["fill_from_mx"]["env"], f"env='{m['fill_from_mx']['env']}'"))
-            if m["fill_from_mx"].get("uploaded"):
-                cell_updates.append((row_num, "E", m["fill_from_mx"]["uploaded"], f"uploaded='{m['fill_from_mx']['uploaded']}'"))
-            if m["fill_from_mx"].get("maptype"):
-                cell_updates.append((row_num, "G", m["fill_from_mx"]["maptype"], f"maptype='{m['fill_from_mx']['maptype']}'"))
-
-    return new_rows, cell_updates
-
-
-# ── Sheet Writer ─────────────────────────────────────────────────────────────
-
-def write_to_sheet(new_rows, cell_updates, dry_run=False):
-    """Write new rows and cell updates to Google Sheets."""
+def write_to_sheet(enriched, dry_run):
+    """Write new rows + cell updates + votes data to Google Sheets."""
     try:
         from google.oauth2.credentials import Credentials
         from google_auth_oauthlib.flow import InstalledAppFlow
-        from google.auth.transport.requests import Request as GoogleRequest
+        from google.auth.transport.requests import Request as GRequest
         from googleapiclient.discovery import build
     except ImportError:
-        print("ERROR: Google API libraries not installed.", file=sys.stderr)
-        print("Install: pip install google-auth google-auth-oauthlib google-api-python-client", file=sys.stderr)
+        print("ERROR: Google API libs not installed.", file=sys.stderr)
         sys.exit(1)
 
     SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -268,112 +261,125 @@ def write_to_sheet(new_rows, cell_updates, dry_run=False):
         creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(GoogleRequest())
+            creds.refresh(GRequest())
         elif secrets_path.exists():
-            print("Opening browser for OAuth login...", file=sys.stderr)
+            print("Opening browser for OAuth...", file=sys.stderr)
             flow = InstalledAppFlow.from_client_secrets_file(str(secrets_path), SCOPES)
             creds = flow.run_local_server(port=0)
             with open(token_path, "w") as f:
                 f.write(creds.to_json())
-            print(f"Token saved to {token_path}", file=sys.stderr)
         else:
-            print("ERROR: No token.json or client_secrets.json found!", file=sys.stderr)
-            print("Run: python3 run_sync.py --auth-only", file=sys.stderr)
+            print("ERROR: Run --auth-only first!", file=sys.stderr)
             sys.exit(1)
 
     service = build("sheets", "v4", credentials=creds, cache_discovery=False)
 
-    # Find sheet title
+    # Find sheet title by GID
     try:
-        spreadsheet = service.spreadsheets().get(spreadsheetId=SHEET_ID).execute()
+        ss = service.spreadsheets().get(spreadsheetId=SHEET_ID).execute()
         sheet_title = "Pursuit Channels New"
-        for sheet in spreadsheet.get("sheets", []):
+        for sheet in ss.get("sheets", []):
             if sheet.get("properties", {}).get("sheetId") == SHEET_GID:
                 sheet_title = sheet["properties"]["title"]
                 break
     except Exception:
         sheet_title = "Pursuit Channels New"
 
-    total_changes = 0
+    total = 0
 
-    # 1. Write new rows
+    # 1. New rows (maps not yet in sheet)
+    new_rows = [m for m in enriched if not m["in_sheet"]]
     if new_rows:
-        # Find last row
         result = service.spreadsheets().values().get(
             spreadsheetId=SHEET_ID, range=f"'{sheet_title}'!A:A"
         ).execute()
-        last_row = len(result.get("values", []))
-        next_num = last_row  # next row number
+        last_row = len(result.get("values", [[]]))
 
         values = []
-        for i, m in enumerate(new_rows, next_num + 1):
+        for i, m in enumerate(new_rows, last_row + 1):
             values.append([
                 str(i),
-                m["name"],
-                m["author"],
-                m["env"],
-                m["uploaded"],
-                m["uid"],
-                m["maptype"],
-                m["notes"],
+                m["name"], m["author"], m["env"], m["uploaded"],
+                m["uid"], m["maptype"], m["notes"],
+                # New vote columns:
+                "{}/5".format(m["yesno_rating"]) if m["yesno_rating"] else "",
+                str(m["yesno_votes"]) if m["yesno_votes"] else "",
+                "{}/5".format(m["stars_avg"]) if m["stars_avg"] else "",
+                str(m["stars_total"]) if m["stars_total"] else "",
             ])
 
         if not dry_run and values:
-            body = {"values": values}
-            range_spec = f"'{sheet_title}'!A{next_num+1}:H{next_num+len(values)}"
-            result = service.spreadsheets().values().append(
-                spreadsheetId=SHEET_ID, range=range_spec,
-                valueInputOption="USER_ENTERED", insertDataOption="INSERT_ROWS", body=body
+            service.spreadsheets().values().append(
+                spreadsheetId=SHEET_ID,
+                range=f"'{sheet_title}'!A{last_row+1}:L{last_row+len(values)}",
+                valueInputOption="USER_ENTERED",
+                insertDataOption="INSERT_ROWS",
+                body={"values": values}
             ).execute()
-            written = result.get("updates", {}).get("updatedRows", 0)
-            print(f"  Written {written} new rows to sheet")
-            total_changes += written
+            print(f"  Written {len(values)} new rows")
+            total += len(values)
         elif dry_run:
-            print(f"  [DRY-RUN] Would write {len(values)} new rows (starting at row {next_num+1})")
-            for v in values[:5]:
-                print(f"    #{v[0]} | {v[1][:50]} | {v[2]} | {v[3]} | {v[5][:30]}")
-            if len(values) > 5:
-                print(f"    ... and {len(values)-5} more")
-            total_changes += len(values)
+            print(f"  [DRY-RUN] Would write {len(values)} new rows")
 
-    # 2. Fill empty cells
-    if cell_updates:
+    # 2. Update existing rows with votes data + fill empty cells
+    updates = []
+    for m in enriched:
+        if not m["in_sheet"] or not m["sheet_row"]:
+            continue
+        try:
+            row = int(m["sheet_row"])
+        except (ValueError, TypeError):
+            continue
+
+        # Always update votes columns (they're new)
+        if m["yesno_rating"]:
+            updates.append((row, "I", "{}/5".format(m["yesno_rating"])))
+        if m["yesno_votes"]:
+            updates.append((row, "J", str(m["yesno_votes"])))
+        if m["stars_avg"]:
+            updates.append((row, "K", "{}/5".format(m["stars_avg"])))
+        if m["stars_total"]:
+            updates.append((row, "L", str(m["stars_total"])))
+
+        # Fill empty original columns
+        for col, val in m["fill"].items():
+            updates.append((row, col, val))
+
+    if updates:
         if not dry_run:
             data = []
-            for row_num, col, val, desc in cell_updates:
+            for row_num, col, val in updates:
                 data.append({
                     "range": f"'{sheet_title}'!{col}{row_num}",
                     "values": [[val]],
                 })
-            body = {"valueInputOption": "USER_ENTERED", "data": data}
-            result = service.spreadsheets().values().batchUpdate(
-                spreadsheetId=SHEET_ID, body=body
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=SHEET_ID,
+                body={"valueInputOption": "USER_ENTERED", "data": data}
             ).execute()
-            updated = result.get("totalUpdatedCells", 0)
-            print(f"  Filled {updated} empty cells")
-            total_changes += updated
+            print(f"  Updated {len(updates)} cells (votes + fill)")
+            total += len(updates)
         else:
-            print(f"  [DRY-RUN] Would fill {len(cell_updates)} empty cells:")
-            for row_num, col, val, desc in cell_updates[:10]:
-                print(f"    {col}{row_num}: {desc}")
-            if len(cell_updates) > 10:
-                print(f"    ... and {len(cell_updates)-10} more")
-            total_changes += len(cell_updates)
+            vote_updates = [u for u in updates if u[1] in ("I", "J", "K", "L")]
+            fill_updates = [u for u in updates if u[1] not in ("I", "J", "K", "L")]
+            print(f"  [DRY-RUN] Would update {len(vote_updates)} vote cells + {len(fill_updates)} fill cells")
+            print(f"  Sample vote updates:")
+            for r, c, v in vote_updates[:5]:
+                print(f"    {c}{r}: {v}")
 
-    return total_changes
+    return total
 
 
-# ── GitHub Actions Workflow ──────────────────────────────────────────────────
+# ── GitHub Action ─────────────────────────────────────────────────────────────
 
 def create_github_action():
-    """Create the GitHub Actions workflow file."""
+    """Create/update GitHub Actions workflow."""
     workflow = """name: Pursuit Maps Sync
 
 on:
   schedule:
-    # Run daily at 6:00 AM UTC
-    - cron: '0 6 * * *'
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '0 5 * * *'  # 5:00 AM UTC daily
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -387,8 +393,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install google-auth google-auth-oauthlib google-api-python-client
+        run: pip install google-auth google-auth-oauthlib google-api-python-client
 
       - name: Restore credentials
         env:
@@ -401,131 +406,90 @@ jobs:
       - name: Run sync
         run: python3 scripts/run_sync.py
 
-      - name: Save updated token
-        env:
-          GOOGLE_SHEETS_TOKEN: ${{ secrets.GOOGLE_SHEETS_TOKEN }}
-        run: |
-          # Update the token secret if refreshed
-          if [ -f token.json ]; then
-            TOKEN_CONTENT=$(cat token.json)
-            if [ "$TOKEN_CONTENT" != "$GOOGLE_SHEETS_TOKEN" ]; then
-              echo "Token was refreshed, updating secret..."
-              # Note: requires GH_TOKEN with repo scope to update secrets
-              curl -s -X PUT \\
-                -H "Authorization: Bearer ${{ secrets.GH_PAT }}" \\
-                -H "Accept: application/vnd.github+json" \\
-                https://api.github.com/repos/${{ github.repository }}/actions/secrets/GOOGLE_SHEETS_TOKEN \\
-                -d "{\"encrypted_value\":\"$(echo $TOKEN_CONTENT | base64 -w 0)\",\"key_id\":\"${{ steps.get-key.outputs.key_id }}\"}"
-            fi
-          fi
-
       - name: Upload reports
         uses: actions/upload-artifact@v4
         with:
-          name: sync-reports
+          name: sync-reports-${{ github.run_number }}
           path: |
-            sheet_fill_report.md
-            feedback_cache.json
+            feedback_full.json
 """
-    workflow_path = BASE_DIR / ".github" / "workflows" / "sync.yml"
-    workflow_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(workflow_path, "w", encoding="utf-8") as f:
+    wp = BASE_DIR / ".github" / "workflows" / "sync.yml"
+    wp.parent.mkdir(parents=True, exist_ok=True)
+    with open(wp, "w") as f:
         f.write(workflow)
-    return workflow_path
+    return wp
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Pursuit Maps One-Click Sync")
-    parser.add_argument("--dry-run", action="store_true", help="Preview only, no writes")
-    parser.add_argument("--auth-only", action="store_true", help="Just do OAuth setup")
-    parser.add_argument("--setup-action", action="store_true", help="Create GitHub Action workflow")
+    parser = argparse.ArgumentParser(description="Pursuit Maps Sync v2 (with votes)")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--auth-only", action="store_true")
+    parser.add_argument("--setup-action", action="store_true")
     args = parser.parse_args()
 
     print("=" * 60)
-    print("Pursuit Maps Sync & Update")
-    print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("Pursuit Maps Sync v2.0 - with Votes & Stars")
+    print("Time: {}".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
     print("=" * 60)
 
     if args.setup_action:
         path = create_github_action()
-        print(f"\nCreated GitHub Action: {path}")
-        print("Next steps:")
-        print("1. Add GOOGLE_CLIENT_SECRETS and GOOGLE_SHEETS_TOKEN as GitHub Secrets")
-        print("2. The action will run daily at 6:00 UTC and on manual trigger")
+        print("Created: {}".format(path))
         return
 
     if args.auth_only:
-        print("\n[ AUTH MODE ]")
-        print("This will open a browser for Google OAuth login.")
-        print("After login, token.json will be saved for future use.")
-        input("Press Enter to continue...")
-        # Trigger auth by writing empty sheet
-        write_to_sheet([], [], dry_run=False)
+        print("\nPress Enter to start OAuth...")
+        input()
+        write_to_sheet([], dry_run=False)
         return
 
-    # Step 1: Fetch feedback
+    # Step 1: Feedback (249 maps with stars + votes)
     print("\n[1/4] Fetching ManiaPlanet Feedback...")
-    feedback_maps = fetch_feedback()
-    if not feedback_maps:
-        print("  ERROR: Could not fetch feedback. Check internet connection.", file=sys.stderr)
+    feedback = fetch_feedback()
+    if not feedback:
         sys.exit(1)
-    print(f"  Got {len(feedback_maps)} maps from feedback ✓")
+    print("  Got {} maps with vote data".format(len(feedback)))
 
-    # Step 2: Fetch sheet
+    # Step 2: Sheet
     print("\n[2/4] Fetching Google Sheets...")
-    sheet_maps = fetch_sheet()
-    if sheet_maps is None:
-        print("  WARNING: Could not fetch sheet. Will still process feedback + MX", file=sys.stderr)
-        sheet_maps = []
-    else:
-        print(f"  Got {len(sheet_maps)} maps from sheet ✓")
+    sheet = fetch_sheet()
+    print("  Got {} sheet rows".format(len(sheet) if sheet else 0))
 
     # Step 3: Enrich with MX
-    print(f"\n[3/4] Enriching {len(feedback_maps)} maps with ManiaExchange...")
-    enriched = build_enriched_maps(feedback_maps, sheet_maps)
-    mx_count = sum(1 for m in enriched if m.get("mx_trackid"))
-    print(f"  Enriched {mx_count} maps with MX data ✓")
+    print("\n[3/4] Enriching with ManiaExchange...")
+    enriched = enrich_maps(feedback, sheet)
+    mx_n = sum(1 for m in enriched if m["mx_trackid"])
+    print("  Enriched {} with MX".format(mx_n))
 
-    # Step 4: Generate operations
-    print("\n[4/4] Comparing and generating sheet operations...")
-    new_rows, cell_updates = generate_sheet_operations(enriched)
-    print(f"  New rows to add: {len(new_rows)}")
-    print(f"  Empty cells to fill: {len(cell_updates)}")
+    # Stats
+    new_n = sum(1 for m in enriched if not m["in_sheet"])
+    fill_n = sum(1 for m in enriched if m["in_sheet"] and m["fill"])
+    vote_n = sum(1 for m in enriched if m["in_sheet"] and m["yesno_rating"])
+    print("\n  New maps to add: {}".format(new_n))
+    print("  Existing maps with empty cells to fill: {}".format(fill_n))
+    print("  Maps with vote data for sheet: {}".format(vote_n))
 
-    # Summary
-    print("\n" + "=" * 60)
-    print("SUMMARY")
-    print("=" * 60)
-    print(f"  Feedback maps:     {len(feedback_maps)}")
-    print(f"  Sheet rows:        {len(sheet_maps)}")
-    print(f"  MX enriched:       {mx_count}")
-    print(f"  New rows to add:   {len(new_rows)}")
-    print(f"  Cells to fill:     {len(cell_updates)}")
+    # Step 4: Write to Sheet
+    if not args.dry_run:
+        print("\n[4/4] Writing to Google Sheets...")
+        total = write_to_sheet(enriched, dry_run=False)
+        print("\n  Total changes: {}".format(total))
 
-    if args.dry_run:
-        print("\n  [DRY RUN - no changes made]")
-        if new_rows:
-            print("\n  New rows (first 10):")
-            for m in new_rows[:10]:
-                print(f"    {m['name'][:50]:50s} | {m['author']:20s} | {m['env']:10s} | {m['maptype']}")
-        if cell_updates:
-            print("\n  Cell updates (first 10):")
-            for row_num, col, val, desc in cell_updates[:10]:
-                print(f"    {col}{row_num}: {desc}")
-        return
+        # Save feedback cache
+        with open(BASE_DIR / "feedback_full.json", "w") as f:
+            json.dump(feedback, f, ensure_ascii=False, indent=2)
 
-    # Write to sheet
-    print("\n[ WRITING TO GOOGLE SHEETS ]")
-    try:
-        total = write_to_sheet(new_rows, cell_updates, dry_run=False)
-        print(f"\n  Total changes written: {total} ✓")
-        print(f"\n  View: https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit#gid={SHEET_GID}")
-    except Exception as e:
-        print(f"\n  ERROR writing to sheet: {e}", file=sys.stderr)
-        print(f"  Try: python3 run_sync.py --auth-only", file=sys.stderr)
-        sys.exit(1)
+        print("\n  Sheet: https://docs.google.com/spreadsheets/d/{}/edit#gid={}".format(SHEET_ID, SHEET_GID))
+    else:
+        print("\n[4/4] DRY RUN - no writes")
+        write_to_sheet(enriched, dry_run=True)
+
+    # Cleanup
+    feedback_cache = BASE_DIR / "feedback_full.json"
+    if feedback_cache.exists() and not args.dry_run:
+        print("  Cache saved: {}".format(feedback_cache))
 
 
 if __name__ == "__main__":
