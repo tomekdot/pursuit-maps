@@ -1,0 +1,7 @@
+{
+  "total_maps": 249,
+  "source": "https://feedback.prod.live.maniaplanet.com/votes/display/106",
+  "skill_dir": "C:\\Users\\tomekdot\\AppData\\Local\\hermes\\skills\\pursuit-maps\\assets\\thumbnails",
+  "file_pattern": "{UID}.jpg",
+  "note": "Each UID is unique per map on ManiaPlanet"
+}
