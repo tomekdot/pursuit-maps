@@ -2,14 +2,14 @@
 """
 Pursuit Maps Data Generator
 ============================
-Generuje markdown tabelę z mapami TrackMania Pursuit
-na podstawie danych z Google Sheets (gviz API).
+Generates a markdown table with TrackMania Pursuit maps
+from Google Sheets data (gviz API).
 
-Uzycie:
-    python3 pursuit_maps_generator.py                          # domyslny sheet
-    python3 pursuit_maps_generator.py --sheet-id ID --gid GID   # wlasny sheet
-    python3 pursuit_maps_generator.py --json-only               # tylko JSON output
-    python3 pursuit_maps_generator.py --with-thumbnails DIR     # dolacz thumbnails
+Usage:
+    python3 pursuit_maps_generator.py                          # default sheet
+    python3 pursuit_maps_generator.py --sheet-id ID --gid GID   # custom sheet
+    python3 pursuit_maps_generator.py --json-only               # JSON output only
+    python3 pursuit_maps_generator.py --with-thumbnails DIR     # include thumbnails
 """
 
 import argparse

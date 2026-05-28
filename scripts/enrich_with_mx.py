@@ -2,35 +2,34 @@
 """
 Pursuit Maps - ManiaExchange Data Enricher
 ===========================================
-Zapisywanie informacji z API ManiaExchange (endpoint V1)
-dla każdej mapy z UID w pliku CSV.
+Fetches map data from ManiaExchange API (V1 endpoint)
+for each map with UID in the CSV file.
 
 Endpoint: https://tm.mania.exchange/api/maps/get_map_info/id/{UID}
 
-Nowe kolumny dodawane do CSV:
-  - MX TrackID          : TrackID / MapID z MX
-  - MX Name             : Nazwa mapy na MX (Name)
-  - MX GbxMapName       : Oryginalna nazwa z pliku Gbx
-  - MX AuthorLogin      : Login autora z Gbx
-  - MX MapType          : Typ mapy (PursuitArena, GoalHuntArena, itp.)
-  - MX TitlePack        : TitlePack (Pursuit, Trackmania, itp.)
-  - MX EnvironmentName  : Środowisko po stronie MX
-  - MX VehicleName      : Pojazd wymagany przez mapę
-  - MX DifficultyName   : Poziom trudności
-  - MX LengthName       : Długość/w czasie
-  - MX UploadedAt       : Data uploadu na MX
-  - MX UpdatedAt        : Data ostatniej aktualizacji
-  - MX Downloadable     : Czy można pobrać
-  - MX Comments         : Komentarze mapy
-  - MX AwardCount       : Liczba nagród
-  - MX HasThumbnail     : Czy ma wlasny thumbnail
-  - MX HasScreenshot    : Czy ma screenshot
+New columns added to CSV:
+  - MX TrackID          : TrackID / MapID from MX
+  - MX Name             : Map name on MX (Name)
+  - MX GbxMapName       : Original name from Gbx file
+  - MX AuthorLogin      : Author login from Gbx
+  - MX MapType          : Map type (PursuitArena, GoalHuntArena, etc.)
+  - MX TitlePack        : TitlePack (Pursuit, Trackmania, etc.)
+  - MX EnvironmentName  : Environment on MX side
+  - MX VehicleName      : Vehicle required by the map
+  - MX DifficultyName   : Difficulty level
+  - MX LengthName       : Length/time
+  - MX UploadedAt       : Upload date on MX
+  - MX UpdatedAt        : Last update date
+  - MX Downloadable     : Whether map is downloadable
+  - MX Comments         : Map comments
+  - MX AwardCount       : Number of awards
+  - MX HasThumbnail     : Whether map has thumbnail
+  - MX HasScreenshot    : Whether map has screenshot
 
-Użycie:
+Usage:
     python3 enrich_with_mx.py
-    python3 enrich_with_mx.py --csv path/to/input.csv --output path/to/output.csv
-    python3 enrich_with_mx.py --dry-run        # nie zapisuje, tylko podsumowanie
-    python3 enrich_with_mx.py --delay 0.5       # opoóźnienie między requestami (sekundy)
+    python3 enrich_with_mx.py --dry-run        # preview only, no save
+    python3 enrich_with_mx.py --delay 0.5       # delay between requests (seconds)
 """
 
 import argparse

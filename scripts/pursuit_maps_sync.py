@@ -2,24 +2,24 @@
 """
 Pursuit Maps Synchronizer
 ==========================
-Automatyczna synchronizacja danych map Pursuit z trzech źródeł:
+Automatic sync of Pursuit map data from three sources:
   1. ManiaPlanet Feedback (feedback.prod.live.maniaplanet.com/votes/display/106)
   2. Google Sheets (gviz API)
   3. ManiaExchange API (tm.maniaexchange)
 
-Generuje:
-  - enriched_feedback_106.csv - pełny CSV z wszystkimi danymi
-  - sheet_fill_report.md - gotowy raport do wklejenia w Sheet
-  - changes_diff.md - nowe/zmienione mapy od ostatniego uruchomienia
-  - json output dla dalszego przetwarzania
+Generates:
+  - enriched_feedback_106.csv - full CSV with all data
+  - sheet_fill_report.md - ready-to-paste report for Sheet
+  - changes_diff.md - new/changed maps since last run
+  - json output for further processing
 
-Użycie:
-    python3 pursue_maps_sync.py                  # pełna synchronizacja
-    python3 pursue_maps_sync.py --fetch-feedback # tylko pobierz feedback
-    python3 pursue_maps_sync.py --fetch-mx       # tylko pobierz MX
-    python3 pursue_maps_sync.py --dry-run        # podgląd bez zapisu
-    python3 pursue_maps_sync.py --compare        # tylko porównaj z poprzednim stanem
-    python3 pursue_maps_sync.py --auto-fill      # wygeneruj gotowe wartości do wklejenia
+Usage:
+    python3 pursue_maps_sync.py                  # full sync
+    python3 pursue_maps_sync.py --fetch-feedback # fetch feedback only
+    python3 pursue_maps_sync.py --fetch-mx       # fetch MX only
+    python3 pursue_maps_sync.py --dry-run        # preview without saving
+    python3 pursue_maps_sync.py --compare        # compare with previous state only
+    python3 pursue_maps_sync.py --auto-fill      # generate values ready to paste
 """
 
 import argparse

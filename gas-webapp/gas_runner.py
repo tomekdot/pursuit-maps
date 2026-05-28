@@ -2,17 +2,17 @@
 """
 Pursuit Maps - GAS Web App Runner
 ==================================
-Wysyła dane do Google Apps Script Web App (deployowanego w Sheet).
-Działa lokalnie i z GitHub Actions - nie wymaga credentialów!
+Sends data to Google Apps Script Web App (deployed in Sheet).
+Works locally and with GitHub Actions - no credentials needed!
 
-Użycie:
-    python3 gas_runner.py                 # wyślij dane do GAS
-    python3 gas_runner.py --action votes  # wyślij tylko głosy
-    python3 gas_runner.py --test          # test połączenia
-    python3 gas_runner.py --setup         # dodaj nagłówki kolumn
+Usage:
+    python3 gas_runner.py                 # send data to GAS
+    python3 gas_runner.py --action votes  # send votes only
+    python3 gas_runner.py --test          # test connection
+    python3 gas_runner.py --setup         # add column headers
 
-Konfiguracja:
-    URL GAS Web App ustaw w pliku gas_url.txt lub zmiennej GAS_WEBAPP_URL
+Config:
+    Set GAS Web App URL in gas_url.txt file or GAS_WEBAPP_URL env var
 """
 
 import argparse
@@ -33,7 +33,7 @@ GAS_URL_FILE = BASE_DIR / "gas_url.txt"
 # ── GAS URL ──────────────────────────────────────────────────────────────────
 
 def get_gas_url():
-    """Pobierz URL GAS Web App z pliku lub zmiennej środowiskowej."""
+    """Get GAS Web App URL from file or environment variable."""
     url = os.environ.get("GAS_WEBAPP_URL", "")
     if url:
         return url.strip()
