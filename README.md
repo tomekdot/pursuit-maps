@@ -1,19 +1,19 @@
-# Pursuit Maps - TrackMania ManiaPlanet Feedback S1 E1
+# 🏎️ Pursuit Maps - TrackMania ManiaPlanet Feedback S1 E1
 
-Complete dataset of 249 maps from **TrackMania² Pursuit Multi-environment (Season 1 Episode 1 by Dommy)** sourced from ManiaPlanet Feedback.
+Complete dataset of all maps from **TrackMania² Pursuit Multi-environment (Season 1 Episode 1 by Dommy)** sourced from ManiaPlanet Feedback.
 
-## What's Included
+## 📦 What's Included
 
 | Content | Count | Description |
 |---------|-------|-------------|
-| Thumbnails | 248 JPG files | Map preview images (~43-60KB each) |
-| CSV Data | 2 files | Full map metadata with UIDs, names, authors, URLs |
-| Scripts | Python + JS | Extraction and download automation |
-| Google Sheets | 125 rows | "Pursuit Channels New" tab from public sheet |
+| 🖼️ Thumbnails | 248 JPG files | Map preview images (~43-60KB each) |
+| 📊 CSV Data | 2 files | Full map metadata with UIDs, names, authors, URLs |
+| 📜 Scripts | Python + JS | Extraction and download automation |
+| 📈 Google Sheets | 125 rows | "Pursuit Channels New" tab from public sheet |
 
-## Quick Start
+## 🚀 Quick Start
 
-### CSV Data
+### 📊 CSV Data
 
 ```bash
 # Full dataset with UIDs and all URLs
@@ -22,7 +22,7 @@ cat data/maniaplanet_feedback_106_with_uid.csv | head -5
 # Columns: Lp, UID, Map name, Hash, Thumbnail URL, Map URL (tm.mania.exchange), Author URL, Feedback URL
 ```
 
-### Thumbnails
+### 🖼️ Thumbnails
 
 ```bash
 # Each thumbnail named by UID
@@ -32,41 +32,41 @@ ls assets/thumbnails/ | head -10
 # ...
 ```
 
-### Fetch a thumbnail by UID
+### 🌐 Fetch a thumbnail by UID
 
 ```bash
 # Direct URL (hash varies per map - see CSV for exact URL)
 curl -o map.jpg "https://files-v4.live.maniaplanet.com/maps/{hash}/{UID}.jpg"
 ```
 
-## Map URL Patterns
+## 🔗 Map URL Patterns
 
 | Platform | URL Pattern |
 |----------|-------------|
-| Thumbnail | `https://files-v4.live.maniaplanet.com/maps/{hash}/{UID}.jpg` |
-| ManiaExchange Map | `https://tm.mania.exchange/mapsearch?query={encoded_name}` |
-| ManiaExchange Author | `https://tm.mania.exchange/usersearch?query={author}` |
-| ManiaPlanet Feedback | `https://feedback.prod.live.maniaplanet.com/votes/display/106` |
-| Google Sheets | `https://docs.google.com/spreadsheets/d/1PwcF1PXHnYhyE23-VPqHewkD_lcNMPIg7LXDN_NaVHQ/edit#gid=763170857` |
+| 🖼️ Thumbnail | `https://files-v4.live.maniaplanet.com/maps/{hash}/{UID}.jpg` |
+| 🏎️ ManiaExchange Map | `https://tm.mania.exchange/mapsearch?query={encoded_name}` |
+| 👤 ManiaExchange Author | `https://tm.mania.exchange/usersearch?query={author}` |
+| 🗳️ ManiaPlanet Feedback | `https://feedback.prod.live.maniaplanet.com/votes/display/106` |
+| 📊 Google Sheets | `https://docs.google.com/spreadsheets/d/1PwcF1PXHnYhyE23-VPqHewkD_lcNMPIg7LXDN_NaVHQ/edit#gid=763170857` |
 
-## Data Sources
+## 📂 Data Sources
 
-1. **ManiaPlanet Feedback** - `https://feedback.prod.live.maniaplanet.com/votes/display/106`
+1. **🗳️ ManiaPlanet Feedback** - `https://feedback.prod.live.maniaplanet.com/votes/display/106`
    - Season 1 Episode 1 by Dommy
    - 249 maps with thumbnails, YES/NO votes, 5-star ratings
    - UID extracted from `<img src>` via JavaScript DOM
 
-2. **Google Sheets (Public)** - "Pursuit Channels New" tab (GID 763170857)
+2. **📊 Google Sheets (Public)** - "Pursuit Channels New" tab (GID 763170857)
    - 125 maps with metadata: #, Map name, Author, Environment, Uploaded at, UID, MapType, Notes
    - Read via Google gviz API (no auth required for public sheets)
 
-3. **tm.mania.exchange** - Map and author links verified working
+3. **🏎️ tm.mania.exchange** - Map and author links verified working
    - `https://tm.mania.exchange/mapshow/{ID}` for direct map pages
    - `https://tm.mania.exchange/usershow/{ID}` for author profiles
 
-## Scripts
+## 💻 Scripts
 
-### Extract UIDs from Feedback Page (JavaScript)
+### 🌐 Extract UIDs from Feedback Page (JavaScript)
 
 Run in browser console on `https://feedback.prod.live.maniaplanet.com/votes/display/106`:
 
@@ -89,7 +89,7 @@ Run in browser console on `https://feedback.prod.live.maniaplanet.com/votes/disp
 })()
 ```
 
-### Download Thumbnails (Python)
+### 🐍 Download Thumbnails (Python)
 
 ```python
 import urllib.request, os
@@ -104,7 +104,7 @@ for hash_val, uid in maps:
             f.write(resp.read())
 ```
 
-### Read Google Sheets via gviz API (Python)
+### 📊 Read Google Sheets via gviz API (Python)
 
 ```python
 import urllib.request, json
@@ -124,7 +124,7 @@ for row in data['table']['rows']:
     print(f"{num}: {name} by {author} (UID: {uid})")
 ```
 
-## Map Types
+## 🎮 Map Types
 
 | Type | Count (approx) |
 |------|---------------|
@@ -132,22 +132,22 @@ for row in data['table']['rows']:
 | TrackMania\GoalHuntArena | ~15% |
 | TrackMania\HuntersArena | ~5% |
 
-## Environments
+## 🌍 Environments
 
 Valley, Canyon, Stadium, Lagoon
 
-## Notable Findings
+## 🔍 Notable Findings
 
-- Google Sheets row 126 has empty Column B → filled with `[Pursuit] - Third Contribution` from feedback data
-- 2 maps marked "missing link" in Sheets: "Pursuit - Surrounded", "Pursuit - Volley"
-- 12 maps with notes (incorrect OffZone, black thumbnail, outdated mode, etc.)
-- Last-Modified for all thumbnails: 2024-02-12 (batch upload date)
-- 1 thumbnail unavailable (HTTP 403): Liminal Maze Tower by piotrunio
+- 📝 Google Sheets row 126 has empty Column B → filled with `[Pursuit] - Third Contribution` from feedback data
+- ⚠️ 2 maps marked "missing link" in Sheets: "Pursuit - Surrounded", "Pursuit - Volley"
+- 📌 12 maps with notes (incorrect OffZone, black thumbnail, outdated mode, etc.)
+- 📅 Last-Modified for all thumbnails: 2024-02-12 (batch upload date)
+- 🚫 1 thumbnail unavailable (HTTP 403): Liminal Maze Tower by piotrunio
 
-## Legal
+## ⚖️ Legal
 
 Map data and thumbnails belong to their respective authors and Nadeo/ManiaPlanet. This dataset is for research and educational purposes.
 
-## License
+## 📄 License
 
 MIT License - see [LICENSE](LICENSE)
