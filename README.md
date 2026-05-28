@@ -1,7 +1,5 @@
 # 🏎️ Pursuit Maps Pipeline
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Pipeline that fetches map data from ManiaPlanet Feedback + ManiaExchange
 and syncs it to Google Sheets.
 
