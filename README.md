@@ -142,7 +142,7 @@ Valley, Canyon, Stadium, Lagoon
 - ⚠️ 2 maps marked "missing link" in Sheets: "Pursuit - Surrounded", "Pursuit - Volley"
 - 📌 12 maps with notes (incorrect OffZone, black thumbnail, outdated mode, etc.)
 - 📅 Last-Modified for all thumbnails: 2024-02-12 (batch upload date)
-- 🚫 1 thumbnail unavailable (HTTP 403): Liminal Maze Tower by piotrunio
+- 🚫 1 thumbnail unavailable (HTTP 403): Liminal Maze Tower
 
 ## ⚖️ Legal
 
