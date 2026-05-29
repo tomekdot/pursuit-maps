@@ -221,7 +221,7 @@ def main():
     parser = argparse.ArgumentParser(description="Pursuit Maps GAS Runner")
     parser.add_argument("--test", action="store_true", help="Test GAS connection")
     parser.add_argument("--setup", action="store_true", help="Add column headers via GAS")
-    parser.add_argument("--action", choices=["sync", "votes", "full"], default="full")
+    parser.add_argument("--action", choices=["sync", "votes", "full", "sort"], default="full")
     parser.add_argument("--dry-run", action="store_true", help="Preview only")
     args = parser.parse_args()
 
@@ -301,6 +301,16 @@ def main():
                 print("FAILED")
         else:
             print("No matching rows to update.")
+
+    # Sort action
+    if args.action == "sort":
+        print("Sort: sorting sheet by Uploaded At...")
+        result = http_post(gas_url, {"action": "sort"})
+        results["sort"] = result
+        if result:
+            print("Result: {}".format(json.dumps(result)))
+        else:
+            print("FAILED")
 
     # Save results
     with open(BASE_DIR / "gas_last_result.json", "w") as f:

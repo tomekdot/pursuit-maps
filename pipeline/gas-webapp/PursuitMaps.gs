@@ -117,10 +117,15 @@ function doPost(e) {
 
   if (action === 'sync') {
     result = performSync(payload);
+    // Auto-sort by Uploaded At after sync
+    var sortResult = sortSheetByUploaded();
+    result.sortAfterSync = sortResult;
   } else if (action === 'votes') {
     result = updateVotes(payload);
   } else if (action === 'setup') {
     result = addHeaders();
+  } else if (action === 'sort') {
+    result = sortSheetByUploaded();
   } else {
     result = { status: 'error', message: 'Unknown action: ' + action };
   }
@@ -210,6 +215,9 @@ function performSync(payload) {
     try {
       var range = sheet.getRange(startRow, 1, numRows, 8);
       range.setValues(values);
+      // Set column E format to datetime so Sheets treats it as Date
+      sheet.getRange(startRow, 5, numRows, 1)
+           .setNumberFormat('yyyy-mm-dd hh:mm:ss');
       added = numRows;
     } catch(e) {
       errors.push('Failed to add rows: ' + e.message);
@@ -331,6 +339,46 @@ function updateVotes(payload) {
     skipped: skipped,
     errors: errors
   };
+}
+
+/**
+ * Sort sheet by Uploaded At (column E) descending — newest first
+ * POST with: {"action": "sort"}
+ */
+function sortSheetByUploaded() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = getSheet(ss);
+  var lastRow = sheet.getLastRow();
+  if (lastRow < 2) return { status: 'ok', message: 'Nothing to sort' };
+
+  // Collect rows 2..lastRow with parsed date from column E
+  var rows = sheet.getRange(2, 1, lastRow - 1, 12).getValues();
+  var parsed = rows.map(function(row, i) {
+    var raw = row[4]; // column E (0-indexed: 4)
+    var d = null;
+    if (raw instanceof Date) {
+      d = raw.getTime();
+    } else if (raw && raw !== '') {
+      // Try parsing "YYYY-MM-DD HH:MM:SS" or similar
+      var s = raw.toString().trim().replace('T', ' ').replace('Z', '');
+      var p = new Date(s);
+      d = isNaN(p.getTime()) ? 0 : p.getTime();
+    }
+    return { row: row, d: d || 0, idx: i };
+  });
+
+  // Sort descending by date (newest first); rows without date go to bottom
+  parsed.sort(function(a, b) {
+    if (a.d && !b.d) return -1;
+    if (!a.d && b.d) return 1;
+    return b.d - a.d;
+  });
+
+  // Write back in sorted order
+  var sortedValues = parsed.map(function(p) { return p.row; });
+  sheet.getRange(2, 1, sortedValues.length, 12).setValues(sortedValues);
+
+  return { status: 'ok', message: 'Sorted by Uploaded At (descending)', rows: sortedValues.length };
 }
 
 /**

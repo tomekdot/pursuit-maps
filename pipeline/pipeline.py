@@ -227,6 +227,16 @@ def enrich_with_mx(maps):
             m["author"] = clean(mx.get("AuthorLogin", ""))
             m["env"] = clean(mx.get("EnvironmentName", ""))
             m["mx_trackid"] = mx.get("TrackID", "")
+            # UploadedAt from MX is ISO 8601: "2024-03-15T18:30:00Z" or similar
+            uploaded_raw = clean(mx.get("UploadedAt", ""))
+            if not uploaded_raw:
+                uploaded_raw = clean(mx.get("Uploaded", ""))
+            if uploaded_raw:
+                # Normalize to "YYYY-MM-DD HH:MM:SS" for Sheets date parsing
+                uploaded_raw = uploaded_raw.replace("T", " ").replace("Z", "")
+                if "." in uploaded_raw:
+                    uploaded_raw = uploaded_raw.split(".")[0]
+                m["uploaded"] = uploaded_raw
             enriched += 1
         time.sleep(0.15)
         if (i + 1) % 50 == 0:
