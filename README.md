@@ -1,59 +1,86 @@
 # 🏎️ Pursuit Maps Pipeline
 
-Pipeline that fetches map data from ManiaPlanet Feedback + ManiaExchange
-and syncs it to Google Sheets.
+**Automatyczny pipeline** który śledzi mapy z [ManiaPlanet Feedback (strona 106)](https://feedback.prod.live.maniaplanet.com/votes/display/106) i synchronizuje je z Google Sheets.
 
-## 🗂️ Structure
+**Główny cel**: kiedy nowa mapa pojawi się na stronie feedback — automatycznie dodana do Sheets, bez ręcznej pracy.
+
+## ✨ Co robi
+
+- 🔍 **Wykrywanie nowych map** — porównuje feedback z Sheets, znajduje brakujące
+- 📥 **Automatyczne dodawanie** — nowe mapy wypychane do Sheets przez GAS Web App
+- 📊 **Aktualizacja ocen** — YES/NO rating, 5-Star avg, vote counts — codziennie odświeżane
+- 📈 **Raport zmian** — co się zmieniło w głosach, które mapy wzrosły/spadły
+- 🕐 **Pełna automatyzacja** — GitHub Actions o 5:00 UTC (3:00 w nocy), zero ręcznej pracy
+- 📅 **Sortowanie po dacie** — najnowsze mapy automatycznie na górze
+
+## 🗂️ Struktura
 
 ```
 pursuit-maps/
-├── pipeline/           ← 🚀 Main entry point
-│   ├── pipeline.py     ← 🔧 Single script: sync + votes + report + validate
-│   ├── gas_runner.py   ← 📡 Send data to GAS Web App
-│   ├── all_maps.tsv    ← 📄 All 249 maps with vote data
+├── pipeline/                    # 🚀 Główny skrypt
+│   ├── pipeline.py              # 🔧 sync + votes + report + validate + missing
+│   ├── gas_runner.py            # 📡 Klient GAS Web App
 │   └── gas-webapp/
-│       ├── PursuitMaps.gs  ← ⚡ Deploy once in Sheet
-│       └── README.md       ← 📖 GAS setup guide
-├── data/               ← 💾 Data files
-│   ├── feedback_full.json  ← Cached feedback
-│   ├── vote_history.json   ← Vote snapshots
-│   └── vote_report.md      ← Generated reports
-├── docs/               ← 📖 Setup guides
-├── scripts/legacy/     ← 📁 Old scripts (reference only)
-├── assets/thumbnails/  ← 🖼️ 248 map thumbnails
+│       ├── PursuitMaps.gs       # ⚡ Deploy raz w Sheet (Apps Script)
+│       └── README.md            # 📖 Instalacja GAS
+├── data/                        # 💾 Cache i historia
+│   ├── feedback_full.json       # Cache feedback (249 map)
+│   ├── vote_history.json        # Historia głosów
+│   ├── missing_maps.json        # Raport brakujących map
+│   └── vote_report.md           # Raport zmian
+├── docs/                        # 📖 Dokumentacja
+├── assets/thumbnails/           # 🖼️ 248 miniaturek map
 └── .github/workflows/
-    └── pipeline.yml    ← ⏰ Daily 5:00 UTC auto-sync
+    └── pipeline.yml             # ⏰ Cron: codziennie 5:00 UTC
 ```
 
-## 🚀 Quick Start
+## 🚀 Użycie
 
 ```bash
-python3 pipeline/pipeline.py --action validate  # Validate data quality
-python3 pipeline/pipeline.py                     # Full pipeline (sync + votes + report)
-python3 pipeline/pipeline.py --action sync       # Sync new maps only
-python3 pipeline/pipeline.py --action votes      # Update votes only
-python3 pipeline/pipeline.py --action report     # Generate report only
+python3 pipeline/pipeline.py                     # Pełny pipeline (sync + votes + report)
+python3 pipeline/pipeline.py --action sync       # Dodaj nowe mapy + aktualizuj oceny
+python3 pipeline/pipeline.py --action votes      # Tylko aktualizacja głosów
+python3 pipeline/pipeline.py --action report     # Raport zmian głosów
+python3 pipeline/pipeline.py --action missing    # Raport brakujących map
+python3 pipeline/pipeline.py --action validate   # Sprawdzenie jakości danych
 ```
 
-## ⚡ GAS Setup (one-time)
+## ⚡ Setup GAS (raz)
 
-1. Open Sheet → Extensions → Apps Script
-2. Paste `pipeline/gas-webapp/PursuitMaps.gs`
+1. Otwórz Sheet → Extensions → Apps Script
+2. Wklej `pipeline/gas-webapp/PursuitMaps.gs`
 3. Deploy → New deployment → Web app
    - Execute as: **Me**
    - Who has access: **Anyone**
-4. Save the Web App URL as:
-   - Local: `pipeline/gas_url.txt`
+4. Zapisz URL Web App:
+   - Lokalnie: `pipeline/gas_url.txt`
    - GitHub: Secret `GAS_WEBAPP_URL`
 
-## 📄 License
+## 📋 Kolumny Sheet
 
-MIT — see [LICENSE](LICENSE)
+| Kolumna | Nazwa | Źródło |
+|---------|-------|--------|
+| A | # | Auto-numeracja |
+| B | Map name | Feedback |
+| C | Author login | ManiaExchange |
+| D | Environment | ManiaExchange |
+| E | Uploaded at | ManiaExchange (sortowane malejąco) |
+| F | UID | Feedback |
+| G | MapType | ManiaExchange |
+| H | Notes | Ręczne |
+| I | YN Rating | Feedback YES/NO |
+| J | YN Votes | Feedback YES/NO |
+| K | 5-Star Avg | Feedback 5 STARS |
+| L | 5-Star Total | Feedback 5 STARS |
+
+## 📄 Licencja
+
+MIT — zobacz [LICENSE](LICENSE)
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+Zobacz [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## 🔒 Security
 
-See [SECURITY.md](SECURITY.md)
+Zobacz [SECURITY.md](SECURITY.md)
