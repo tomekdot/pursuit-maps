@@ -1,0 +1,151 @@
+[
+  {
+    "uid": "2D3zlVXrfDSjvAb1AKy5UyYefRg",
+    "hash": "4f6db81965",
+    "name": "Pursuit - Scadroy Town",
+    "yn_rating": 3.8,
+    "yn_votes": 1284,
+    "stars_avg": 3.9,
+    "stars_total": 672
+  },
+  {
+    "uid": "NPLxQYKZfoM8HGTAYqQOR__U0nm",
+    "hash": "0e63f2e922",
+    "name": "Pursuit - Goats Will Fly!",
+    "yn_rating": 3.4,
+    "yn_votes": 1066,
+    "stars_avg": 3.6,
+    "stars_total": 787,
+    "author": "owen8900",
+    "env": "Canyon",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2018-09-22 20:37:49"
+  },
+  {
+    "uid": "U7nlgpxeG99ImEL1FMFAp1vG2Gf",
+    "hash": "2724a6389c",
+    "name": "Pursuit  Frantic Chaos",
+    "yn_rating": 2.6,
+    "yn_votes": 223,
+    "stars_avg": 3.7,
+    "stars_total": 73,
+    "author": "owen8900",
+    "env": "Canyon",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2018-10-07 16:31:03"
+  },
+  {
+    "uid": "8t95h6YT4i64uV_sqxwTryVXwJg",
+    "hash": "d6491c132f",
+    "name": "Pursuit - Tower Escape 2!",
+    "yn_rating": 3.4,
+    "yn_votes": 40,
+    "stars_avg": 3.4,
+    "stars_total": 99,
+    "author": "owen8900",
+    "env": "Canyon",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2018-09-21 21:11:08"
+  },
+  {
+    "uid": "6NKTsLwtZVGjpaST0fHSxfIqFQa",
+    "hash": "19442aa8f3",
+    "name": "Pursuit - Tower Escape 1·6!",
+    "yn_rating": 3.3,
+    "yn_votes": 815,
+    "stars_avg": 3.6,
+    "stars_total": 678,
+    "author": "owen8900",
+    "env": "Canyon",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2019-02-20 14:30:05"
+  },
+  {
+    "uid": "HItMOwq_6LIMRPhJVagRx1Q1sHf",
+    "hash": "e4d4186428",
+    "name": "Pursuit - Very Small Arena",
+    "yn_rating": 2.2,
+    "yn_votes": 62,
+    "stars_avg": 3.5,
+    "stars_total": 893
+  },
+  {
+    "uid": "8h2q2UD7RFrzuWeT9RoJdu0u3ik",
+    "hash": "4f8d6176ea",
+    "name": "Pursuit - BaseValley!",
+    "yn_rating": 2.3,
+    "yn_votes": 15,
+    "stars_avg": 3.5,
+    "stars_total": 85
+  },
+  {
+    "uid": "WF3dPj81WGyASVy3A9kB1twBuf0",
+    "hash": "29624df4d4",
+    "name": "Pursuit - Chaos Oval!",
+    "yn_rating": 0.0,
+    "yn_votes": 0,
+    "stars_avg": 3.2,
+    "stars_total": 46,
+    "author": "owen8900",
+    "env": "Stadium",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2018-07-11 21:10:46"
+  },
+  {
+    "uid": "A7TstZsq_1tWYzol63C8YqGMf5b",
+    "hash": "1bb1a2f112",
+    "name": "Goal Hunt - Lagoon A08!",
+    "yn_rating": 0.0,
+    "yn_votes": 0,
+    "stars_avg": 3.4,
+    "stars_total": 49,
+    "author": "owen8900",
+    "env": "Lagoon",
+    "mx_maptype": "GoalHuntArena",
+    "uploaded": "2018-04-23 20:41:30"
+  },
+  {
+    "uid": "oWry1EETuN8WOWrIgY6sreAaIA",
+    "hash": "e90d0e2e4c",
+    "name": "Pursuit - BaseLagoon!",
+    "yn_rating": 2.1,
+    "yn_votes": 21,
+    "stars_avg": 3.6,
+    "stars_total": 34
+  },
+  {
+    "uid": "jb1AxqUbgxAXkzbilSnVPzOakU0",
+    "hash": "602ef5338f",
+    "name": "Pursuit - BaseCanyon!",
+    "yn_rating": 0.0,
+    "yn_votes": 0,
+    "stars_avg": 3.5,
+    "stars_total": 58
+  },
+  {
+    "uid": "r5HKjyhE4rm1VIrtwsXP0umxyKa",
+    "hash": "5a239d3528",
+    "name": "Pursuit - Community Map #01",
+    "yn_rating": 2.6,
+    "yn_votes": 53,
+    "stars_avg": 3.8,
+    "stars_total": 9,
+    "author": "domino54",
+    "env": "Stadium",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2018-10-14 22:01:40"
+  },
+  {
+    "uid": "TISJLeThBMr8PQ1rNSDxktLk6Zi",
+    "hash": "497b048185",
+    "name": "Pursuit - Community Map #04",
+    "yn_rating": 2.7,
+    "yn_votes": 489,
+    "stars_avg": 3.3,
+    "stars_total": 548,
+    "author": "domino54",
+    "env": "Canyon",
+    "mx_maptype": "PursuitArena",
+    "uploaded": "2019-01-09 23:26:03"
+  }
+]

@@ -32,23 +32,23 @@ and syncs it to Google Sheets. Runs via GitHub Actions daily at 5:00 UTC.
 ```
 pursuit-maps/
 ├── pipeline/
-│   ├── pipeline.py          ← Main script: sync + votes + report + validate
-│   ├── gas_runner.py        ← HTTP client for GAS Web App
-│   ├── all_maps.tsv         ← All 249 maps with votes (for manual paste)
+│   ├── pipeline.py             # Main script: sync + votes + report + validate
+│   ├── gas_runner.py           # HTTP client for GAS Web App
+│   ├── all_maps.tsv            # All 249 maps with votes (for manual paste)
 │   └── gas-webapp/
-│       ├── PursuitMaps.gs   ← Deploy once in Sheet (Extensions → Apps Script)
-│       └── README.md        ← GAS setup guide
+│       ├── PursuitMaps.gs      # Deploy once in Sheet (Extensions → Apps Script)
+│       └── README.md           # GAS setup guide
 ├── data/
-│   ├── feedback_full.json   ← Cached feedback data (249 maps)
-│   ├── vote_history.json    ← Vote snapshots (90 days)
-│   └── vote_report.md       ← Generated vote change report
+│   ├── feedback_full.json      # Cached feedback data (249 maps)
+│   ├── vote_history.json       # Vote snapshots (90 days)
+│   └── vote_report.md          # Generated vote change report
 ├── docs/
 │   ├── GOOGLE_SHEETS_SETUP.md
 │   └── SHEETS_WRITE_SETUP.md
-├── scripts/legacy/           ← Old scripts (reference only)
-├── assets/thumbnails/        ← 248 map thumbnail JPGs
+├── scripts/legacy/             # Old scripts (reference only)
+├── assets/thumbnails/          # 248 map thumbnail JPGs
 └── .github/workflows/
-    └── pipeline.yml          ← Daily cron 5:00 UTC
+    └── pipeline.yml            # Daily cron 5:00 UTC
 ```
 
 ## Usage
