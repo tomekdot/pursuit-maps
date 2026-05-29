@@ -547,7 +547,7 @@ def main():
     parser = argparse.ArgumentParser(description="Pursuit Maps Pipeline")
     parser.add_argument(
         "--action",
-        choices=["sync", "votes", "report", "validate", "all"],
+        choices=["sync", "votes", "report", "validate", "missing", "all"],
         default="all",
     )
     args = parser.parse_args()
@@ -566,12 +566,114 @@ def main():
         ok = action_report() and ok
     if args.action == "validate":
         ok = action_validate() and ok
+    if args.action == "missing":
+        ok = action_missing() and ok
 
     if ok:
         print("\nDone!")
     else:
         print("\nCompleted with errors.")
         sys.exit(1)
+
+
+# ── Action: missing ─────────────────────────────────────────────────────────
+
+def action_missing():
+    """Find maps in feedback that are NOT in sheet (need MX enrichment)."""
+    log("=== MISSING MAPS REPORT ===")
+
+    # Load feedback
+    if FEEDBACK_CACHE.exists():
+        with open(FEEDBACK_CACHE) as f:
+            feedback = json.load(f)
+    else:
+        feedback = fetch_feedback()
+    if not feedback:
+        return False
+
+    log(f"Feedback: {len(feedback)} maps")
+
+    # Fetch current sheet UIDs
+    raw = http_get(SHEET_API)
+    sheet_uids = set()
+    if raw:
+        try:
+            data = json.loads(raw.split("(", 1)[1].rsplit(");", 1)[0])
+            rows = data.get("table", {}).get("rows", [])
+            for row in rows:
+                cells = row.get("c", [])
+                if len(cells) > 5 and cells[5]:
+                    v = cells[5].get("v")
+                    if v:
+                        sheet_uids.add(str(v).strip())
+        except:
+            pass
+
+    log(f"Sheet: {len(sheet_uids)} UIDs")
+
+    # Find missing
+    missing = [m for m in feedback if m["uid"] not in sheet_uids]
+    log(f"Missing from sheet: {len(missing)}")
+
+    if not missing:
+        log("All feedback maps are in sheet!")
+        return True
+
+    # Try to enrich with MX for better info
+    log("Enriching missing maps with MX...")
+    for i, m in enumerate(missing):
+        uid = m.get("uid", "")
+        if uid:
+            mx = fetch_mx(uid)
+            if mx:
+                m["author"] = clean(mx.get("AuthorLogin", ""))
+                m["env"] = clean(mx.get("EnvironmentName", ""))
+                raw_mt = clean(mx.get("MapType", ""))
+                m["mx_maptype"] = raw_mt
+                uploaded_raw = clean(mx.get("UploadedAt", ""))
+                if not uploaded_raw:
+                    uploaded_raw = clean(mx.get("Uploaded", ""))
+                if uploaded_raw:
+                    uploaded_raw = uploaded_raw.replace("T", " ").replace("Z", "")
+                    if "." in uploaded_raw:
+                        uploaded_raw = uploaded_raw.split(".")[0]
+                    m["uploaded"] = uploaded_raw
+            time.sleep(0.15)
+        if (i + 1) % 50 == 0:
+            log(f"  MX [{i+1}/{len(missing)}]")
+
+    # Save report
+    report_lines = [
+        f"# Missing Maps Report - {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
+        "",
+        f"Total in feedback: {len(feedback)}",
+        f"In sheet: {len(sheet_uids)}",
+        f"MISSING: {len(missing)}",
+        "",
+        "| # | Name | UID | Author | Env | MapType | YN | 5★ | Uploaded |",
+        "|---|------|-----|--------|-----|---------|----|-----|----------|",
+    ]
+
+    for i, m in enumerate(missing, 1):
+        yn = f"{m.get('yn_rating', 0):.1f}/5" if m.get('yn_rating') else "N/A"
+        st = f"{m.get('stars_avg', 0):.1f}/5" if m.get('stars_avg') else "N/A"
+        report_lines.append(
+            f"| {i} | {m['name']} | {m['uid']} | {m.get('author', '')} | "
+            f"{m.get('env', '')} | {m.get('mx_maptype', '')} | {yn} | {st} | {m.get('uploaded', '')} |"
+        )
+
+    # Also save as JSON for easy processing
+    DATA_DIR.mkdir(exist_ok=True)
+    with open(DATA_DIR / "missing_maps.json", "w") as f:
+        json.dump(missing, f, ensure_ascii=False, indent=2)
+
+    report_path = BASE_DIR / "missing_maps_report.md"
+    with open(report_path, "w") as f:
+        f.write("\n".join(report_lines))
+
+    log(f"Report saved to {report_path}")
+    log(f"JSON saved to {DATA_DIR / 'missing_maps.json'}")
+    return True
 
 
 if __name__ == "__main__":

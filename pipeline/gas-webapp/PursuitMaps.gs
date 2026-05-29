@@ -378,8 +378,12 @@ function sortSheetByUploaded() {
   var sortedValues = parsed.map(function(p) { return p.row; });
   sheet.getRange(2, 1, sortedValues.length, 12).setValues(sortedValues);
 
-  return { status: 'ok', message: 'Sorted by Uploaded At (descending)', rows: sortedValues.length };
-}
+  // Re-number column A (row numbers) after sort
+  for (var s = 0; s < sortedValues.length; s++) {
+    sheet.getRange(s + 2, 1).setValue(s + 1);
+  }
+
+  return { status: 'ok', message: 'Sorted by Uploaded At (descending), renumbered', rows: sortedValues.length };
 
 /**
  * Add the new column headers if they don't exist
