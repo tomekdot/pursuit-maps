@@ -117,15 +117,15 @@ function doPost(e) {
 
   if (action === 'sync') {
     result = performSync(payload);
-    // Auto-sort by Uploaded At after sync
-    var sortResult = sortSheetByUploaded();
-    result.sortAfterSync = sortResult;
+    // Renumber column A after sync (sequential, no upload-date sort)
+    var sortResult = renumberColumnA();
+    result.renumberAfterSync = sortResult;
   } else if (action === 'votes') {
     result = updateVotes(payload);
   } else if (action === 'setup') {
     result = addHeaders();
-  } else if (action === 'sort') {
-    result = sortSheetByUploaded();
+  } else if (action === 'sort' || action === 'renumber') {
+    result = renumberColumnA();
   } else {
     result = { status: 'error', message: 'Unknown action: ' + action };
   }
@@ -357,7 +357,26 @@ function updateVotes(payload) {
 }
 
 /**
- * Sort sheet by Uploaded At (column E) descending — newest first
+ * Renumber column A sequentially (1, 2, 3...) without reordering rows
+ * POST with: {"action": "renumber"}
+ */
+function renumberColumnA() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = getSheet(ss);
+  var lastRow = sheet.getLastRow();
+  if (lastRow < 2) return { status: 'ok', message: 'Nothing to renumber' };
+
+  var nums = [];
+  for (var i = 2; i <= lastRow; i++) {
+    nums.push([i - 1]);
+  }
+  sheet.getRange(2, 1, nums.length, 1).setValues(nums);
+
+  return { status: 'ok', message: 'Column A renumbered', rows: nums.length };
+}
+
+/**
+ * Sort sheet by Uploaded At (column E) descending — DEPRECATED, use renumberColumnA instead
  * POST with: {"action": "sort"}
  */
 function sortSheetByUploaded() {
