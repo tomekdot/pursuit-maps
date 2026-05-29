@@ -18,16 +18,19 @@ jobs:
       - name: Fetch feedback + MX -> Sheet (GAS)
         env:
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
-        run: python3 pipeline/pipeline.py --action sync
+        run: |
+          echo "Fetching feedback and syncing to Sheet..."
+          python3 pipeline/pipeline.py --action sync
+        timeout-minutes: 15
 
       - name: Update votes
-        if: always()
+        if: success()
         env:
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
         run: python3 pipeline/pipeline.py --action votes
 
-      - name: Vote tracker report
-        if: always()
+      - name: Generate report
+        if: success()
         run: python3 pipeline/pipeline.py --action report
 
       - name: Commit data
@@ -35,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/ pipeline/ vote_report.md 2>/dev/null
+          git add data/ vote_report.md missing_maps_report.md missing_maps.json 2>/dev/null
           git diff --cached --quiet || git commit -m "Pipeline update $(date -u +%Y-%m-%d-%H%M)"
           git push
