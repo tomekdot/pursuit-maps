@@ -135,6 +135,21 @@ function doPost(e) {
 }
 
 /**
+ * Restore the legacy open hook so existing triggers do not fail.
+ */
+function onOpen(e) {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('Pursuit Maps')
+    .addItem('Setup headers', 'addHeaders')
+    .addItem('Sort by Uploaded At', 'sortSheetByUploaded')
+    .addToUi();
+}
+
+function onInstall(e) {
+  onOpen(e);
+}
+
+/**
  * Get the target sheet by GID
  */
 function getSheet(ss) {
@@ -384,6 +399,7 @@ function sortSheetByUploaded() {
   }
 
   return { status: 'ok', message: 'Sorted by Uploaded At (descending), renumbered', rows: sortedValues.length };
+}
 
 /**
  * Add the new column headers if they don't exist
