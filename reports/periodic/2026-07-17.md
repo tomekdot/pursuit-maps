@@ -1,0 +1,152 @@
+# 🌙 Weekly Pursuit Maps Report — 2026-07-17
+
+_Generated 2026-07-17 00:18 UTC · Moon phase: **New Moon** · Reports every 4 moon phases (~weekly)_
+
+## 📊 Snapshot
+
+- Total maps tracked: **302**
+- Maps with a 5-Star rating: **253**
+- Maps with a YES/NO rating: **51**
+- Total YES/NO votes cast: **13,524**
+- Total 5-Star votes cast: **26,265**
+- Average 5-Star rating: **3.69/5**
+- Average YES/NO rating: **3.02/5**
+- Vote-history snapshots on file: **3**
+
+## 🏆 Best Maps (by 5-Star, min. 20 votes)
+
+| # | Map | 5★ Avg | Votes | YN |
+|---|-----|--------|-------|----|
+| 1 | Pursuit - Surrounded | 4.2/5 | 42 | — |
+| 2 | Pursuit - The Crazy Rampage! | 4.1/5 | 78 | — |
+| 3 | Pursuit - BlockFort | 4.0/5 | 79 | 3.7/5 |
+| 4 | Pursuit - Pursuit Party #02 | 4.0/5 | 69 | 2.8/5 |
+| 5 | Pursuit - Homelo | 4.0/5 | 24 | 2.2/5 |
+| 6 | Pursuit - On The Move! | 3.9/5 | 750 | — |
+| 7 | Pursuit - Scadroy Town | 3.9/5 | 672 | 3.8/5 |
+| 8 | Pursuit - The Not So Crazy Rampage! | 3.9/5 | 583 | — |
+| 9 | Pursuit - Turn Around | 3.9/5 | 132 | 3.5/5 |
+| 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 123 | 2.9/5 |
+
+## 🔥 Most Popular (by 5-Star vote count)
+
+| # | Map | 5★ Votes | 5★ Avg |
+|---|-----|----------|--------|
+| 1 | Pursuit - Very Small Arena | 895 | 3.5/5 |
+| 2 | Pursuit - Red Box 2 | 877 | 3.7/5 |
+| 3 | Pursuit - Airport v2 | 872 | 3.7/5 |
+| 4 | Pursuit - I Really Don't Know! | 791 | 3.4/5 |
+| 5 | Pursuit - Goats Will Fly! | 787 | 3.6/5 |
+| 6 | Pursuit - Sayonara Chloe | 759 | 3.5/5 |
+| 7 | Pursuit - On The Move! | 750 | 3.9/5 |
+| 8 | Pursuit - Block Fort Canyon | 733 | 3.8/5 |
+| 9 | Pursuit - Bugslide Heaven | 732 | 3.4/5 |
+| 10 | Pursuit - Volley | 718 | 3.5/5 |
+
+## ✅ Community Favourites (by YES/NO, min. 20 votes)
+
+| # | Map | YN Rating | YN Votes |
+|---|-----|-----------|----------|
+| 1 | Pursuit - Dynamo | 4.0/5 | 107 |
+| 2 | Goal Hunt - Rolling Out | 3.9/5 | 170 |
+| 3 | Pursuit - Gedney Shore | 3.9/5 | 98 |
+| 4 | Pursuit - Scadroy Town | 3.8/5 | 1284 |
+| 5 | Pursuit - BlockFort | 3.7/5 | 63 |
+| 6 | Pursuit - Tower Escape 1·5! | 3.5/5 | 796 |
+| 7 | Pursuit - Turn Around | 3.5/5 | 682 |
+| 8 | Goal Hunt - Pancake Muffins | 3.5/5 | 136 |
+| 9 | Pursuit - Goats Will Fly! | 3.4/5 | 1066 |
+| 10 | Pursuit - Basketball | 3.4/5 | 504 |
+
+## 🎮 How Maps Are Being Rated Right Now
+
+_We don't have raw play logs, so 'commonly played' is inferred from vote activity: maps whose vote counts grow fastest between snapshots are the ones people are actively choosing and rating._
+
+**biggest vote growth since previous snapshot (proxy for 'actively played/rated')**
+
+| # | Map | 5★ Total | YN Votes | Recent vote growth |
+|---|-----|----------|----------|--------------------|
+| 1 | Goal Hunt - Merwood Lagoon | 123 | 164 | +5 |
+| 2 | Pursuit - Dynamo | 519 | 107 | +4 |
+| 3 | Pursuit - Mode #02 | 601 | 236 | +3 |
+| 4 | Pursuit - Airport v2 | 872 | 364 | +3 |
+| 5 | P a r k i n  b y  z i y x | 151 | 518 | +3 |
+| 6 | GH - SuperBowl | 201 | 184 | +3 |
+| 7 | Pursuit - BlockFort | 79 | 63 | +3 |
+| 8 | Pursuit - Pursuit Party #03 | 695 | 121 | +2 |
+| 9 | Pursuit - Gedney Shore | 421 | 98 | +2 |
+| 10 | B a t t l e g r o u n d  b y  z i y x | 508 | 1167 | +2 |
+
+## 🌍 Maps by Environment
+
+Stadium                  ████████████████████████████ 136
+Canyon                   ██████████████░░░░░░░░░░░░░░ 69
+Lagoon                   █████████░░░░░░░░░░░░░░░░░░░ 46
+Valley                   █████████░░░░░░░░░░░░░░░░░░░ 42
+Unknown                  ██░░░░░░░░░░░░░░░░░░░░░░░░░░ 9
+
+## 🎯 Maps by Mode (MapType)
+
+PursuitArena             ████████████████████████████ 205
+GoalHuntArena            ████████████░░░░░░░░░░░░░░░░ 87
+Unknown                  █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4
+Trackmania\Race          █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
+HuntersArena             █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
+
+## 👤 Top Authors (by map count, top 12)
+
+dogestar_tm              ████████████████████████████ 62
+owen8900                 ██████████████░░░░░░░░░░░░░░ 32
+Unknown                  ██████████████░░░░░░░░░░░░░░ 31
+lukin27                  ████████████░░░░░░░░░░░░░░░░ 26
+cime62                   █████████░░░░░░░░░░░░░░░░░░░ 20
+domino54                 ███████░░░░░░░░░░░░░░░░░░░░░ 15
+aurovee                  ██████░░░░░░░░░░░░░░░░░░░░░░ 14
+tomek_k.                 ██████░░░░░░░░░░░░░░░░░░░░░░ 13
+--rudi--                 ████░░░░░░░░░░░░░░░░░░░░░░░░ 9
+sparkster                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 7
+piotrunio                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 6
+krongtekk                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 6
+
+## ⭐ 5-Star Rating Distribution
+
+0.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+0.5                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+1.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+1.5                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+2.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
+2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
+3.0                      ███░░░░░░░░░░░░░░░░░░░░░░░░░ 15
+3.5                      ████████████████████████████ 129
+4.0                      █████████████████████░░░░░░░ 95
+4.5                      ██░░░░░░░░░░░░░░░░░░░░░░░░░░ 10
+5.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+
+## 📈 How Ratings Changed Over Time
+
+_Comparing first snapshot (2026-05-28T18:05:19Z) with latest (2026-07-17T00:18:09Z)._
+
+**▲ Most improved**
+
+| # | Map | 5★ before→after | YN before→after |
+|---|-----|-----------------|-----------------|
+| 1 | Goal Hunt - Pancake Muffins | 3.6/5→3.7/5 | 3.5/5→3.5/5 |
+
+**▼ Most declined**
+
+| # | Map | 5★ before→after | YN before→after |
+|---|-----|-----------------|-----------------|
+| 1 | Pursuit - The Mall'''; | 5.0/5→— | 5.0/5→— |
+| 2 | Pursuit - The Pit | 3.6/5→— | 3.6/5→— |
+| 3 | Goal Hunt - Lagoon A08! | 3.4/5→— | 3.4/5→— |
+| 4 | Pursuit - bowl | 3.3/5→— | 3.3/5→— |
+| 5 | Pursuit - Air Show | 3.4/5→— | 2.7/5→— |
+| 6 | GHC2! #5 Valley A08 but with more A08 | 4.1/5→3.5/5 | 4.1/5→— |
+| 7 | Pursuit - The Sun | 4.4/5→4.0/5 | 4.4/5→— |
+| 8 | Pursuit - 6^3 | 4.0/5→3.4/5 | 4.0/5→— |
+| 9 | GHC2! #11 Cold Heights | 4.5/5→4.2/5 | 4.5/5→— |
+| 10 | Pursuit - IslandCar Vs BayCar | 4.4/5→4.1/5 | 4.4/5→— |
+
+## 🆕 New Since Last Report
+
+_No new maps since the previous periodic report._

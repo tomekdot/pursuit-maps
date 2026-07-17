@@ -10,6 +10,7 @@
 - 📥 **Auto-add** — new maps pushed to Sheets via GAS Web App
 - 📊 **Vote tracking** — YES/NO rating, 5-Star avg, vote counts — refreshed daily
 - 📈 **Change reports** — what changed in votes, which maps rose/fell
+- 🌙 **Periodic community reports** — weekly (~every 4 moon phases) digest: best/popular/most-improved maps, how ratings shift over time, which maps are being actively rated ("commonly played" proxy via vote growth), plus environment/mode/author breakdowns with ASCII charts
 - 🕐 **Full automation** — GitHub Actions at 5:00 UTC daily, zero manual work
 - 📅 **Sequential numbering** — column A renumbered after each sync, new maps appended at end
 
@@ -25,9 +26,13 @@ pursuit-maps/
 │       └── README.md            # 📖 GAS setup guide
 ├── data/                        # 💾 Cache and history
 │   ├── feedback_full.json       # Feedback cache (253 maps)
-│   ├── vote_history.json        # Vote history
+│   ├── feedback_full_json       # Pipeline feedback cache (no dot)
+│   ├── vote_history.json        # Vote snapshots (time-series for trends)
 │   ├── missing_maps.json        # Missing maps report
 │   └── vote_report.md           # Change report
+├── reports/                     # 🌙 Periodic community reports
+│   ├── periodic/                # Dated reports (YYYY-MM-DD.md)
+│   └── latest_periodic.md       # Always the newest report
 ├── docs/                        # 📖 Documentation
 ├── assets/thumbnails/           # 🖼️ 248 map thumbnails
 └── .github/workflows/
@@ -43,6 +48,8 @@ python3 pipeline/pipeline.py --action votes      # Update votes only
 python3 pipeline/pipeline.py --action report     # Generate vote change report
 python3 pipeline/pipeline.py --action missing    # Report missing maps
 python3 pipeline/pipeline.py --action validate   # Data quality checks
+python3 pipeline/periodic_report.py --cadence weekly   # Generate weekly community report
+python3 pipeline/periodic_report.py --auto             # Only if due (use in CI)
 ```
 
 ## ⚡ GAS Setup (once)

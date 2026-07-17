@@ -1,0 +1,36 @@
+name: Periodic Pursuit Maps Report
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Weekly ~ every 4 moon phases (new/first-quarter/full/last-quarter ≈ 7 days).
+    # Sunday 06:00 UTC.
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate periodic report
+        run: |
+          python3 pipeline/periodic_report.py --cadence weekly --auto
+        timeout-minutes: 10
+
+      - name: Commit reports
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add reports/ data/vote_history.json data/last_periodic_run.json data/last_periodic_report.json 2>/dev/null
+          git diff --cached --quiet || git commit -m "Periodic report $(date -u +%Y-%m-%d)"
+          git push
