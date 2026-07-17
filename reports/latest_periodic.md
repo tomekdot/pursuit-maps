@@ -1,17 +1,17 @@
 # 🌙 Weekly Pursuit Maps Report — 2026-07-17
 
-_Generated 2026-07-17 00:22 UTC · Moon phase: **New Moon** · Reports every 4 moon phases (~weekly)_
+_Generated 2026-07-17 14:56 UTC · Moon phase: **New Moon** · Reports every 4 moon phases (~weekly)_
 
 ## 📊 Snapshot
 
-- Total maps tracked: **302**
-- Maps with a 5-Star rating: **253**
-- Maps with a YES/NO rating: **51**
+- Total maps tracked: **303**
+- Maps with a 5-Star rating: **258**
+- Maps with a YES/NO rating: **52**
 - Total YES/NO votes cast: **13,524**
-- Total 5-Star votes cast: **26,265**
+- Total 5-Star votes cast: **26,268**
 - Average 5-Star rating: **3.69/5**
-- Average YES/NO rating: **3.02/5**
-- Vote-history snapshots on file: **4**
+- Average YES/NO rating: **3.01/5**
+- Vote-history snapshots on file: **5**
 
 ## 🏆 Best Maps (by 5-Star, min. 20 votes)
 
@@ -64,11 +64,14 @@ _We don't have raw play logs, so 'commonly played' is inferred from vote activit
 
 **biggest vote growth since previous snapshot (proxy for 'actively played/rated')**
 
-_No vote growth detected yet between snapshots. This section fills in once history accumulates._
+| # | Map | 5★ Total | YN Votes | Recent vote growth |
+|---|-----|----------|----------|--------------------|
+| 1 | B a t t l e g r o u n d  b y  z i y x | 510 | 1167 | +2 |
+| 2 | Pursuit - BLOCK WORLD #2 | 1 | 0 | +1 |
 
 ## 🌍 Maps by Environment
 
-Stadium                  ████████████████████████████ 136
+Stadium                  ████████████████████████████ 137
 Canyon                   ██████████████░░░░░░░░░░░░░░ 69
 Lagoon                   █████████░░░░░░░░░░░░░░░░░░░ 46
 Valley                   █████████░░░░░░░░░░░░░░░░░░░ 42
@@ -76,7 +79,7 @@ Unknown                  ██░░░░░░░░░░░░░░░░�
 
 ## 🎯 Maps by Mode (MapType)
 
-PursuitArena             ████████████████████████████ 205
+PursuitArena             ████████████████████████████ 206
 GoalHuntArena            ████████████░░░░░░░░░░░░░░░░ 87
 Unknown                  █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4
 Trackmania\Race          █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
@@ -94,8 +97,8 @@ aurovee                  ██████░░░░░░░░░░░░�
 tomek_k.                 ██████░░░░░░░░░░░░░░░░░░░░░░ 13
 --rudi--                 ████░░░░░░░░░░░░░░░░░░░░░░░░ 9
 sparkster                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 7
+krongtekk                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 7
 piotrunio                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 6
-krongtekk                ███░░░░░░░░░░░░░░░░░░░░░░░░░ 6
 
 ## ⭐ 5-Star Rating Distribution
 
@@ -105,15 +108,15 @@ krongtekk                ███░░░░░░░░░░░░░░░�
 1.5                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 2.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
 2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
-3.0                      ███░░░░░░░░░░░░░░░░░░░░░░░░░ 15
-3.5                      ████████████████████████████ 129
-4.0                      █████████████████████░░░░░░░ 95
+3.0                      ███░░░░░░░░░░░░░░░░░░░░░░░░░ 16
+3.5                      ████████████████████████████ 132
+4.0                      ████████████████████░░░░░░░░ 95
 4.5                      ██░░░░░░░░░░░░░░░░░░░░░░░░░░ 10
-5.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+5.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
 
 ## 📈 How Ratings Changed Over Time
 
-_Comparing first snapshot (2026-05-28T18:05:19Z) with latest (2026-07-17T00:18:23Z)._
+_Comparing first snapshot (2026-05-28T18:05:19Z) with latest (2026-07-17T00:22:44Z)._
 
 **▲ Most improved**
 
@@ -138,4 +141,8 @@ _Comparing first snapshot (2026-05-28T18:05:19Z) with latest (2026-07-17T00:18:2
 
 ## 🆕 New Since Last Report
 
-_No new maps since the previous periodic report._
+**1** map(s) added since the last periodic report (2026-07-17):
+
+| # | Map | Author | Env | 5★ Avg |
+|---|-----|--------|-----|--------|
+| 1 | Pursuit! - BLOCKY WORLD #3 | krongtekk | Stadium | — |
