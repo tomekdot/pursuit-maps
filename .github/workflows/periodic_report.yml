@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate periodic report
         run: |
-          python3 pipeline/periodic_report.py --cadence weekly --auto
+          python3 pipeline/periodic_report.py --cadence weekly --force
         timeout-minutes: 10
 
       - name: Commit reports
