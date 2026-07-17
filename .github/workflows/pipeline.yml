@@ -44,4 +44,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/ vote_report.md missing_maps_report.md missing_maps.json 2>/dev/null
           git diff --cached --quiet || git commit -m "Pipeline update $(date -u +%Y-%m-%d-%H%M)"
-          git push
+          git push origin HEAD:master
