@@ -1,14 +1,26 @@
-# Vote Report - 2026-07-17 15:00 UTC
+# Vote Report - 2026-07-18 06:54 UTC
 
-Generated: 2026-07-17 15:00 UTC | Previous: 2026-07-17 14:58 UTC
+Generated: 2026-07-18 06:54 UTC | Previous: 2026-07-17 15:00 UTC
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 0
-- Ratings risen: 0
-- Ratings fallen: 0
+- Maps with rating changes: 2
+- Ratings risen: 1
+- Ratings fallen: 1
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit! - BLOCKY WORLD #3 | N/A | N/A | N/A | 3.3/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit - Rocket Mania | N/A | N/A | 4.2/5 | 4.1/5 |
 
 ## Top 10 by 5-Star Rating
 
