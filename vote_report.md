@@ -1,29 +1,28 @@
-# Vote Report - 2026-07-19 07:22 UTC
+# Vote Report - 2026-07-20 07:52 UTC
 
-Generated: 2026-07-19 07:22 UTC | Previous: 2026-07-18 06:54 UTC
+Generated: 2026-07-20 07:52 UTC | Previous: 2026-07-19T08:16:51Z
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 5
-- Ratings risen: 2
-- Ratings fallen: 3
+- Maps with rating changes: 4
+- Ratings risen: 3
+- Ratings fallen: 1
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | 3.4/5 | 3.5/5 |
-| 2 | Pursuit - Half Grid | N/A | N/A | 3.4/5 | 3.5/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
+| 2 | Pursuit! - BLOCKY WORLD #3 | N/A | N/A | 3.3/5 | 3.7/5 |
+| 3 | Pursuit - Turn Around | 3.5/5 | 3.5/5 | 3.9/5 | 4.0/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - snail race | N/A | N/A | 4.6/5 | 4.3/5 |
-| 2 | Pursuit - Police Chase Revised | N/A | N/A | 4.0/5 | 3.8/5 |
-| 3 | L o b o  b y  K i K i 1 1 3 | N/A | N/A | 4.2/5 | 4.0/5 |
+| 1 | Pursuit-you like empty maps like turn around so he | N/A | N/A | 3.9/5 | 3.8/5 |
 
 ## Top 10 by 5-Star Rating
 
