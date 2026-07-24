@@ -1,14 +1,26 @@
-# Vote Report - 2026-07-23 07:27 UTC
+# Vote Report - 2026-07-24 07:25 UTC
 
-Generated: 2026-07-23 07:27 UTC | Previous: 2026-07-22 07:29 UTC
+Generated: 2026-07-24 07:25 UTC | Previous: 2026-07-23 07:27 UTC
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 0
-- Ratings risen: 0
-- Ratings fallen: 0
+- Maps with rating changes: 2
+- Ratings risen: 1
+- Ratings fallen: 1
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | [Pursuit] - Third Contribution | N/A | N/A | 3.6/5 | 3.7/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt - Stadium A08! | N/A | N/A | 3.5/5 | 3.4/5 |
 
 ## Top 10 by 5-Star Rating
 
