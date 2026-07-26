@@ -1,12 +1,12 @@
-# Vote Report - 2026-07-25 07:10 UTC
+# Vote Report - 2026-07-26 07:31 UTC
 
-Generated: 2026-07-25 07:10 UTC | Previous: 2026-07-24 07:25 UTC
+Generated: 2026-07-26 07:31 UTC | Previous: 2026-07-25 07:10 UTC
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 2
-- Ratings risen: 2
+- Maps with rating changes: 1
+- Ratings risen: 1
 - Ratings fallen: 0
 - New maps: 0
 
@@ -14,8 +14,7 @@ Generated: 2026-07-25 07:10 UTC | Previous: 2026-07-24 07:25 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Community Map #01 | 2.6/5 | 2.6/5 | 3.8/5 | 4.1/5 |
-| 2 | Pursuit  Fustercluck | 2.5/5 | 2.5/5 | 3.6/5 | 3.7/5 |
+| 1 | Pursuit - BLOCK WORLD #2 | N/A | N/A | 3.0/5 | 4.0/5 |
 
 ## Top 10 by 5-Star Rating
 
