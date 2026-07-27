@@ -1,26 +1,35 @@
-# Vote Report - 2026-07-26 07:31 UTC
+# Vote Report - 2026-07-27 08:22 UTC
 
-Generated: 2026-07-26 07:31 UTC | Previous: 2026-07-25 07:10 UTC
+Generated: 2026-07-27 08:22 UTC | Previous: 2026-07-26T08:25:05Z
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 1
-- Ratings risen: 1
-- Ratings fallen: 0
+- Maps with rating changes: 5
+- Ratings risen: 3
+- Ratings fallen: 2
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - BLOCK WORLD #2 | N/A | N/A | 3.0/5 | 4.0/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
+| 2 | Pursuit !!! - FIND YOUR TARGET | N/A | N/A | 3.9/5 | 4.1/5 |
+| 3 | [Lati Goal Hunt] Arena Alpha | N/A | N/A | 3.6/5 | 3.7/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt Christmas #23 Who needs space anyway 3! | N/A | N/A | 3.5/5 | 3.4/5 |
+| 2 | GHC2! #3 Bugslide Ice | N/A | N/A | 3.4/5 | 3.3/5 |
 
 ## Top 10 by 5-Star Rating
 
 | # | Map | 5-Star Avg | Total Votes | YN Rating |
 |---|-----|------------|-------------|-----------|
-| 1 | Pursuit - The Mall &#039;&#039;&#039;&#039; | 4.8/5 | 5 | N/A |
+| 1 | Pursuit - The Mall &#039;&#039;&#039;&#039; | 4.8/5 | 6 | N/A |
 | 2 | GHC2! #6 Jolly Ravine | 4.5/5 | 10 | N/A |
 | 3 | Goal Hunt - SPEEDMAPPING | 4.5/5 | 8 | N/A |
 | 4 | GHC2! #1 Freezing Canyon | 4.4/5 | 11 | N/A |
