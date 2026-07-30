@@ -1,29 +1,21 @@
-# Vote Report - 2026-07-27 08:22 UTC
+# Vote Report - 2026-07-30 07:28 UTC
 
-Generated: 2026-07-27 08:22 UTC | Previous: 2026-07-26T08:25:05Z
+Generated: 2026-07-30 07:28 UTC | Previous: 2026-07-27 08:22 UTC
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 5
-- Ratings risen: 3
-- Ratings fallen: 2
+- Maps with rating changes: 2
+- Ratings risen: 2
+- Ratings fallen: 0
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
-| 2 | Pursuit !!! - FIND YOUR TARGET | N/A | N/A | 3.9/5 | 4.1/5 |
-| 3 | [Lati Goal Hunt] Arena Alpha | N/A | N/A | 3.6/5 | 3.7/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #23 Who needs space anyway 3! | N/A | N/A | 3.5/5 | 3.4/5 |
-| 2 | GHC2! #3 Bugslide Ice | N/A | N/A | 3.4/5 | 3.3/5 |
+| 1 | L o b o  b y  K i K i 1 1 3 | N/A | N/A | 4.1/5 | 4.3/5 |
+| 2 | Goal Hunt - 2I6C | N/A | N/A | 3.1/5 | 3.2/5 |
 
 ## Top 10 by 5-Star Rating
 
@@ -35,7 +27,7 @@ Generated: 2026-07-27 08:22 UTC | Previous: 2026-07-26T08:25:05Z
 | 4 | GHC2! #1 Freezing Canyon | 4.4/5 | 11 | N/A |
 | 5 | GHC2! #17 Simple Goal Hunt 2! | 4.4/5 | 10 | N/A |
 | 6 | Pursuit - Lunar Landing | 4.3/5 | 32 | N/A |
-| 7 | Pursuit - snail race | 4.3/5 | 9 | N/A |
-| 8 | PRIL FOOLS #1 | 4.3/5 | 16 | N/A |
-| 9 | Pursuit - BLOCKY WORLD #1 | 4.3/5 | 4 | N/A |
-| 10 | Pursuit - Surrounded | 4.2/5 | 42 | N/A |
+| 7 | L o b o  b y  K i K i 1 1 3 | 4.3/5 | 18 | N/A |
+| 8 | Pursuit - snail race | 4.3/5 | 9 | N/A |
+| 9 | PRIL FOOLS #1 | 4.3/5 | 16 | N/A |
+| 10 | Pursuit - BLOCKY WORLD #1 | 4.3/5 | 4 | N/A |
