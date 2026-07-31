@@ -1,21 +1,20 @@
-# Vote Report - 2026-07-30 07:28 UTC
+# Vote Report - 2026-07-31 07:45 UTC
 
-Generated: 2026-07-30 07:28 UTC | Previous: 2026-07-27 08:22 UTC
+Generated: 2026-07-31 07:45 UTC | Previous: 2026-07-30 07:28 UTC
 
 ## Summary
 
 - Total maps: 259
-- Maps with rating changes: 2
-- Ratings risen: 2
-- Ratings fallen: 0
+- Maps with rating changes: 1
+- Ratings risen: 0
+- Ratings fallen: 1
 - New maps: 0
 
-## Ratings Risen
+## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | L o b o  b y  K i K i 1 1 3 | N/A | N/A | 4.1/5 | 4.3/5 |
-| 2 | Goal Hunt - 2I6C | N/A | N/A | 3.1/5 | 3.2/5 |
+| 1 | Pursuit - Arena! (by hubble) Revised | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
