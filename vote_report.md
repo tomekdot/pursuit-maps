@@ -1,31 +1,20 @@
-# Vote Report - 2026-08-03 08:21 UTC
+# Vote Report - 2026-08-04 07:30 UTC
 
-Generated: 2026-08-03 08:21 UTC | Previous: 2026-08-02T08:23:01Z
+Generated: 2026-08-04 07:30 UTC | Previous: 2026-08-03 08:21 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 7
-- Ratings risen: 5
-- Ratings fallen: 2
-- New maps: 1
+- Maps with rating changes: 1
+- Ratings risen: 1
+- Ratings fallen: 0
+- New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
-| 2 | Goal Hunt Christmas #23 Who needs space anyway 3! | N/A | N/A | 3.4/5 | 3.6/5 |
-| 3 | Pursuit - MapObjetive´s Party | N/A | N/A | 3.1/5 | 3.3/5 |
-| 4 | B i g  R o o m  b y  z i y x | 2.5/5 | 2.5/5 | 3.5/5 | 3.6/5 |
-| 5 | Pursuit - Interstate Valley 2  - Open Outskirts | N/A | N/A | 3.5/5 | 3.6/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - snail race | N/A | N/A | 4.3/5 | 4.1/5 |
-| 2 | Goal Hunt - 2I6C | N/A | N/A | 3.2/5 | 3.1/5 |
+| 1 | Goal Hunt - 2I6C | N/A | N/A | 3.1/5 | 3.2/5 |
 
 ## Top 10 by 5-Star Rating
 
