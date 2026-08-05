@@ -1,20 +1,14 @@
-# Vote Report - 2026-08-04 07:30 UTC
+# Vote Report - 2026-08-05 07:32 UTC
 
-Generated: 2026-08-04 07:30 UTC | Previous: 2026-08-03 08:21 UTC
+Generated: 2026-08-05 07:32 UTC | Previous: 2026-08-04 07:30 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 1
-- Ratings risen: 1
+- Maps with rating changes: 0
+- Ratings risen: 0
 - Ratings fallen: 0
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - 2I6C | N/A | N/A | 3.1/5 | 3.2/5 |
 
 ## Top 10 by 5-Star Rating
 
