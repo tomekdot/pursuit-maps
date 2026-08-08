@@ -1,6 +1,6 @@
-# Vote Report - 2026-08-07 06:04 UTC
+# Vote Report - 2026-08-08 05:35 UTC
 
-Generated: 2026-08-07 06:04 UTC | Previous: 2026-08-06 07:33 UTC
+Generated: 2026-08-08 05:35 UTC | Previous: 2026-08-07 06:04 UTC
 
 ## Summary
 
@@ -8,14 +8,14 @@ Generated: 2026-08-07 06:04 UTC | Previous: 2026-08-06 07:33 UTC
 - Maps with rating changes: 2
 - Ratings risen: 0
 - Ratings fallen: 2
-- New maps: 181
+- New maps: 0
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | GoalHunt - AlienSignal | N/A | N/A | 4.2/5 | 4.0/5 |
-| 2 | Goal Hunt - 2I6C | N/A | N/A | 3.2/5 | 3.1/5 |
+| 1 | Pursuit - The Sun | N/A | N/A | 3.9/5 | 3.8/5 |
+| 2 | PURSUIT - Salon | N/A | N/A | 3.7/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
