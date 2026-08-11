@@ -1,21 +1,27 @@
-# Vote Report - 2026-08-10 06:06 UTC
+# Vote Report - 2026-08-11 05:47 UTC
 
-Generated: 2026-08-10 06:06 UTC | Previous: 2026-08-09T06:55:06Z
+Generated: 2026-08-11 05:47 UTC | Previous: 2026-08-10 06:06 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 2
-- Ratings risen: 2
-- Ratings fallen: 0
+- Maps with rating changes: 3
+- Ratings risen: 1
+- Ratings fallen: 2
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
-| 2 | Pursuit! - BLOCKY WORLD #3 | N/A | N/A | 3.8/5 | 3.9/5 |
+| 1 | Pursuit - Balloonia | N/A | N/A | 3.8/5 | 3.9/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit  Fustercluck | 2.5/5 | 2.5/5 | 3.7/5 | 3.6/5 |
+| 2 | Goal Hunt Christmas #19 Ice Cold Water | N/A | N/A | 3.7/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
