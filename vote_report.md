@@ -1,20 +1,14 @@
-# Vote Report - 2026-08-13 06:09 UTC
+# Vote Report - 2026-08-14 06:07 UTC
 
-Generated: 2026-08-13 06:09 UTC | Previous: 2026-08-11 05:47 UTC
+Generated: 2026-08-14 06:07 UTC | Previous: 2026-08-13 06:09 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
-- New maps: 1
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - SPEEDMAPPING | N/A | N/A | 4.6/5 | 4.3/5 |
+- Ratings fallen: 0
+- New maps: 0
 
 ## Top 10 by 5-Star Rating
 
