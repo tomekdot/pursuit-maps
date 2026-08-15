@@ -1,14 +1,23 @@
-# Vote Report - 2026-08-14 06:07 UTC
+# Vote Report - 2026-08-15 05:16 UTC
 
-Generated: 2026-08-14 06:07 UTC | Previous: 2026-08-13 06:09 UTC
+Generated: 2026-08-15 05:16 UTC | Previous: 2026-08-14 06:07 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 0
-- Ratings risen: 0
+- Maps with rating changes: 4
+- Ratings risen: 4
 - Ratings fallen: 0
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit - Dirty Arena v4 | N/A | N/A | 3.8/5 | 3.9/5 |
+| 2 | Pursuit - Grandiosa | N/A | N/A | 3.5/5 | 3.6/5 |
+| 3 | Goal Hunt - Lightshow | N/A | N/A | 3.8/5 | 3.9/5 |
+| 4 | Pursuit - Virtual Insanity | N/A | N/A | 3.8/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
