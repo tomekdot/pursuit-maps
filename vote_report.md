@@ -1,31 +1,20 @@
-# Vote Report - 2026-08-16 05:19 UTC
+# Vote Report - 2026-08-17 05:26 UTC
 
-Generated: 2026-08-16 05:19 UTC | Previous: 2026-08-15 05:16 UTC
+Generated: 2026-08-17 05:26 UTC | Previous: 2026-08-16T06:38:10Z
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 7
-- Ratings risen: 6
-- Ratings fallen: 1
+- Maps with rating changes: 1
+- Ratings risen: 1
+- Ratings fallen: 0
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part II | N/A | N/A | N/A | 5.0/5 |
-| 2 | GHC2! #20 Magnet Chaos | N/A | N/A | 4.1/5 | 4.2/5 |
-| 3 | Goal Hunt - SPEEDMAPPING | N/A | N/A | 4.3/5 | 4.4/5 |
-| 4 | Pursuit? -  TotallyNormal ip | N/A | N/A | 3.5/5 | 3.6/5 |
-| 5 | Goal Hunt - Underwater Park | N/A | N/A | 3.3/5 | 3.4/5 |
-| 6 | GHC2! #5 Valley A08 but with more A08 | N/A | N/A | 3.5/5 | 3.6/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | GHC2! #1 Freezing Canyon | N/A | N/A | 4.4/5 | 4.2/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
