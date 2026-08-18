@@ -1,20 +1,20 @@
-# Vote Report - 2026-08-17 05:26 UTC
+# Vote Report - 2026-08-18 05:20 UTC
 
-Generated: 2026-08-17 05:26 UTC | Previous: 2026-08-16T06:38:10Z
+Generated: 2026-08-18 05:20 UTC | Previous: 2026-08-17 05:26 UTC
 
 ## Summary
 
 - Total maps: 260
 - Maps with rating changes: 1
-- Ratings risen: 1
-- Ratings fallen: 0
+- Ratings risen: 0
+- Ratings fallen: 1
 - New maps: 0
 
-## Ratings Risen
+## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.5/5 |
+| 1 | Goal Hunt - map name | N/A | N/A | 3.9/5 | 3.7/5 |
 
 ## Top 10 by 5-Star Rating
 
