@@ -1,14 +1,28 @@
-# Vote Report - 2026-08-21 05:23 UTC
+# Vote Report - 2026-08-22 05:18 UTC
 
-Generated: 2026-08-21 05:23 UTC | Previous: 2026-08-20 05:21 UTC
+Generated: 2026-08-22 05:18 UTC | Previous: 2026-08-21 05:23 UTC
 
 ## Summary
 
 - Total maps: 260
-- Maps with rating changes: 0
-- Ratings risen: 0
-- Ratings fallen: 0
-- New maps: 181
+- Maps with rating changes: 4
+- Ratings risen: 2
+- Ratings fallen: 2
+- New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt - 1 block | N/A | N/A | N/A | 1.0/5 |
+| 2 | GHC2! #10 Glacial Plains | N/A | N/A | 3.8/5 | 3.9/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | GHC2! #5 Valley A08 but with more A08 | N/A | N/A | 3.6/5 | 3.5/5 |
+| 2 | PURSUIT - Salon | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 

@@ -762,7 +762,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.8,
-    "stars_total": 35
+    "stars_total": 36
   },
   {
     "uid": "gSep7XW7Zw5P4BoiebD5t0B10Gb",
@@ -959,8 +959,8 @@
     "name": "Pursuit - #4 Revised",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 23
+    "stars_avg": 3.7,
+    "stars_total": 24
   },
   {
     "uid": "9C8TiB1kqsFRP2astnEZAIuhfPd",
@@ -1913,8 +1913,8 @@
     "name": "GHC2! #5 Valley A08 but with more A08",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 17
+    "stars_avg": 3.5,
+    "stars_total": 18
   },
   {
     "uid": "KQpREicgsqwxx3P6GcCJl1MTbJj",
@@ -1958,7 +1958,7 @@
     "name": "GHC2! #10 Glacial Plains",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.8,
+    "stars_avg": 3.9,
     "stars_total": 15
   },
   {
@@ -2111,7 +2111,7 @@
     "name": "PURSUIT - Salon",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.6,
+    "stars_avg": 3.5,
     "stars_total": 19
   },
   {
@@ -2336,7 +2336,7 @@
     "name": "Goal Hunt - 1 block",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 0.0,
-    "stars_total": 0
+    "stars_avg": 1.0,
+    "stars_total": 1
   }
 ]
