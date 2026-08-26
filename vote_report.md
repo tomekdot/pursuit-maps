@@ -1,22 +1,14 @@
-# Vote Report - 2026-08-25 05:23 UTC
+# Vote Report - 2026-08-26 05:24 UTC
 
-Generated: 2026-08-25 05:23 UTC | Previous: 2026-08-24 05:30 UTC
+Generated: 2026-08-26 05:24 UTC | Previous: 2026-08-25 05:23 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 3
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 3
-- New maps: 1
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - snail race | N/A | N/A | 4.4/5 | 3.9/5 |
-| 2 | Pursuit! - BLOCKY WORLD #3 | N/A | N/A | 4.1/5 | 3.9/5 |
-| 3 | Goal Hunt Christmas #22 Deck the Halls | N/A | N/A | 3.7/5 | 3.6/5 |
+- Ratings fallen: 0
+- New maps: 0
 
 ## Top 10 by 5-Star Rating
 
