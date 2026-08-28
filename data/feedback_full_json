@@ -1,453 +1,12 @@
 [
   {
-    "uid": "o7dl56rYEVeuNyLkvJgjgkvRIIj",
-    "hash": "2a1a32ffc6",
-    "name": "B i g  R o o m  b y  z i y x",
-    "yn_rating": 2.5,
-    "yn_votes": 32,
-    "stars_avg": 3.6,
-    "stars_total": 567
-  },
-  {
-    "uid": "owfIKm3fjLoU7GL_cRqLsS9noD6",
-    "hash": "52d60090c2",
-    "name": "Best map ever made so far lulz  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 530
-  },
-  {
-    "uid": "lOOKK8MpDsxtwP9XFjMoV8PJjT4",
-    "hash": "e9b392fbbc",
-    "name": "B r u i s e  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 316
-  },
-  {
-    "uid": "wf2K_PJdFPhp85FLnjR9yQw9LIb",
-    "hash": "816ed08b8b",
-    "name": "F l a m e s  b y  z i y x",
-    "yn_rating": 3.4,
-    "yn_votes": 100,
-    "stars_avg": 3.6,
-    "stars_total": 355
-  },
-  {
-    "uid": "qq43cbxMRnw_JsECcZrjCMOaDvj",
-    "hash": "ceb2b7871c",
-    "name": "T r a c k m a n i a k  b y  z i y x",
-    "yn_rating": 3.4,
-    "yn_votes": 162,
-    "stars_avg": 3.7,
-    "stars_total": 603
-  },
-  {
-    "uid": "d5x0eY2pss9gdx7np7kvfuNeb91",
-    "hash": "0d36ca618b",
-    "name": "Pursuit - Valley Arena",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 94
-  },
-  {
-    "uid": "PHkdgJiJ5Oku2EuLdF9nC3tRWs5",
-    "hash": "dfabb8fc34",
-    "name": "Pursuit - Mode #02",
-    "yn_rating": 3.3,
-    "yn_votes": 236,
-    "stars_avg": 3.8,
-    "stars_total": 601
-  },
-  {
-    "uid": "kHXOsZeVQXz7_W8Mvo1Sqao_Wwa",
-    "hash": "6aab0dca3e",
-    "name": "Pursuit - Holkham Bay",
-    "yn_rating": 2.5,
-    "yn_votes": 28,
-    "stars_avg": 3.8,
-    "stars_total": 617
-  },
-  {
-    "uid": "CUYNaLHRnJYqv8QqUCmpSnsyDJc",
-    "hash": "a340aa12dd",
-    "name": "Pursuit - Gedney Shore",
-    "yn_rating": 3.9,
-    "yn_votes": 98,
-    "stars_avg": 3.8,
-    "stars_total": 422
-  },
-  {
-    "uid": "2D3zlVXrfDSjvAb1AKy5UyYefRg",
-    "hash": "4f6db81965",
-    "name": "Pursuit - Scadroy Town",
-    "yn_rating": 3.8,
-    "yn_votes": 1284,
-    "stars_avg": 3.9,
-    "stars_total": 672
-  },
-  {
-    "uid": "Z6F3511I2qOxYNFUaq66xxqYkHa",
-    "hash": "891baa9745",
-    "name": "Pursuit - Rathorm Island",
-    "yn_rating": 3.3,
-    "yn_votes": 175,
-    "stars_avg": 3.7,
-    "stars_total": 571
-  },
-  {
-    "uid": "mPkhzS8Q1ctcKX1owqWVsRLnn82",
-    "hash": "3075f81a77",
-    "name": "Pursuit  On The Move",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 750
-  },
-  {
-    "uid": "NPLxQYKZfoM8HGTAYqQOR__U0nm",
-    "hash": "0e63f2e922",
-    "name": "Pursuit - Goats Will Fly!",
-    "yn_rating": 3.4,
-    "yn_votes": 1066,
-    "stars_avg": 3.6,
-    "stars_total": 788
-  },
-  {
-    "uid": "DvhekJykZnsuIvxkvQacKUbh0ue",
-    "hash": "176b0483e1",
-    "name": "Pursuit - Arena!",
-    "yn_rating": 2.2,
-    "yn_votes": 30,
-    "stars_avg": 3.6,
-    "stars_total": 525
-  },
-  {
-    "uid": "DiXCUUvMNIoDLPpqHaePyPnNAs7",
-    "hash": "8c4d7da74d",
-    "name": "Pursuit - Dynamo",
-    "yn_rating": 4.0,
-    "yn_votes": 107,
-    "stars_avg": 3.8,
-    "stars_total": 519
-  },
-  {
-    "uid": "QtjBmldn9xj7cv4v4Djk4csmYP",
-    "hash": "3fcb605fd2",
-    "name": "Pursuit - Red Box 2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 879
-  },
-  {
-    "uid": "PJ64VIvmKnxEw3XS7UjVGXb2B48",
-    "hash": "29fc0371e7",
-    "name": "Pursuit - Airport v2",
-    "yn_rating": 2.8,
-    "yn_votes": 364,
-    "stars_avg": 3.7,
-    "stars_total": 874
-  },
-  {
-    "uid": "yZwZUSCMETzuVivHd2CrU999Bu6",
-    "hash": "2cb85a21f6",
-    "name": "Pursuit - Canyon City",
-    "yn_rating": 3.1,
-    "yn_votes": 330,
-    "stars_avg": 3.7,
-    "stars_total": 602
-  },
-  {
-    "uid": "tOwAIhnVSTnhf30r9quADQV4lv9",
-    "hash": "c5a9d31197",
-    "name": "Pursuit - The Crazy Rampage!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 79
-  },
-  {
-    "uid": "Ndb1KtLeK6CaIHEJaU4GRV_fwIk",
-    "hash": "556c900e3f",
-    "name": "Pursuit Fun 2,0",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 83
-  },
-  {
-    "uid": "sEyBQGVnJXL6iBFlTX0M0ejWpC2",
-    "hash": "e19dbcf924",
-    "name": "Pursuit - N64 Skyscraper",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 112
-  },
-  {
-    "uid": "O8Ynl2cDelXnizAvxntqtyYQCyl",
-    "hash": "c885a83673",
-    "name": "Pursuit - Mosh Pit!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 78
-  },
-  {
-    "uid": "J6kNdSCzJnRM_yw04hiSku_cHT7",
-    "hash": "c07027b9cb",
-    "name": "Pursuit - Phillarz 2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 40
-  },
-  {
-    "uid": "D_Mi2ievZ1gUOesDeOJYRd4wgie",
-    "hash": "0a7d1c74a0",
-    "name": "Pursuit - Tomogoci",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 52
-  },
-  {
-    "uid": "ynC2nHFfvBj_APKAGNObnsqjU3",
-    "hash": "5a9b108021",
-    "name": "Goal Hunt - Rolling Out",
-    "yn_rating": 3.9,
-    "yn_votes": 170,
-    "stars_avg": 3.7,
-    "stars_total": 207
-  },
-  {
-    "uid": "nvTcGOMbAaQDd5oZbrAt6lHMX6l",
-    "hash": "1e1ef4425b",
-    "name": "Pursuit  Rightside Down",
-    "yn_rating": 2.9,
-    "yn_votes": 28,
-    "stars_avg": 3.5,
-    "stars_total": 58
-  },
-  {
     "uid": "ZEnvC9gioY_n_Zmz5qcyiWfeVC4",
     "hash": "d60d2a0f88",
     "name": "[Lati Goal Hunt] Arena Alpha",
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.7,
-    "stars_total": 63
-  },
-  {
-    "uid": "tA64HL_j06TfW5sjdPxlkJHd28b",
-    "hash": "c727453a00",
-    "name": "Pursuit - Cube",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 66
-  },
-  {
-    "uid": "4PtKjXAVj5erxCVPqb4IWfr8qF5",
-    "hash": "c1bd1db92c",
-    "name": "Getting Over It  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 65
-  },
-  {
-    "uid": "w49Qgx2Q8ksUvht2xJ_i35Hq42m",
-    "hash": "0604c5a908",
-    "name": "Pursuit - Sunshine Labyrinth 2019",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 454
-  },
-  {
-    "uid": "ykQk7vBPl0KECiChlSbidCXjbL1",
-    "hash": "095533ae47",
-    "name": "Hide&amp;Sick  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 39
-  },
-  {
-    "uid": "_f6kQmjh8n_uJewsZ9_kmwaONC5",
-    "hash": "95e78640e1",
-    "name": "PURSUIT - Edge of the Past",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 34
-  },
-  {
-    "uid": "jHAZfH2sOaOJj9zUXHhlYjhQZM5",
-    "hash": "6c4ea0aab8",
-    "name": "Pursuit - Passage",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 592
-  },
-  {
-    "uid": "dN9NV4eDc5plskyaFRyZ1ToV2hf",
-    "hash": "f585c6fa7b",
-    "name": "Pursuit - Air Show",
-    "yn_rating": 2.7,
-    "yn_votes": 140,
-    "stars_avg": 3.4,
-    "stars_total": 102
-  },
-  {
-    "uid": "E10JMPesMXN0MjwuaOfb8Cv5pfc",
-    "hash": "fc67c06496",
-    "name": "G a y R o u g h !  b y  z i y x",
-    "yn_rating": 2.4,
-    "yn_votes": 88,
-    "stars_avg": 3.7,
-    "stars_total": 58
-  },
-  {
-    "uid": "kIZ2cM5XO4orMkwWyIrIpbFnen0",
-    "hash": "6166785c92",
-    "name": "Pursuit - Archipelago!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 583
-  },
-  {
-    "uid": "P3YTSRSKX23u48LNKRjwmNTiZ2b",
-    "hash": "418687041b",
-    "name": "P a r k i n  b y  z i y x",
-    "yn_rating": 3.3,
-    "yn_votes": 518,
-    "stars_avg": 3.7,
-    "stars_total": 152
-  },
-  {
-    "uid": "ndX9Fj1Fuoknc3pSe51nLp2nb4h",
-    "hash": "2f04a827f3",
-    "name": "Pursuit - Mele-Mele",
-    "yn_rating": 3.4,
-    "yn_votes": 110,
-    "stars_avg": 3.8,
-    "stars_total": 502
-  },
-  {
-    "uid": "U7nlgpxeG99ImEL1FMFAp1vG2Gf",
-    "hash": "2724a6389c",
-    "name": "Pursuit  Frantic Chaos",
-    "yn_rating": 2.6,
-    "yn_votes": 223,
-    "stars_avg": 3.7,
-    "stars_total": 73
-  },
-  {
-    "uid": "AK3xn2KUfHjTynpCYMD6pPf5ZO9",
-    "hash": "b907c408a9",
-    "name": "Pursuit - I Really Don&#039;t Know!",
-    "yn_rating": 2.8,
-    "yn_votes": 233,
-    "stars_avg": 3.4,
-    "stars_total": 791
-  },
-  {
-    "uid": "Ks6SvJe3BW3SfloUHLi1rr_ZgO4",
-    "hash": "130900a880",
-    "name": "Pursuit - Cliff Hopper",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 401
-  },
-  {
-    "uid": "ikIuEnDFZwjxh0yttYoQjNJRax1",
-    "hash": "4998e1ebbc",
-    "name": "Pursuit - Skatepark Night",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 50
-  },
-  {
-    "uid": "7ZJOOEaoFXwEY2etclrHJwxxWFh",
-    "hash": "a9d1676e20",
-    "name": "%*µ°}¤è-&lt;   b y  z i y x",
-    "yn_rating": 3.3,
-    "yn_votes": 294,
-    "stars_avg": 3.7,
-    "stars_total": 570
-  },
-  {
-    "uid": "Ip0DwFUJigavez4mX5XEJicZEpe",
-    "hash": "573b8f1004",
-    "name": "A r e n a  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 62
-  },
-  {
-    "uid": "eNJq1Gd3Hgbsy4dCKjjqJRy5A97",
-    "hash": "b31dd66433",
-    "name": "Goal Hunt - Complex",
-    "yn_rating": 3.0,
-    "yn_votes": 92,
-    "stars_avg": 3.7,
-    "stars_total": 153
-  },
-  {
-    "uid": "DceueoxHt6DaFx7h6GJs0LSFp92",
-    "hash": "7e30d72591",
-    "name": "M a n i a p a r k  b y  z i y x",
-    "yn_rating": 2.1,
-    "yn_votes": 40,
-    "stars_avg": 3.5,
-    "stars_total": 555
-  },
-  {
-    "uid": "8t95h6YT4i64uV_sqxwTryVXwJg",
-    "hash": "d6491c132f",
-    "name": "Pursuit - Tower Escape 2!",
-    "yn_rating": 3.4,
-    "yn_votes": 40,
-    "stars_avg": 3.3,
-    "stars_total": 100
-  },
-  {
-    "uid": "6NKTsLwtZVGjpaST0fHSxfIqFQa",
-    "hash": "19442aa8f3",
-    "name": "Pursuit - Tower Escape 1·6!",
-    "yn_rating": 3.3,
-    "yn_votes": 815,
-    "stars_avg": 3.6,
-    "stars_total": 679
-  },
-  {
-    "uid": "ajiN4OoCyku4Ry3C_aR0iB1u5ni",
-    "hash": "ae596f4b72",
-    "name": "Pursuit - Tower Escape 1·5!",
-    "yn_rating": 3.5,
-    "yn_votes": 796,
-    "stars_avg": 3.7,
-    "stars_total": 54
-  },
-  {
-    "uid": "L4kLXeLADGvoaSr6bz0mFCUb2nc",
-    "hash": "9a60829cf7",
-    "name": "Pursuit - Block Fort Canyon",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 733
+    "stars_total": 64
   },
   {
     "uid": "pPUGeJufxt7e2zbRScCSBnf90zd",
@@ -459,69 +18,6 @@
     "stars_total": 159
   },
   {
-    "uid": "SrdRA6NLJqBJRpF5uXUqi0zlami",
-    "hash": "c6c504a169",
-    "name": "Pursuit - Sayonara Chloe",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 759
-  },
-  {
-    "uid": "41MtqAR3e6nU9uPbU3vwTIIe9p1",
-    "hash": "badf3e88f4",
-    "name": "S p o t  b y  z i y x",
-    "yn_rating": 3.2,
-    "yn_votes": 499,
-    "stars_avg": 3.5,
-    "stars_total": 624
-  },
-  {
-    "uid": "8r6Zlc6u7Y9TC12U3sXpMw5otxj",
-    "hash": "7e0b57c109",
-    "name": "E x k a l i b u r  b y  z i y x",
-    "yn_rating": 3.0,
-    "yn_votes": 72,
-    "stars_avg": 3.7,
-    "stars_total": 607
-  },
-  {
-    "uid": "ilaI7HMwPjegbM7jymblCXKjfu9",
-    "hash": "24c9870ada",
-    "name": "Pursuit - Dirty Arena v4",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 30
-  },
-  {
-    "uid": "J75EHoL_AWzz8kmj0GqlSlB77Oj",
-    "hash": "101ef727de",
-    "name": "Pursuit - Volley",
-    "yn_rating": 2.8,
-    "yn_votes": 100,
-    "stars_avg": 3.5,
-    "stars_total": 718
-  },
-  {
-    "uid": "d9kFdk9GOfE6HqdQal0L_YeMnpb",
-    "hash": "7559f7231f",
-    "name": "Pursuit - Off-Maze!",
-    "yn_rating": 3.0,
-    "yn_votes": 765,
-    "stars_avg": 3.2,
-    "stars_total": 645
-  },
-  {
-    "uid": "OYWAo9qN396PJvS7Eguy6hVhuRa",
-    "hash": "51ae748251",
-    "name": "Pursuit - Bugslide Heaven",
-    "yn_rating": 2.8,
-    "yn_votes": 150,
-    "stars_avg": 3.4,
-    "stars_total": 735
-  },
-  {
     "uid": "ltBzlCugLrBZ02eKfWsvrmlVNY1",
     "hash": "53a342a209",
     "name": "Goal Hunt - Merwood Lagoon",
@@ -529,141 +25,6 @@
     "yn_votes": 164,
     "stars_avg": 3.9,
     "stars_total": 123
-  },
-  {
-    "uid": "swCSsUGUPim7lTe1mynNOHTdKS1",
-    "hash": "552e2a6aa7",
-    "name": "Pursuit - BlockFort",
-    "yn_rating": 3.7,
-    "yn_votes": 63,
-    "stars_avg": 4.0,
-    "stars_total": 79
-  },
-  {
-    "uid": "vaHPWRzpJU0dr9qYkG0b1qBBB99",
-    "hash": "310512b73a",
-    "name": "Pursuit - Tom &amp; Jerry",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 828
-  },
-  {
-    "uid": "8dagtKC6od4hD0iMJVB4J6stF86",
-    "hash": "09ed10e223",
-    "name": "Pursuit - Bunker",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 35
-  },
-  {
-    "uid": "FCg6nOD0IBgNaUnHzemjiW7PCPa",
-    "hash": "f28382fc49",
-    "name": "Pursuit - Get Deaded!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 83
-  },
-  {
-    "uid": "GaoOaPC662TAV3ZDtMrJFFie9af",
-    "hash": "0d5cc3105a",
-    "name": "Pursuit - ѕyмeтrιcα",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 23
-  },
-  {
-    "uid": "zhGRyVaRefOrhbfHU7BLrWVp3_l",
-    "hash": "93bec08436",
-    "name": "Pursuit - Testing Arena",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 64
-  },
-  {
-    "uid": "s9llTP3yap5XOeojxQaeRO8WB4",
-    "hash": "fcc4cfbb4a",
-    "name": "Pursuit  Fustercluck",
-    "yn_rating": 2.5,
-    "yn_votes": 108,
-    "stars_avg": 3.6,
-    "stars_total": 25
-  },
-  {
-    "uid": "HHszqQkm5wsqGIww7JCybGoD9Fd",
-    "hash": "f39bbde139",
-    "name": "Pursuit - Basketball",
-    "yn_rating": 3.4,
-    "yn_votes": 504,
-    "stars_avg": 3.5,
-    "stars_total": 64
-  },
-  {
-    "uid": "D7N4tfcCKpaglnDsdPKahdPE_Ra",
-    "hash": "1c85136f0f",
-    "name": "Pursuit - Pursuit Party #02",
-    "yn_rating": 2.8,
-    "yn_votes": 38,
-    "stars_avg": 4.0,
-    "stars_total": 73
-  },
-  {
-    "uid": "HItMOwq_6LIMRPhJVagRx1Q1sHf",
-    "hash": "e4d4186428",
-    "name": "Pursuit - Very Small Arena",
-    "yn_rating": 2.2,
-    "yn_votes": 62,
-    "stars_avg": 3.5,
-    "stars_total": 896
-  },
-  {
-    "uid": "EOE2oYauh7gdLKhIu4sv0T2vEF4",
-    "hash": "48dbb78ce7",
-    "name": "Pursuit - Huge Arena",
-    "yn_rating": 3.1,
-    "yn_votes": 225,
-    "stars_avg": 3.3,
-    "stars_total": 81
-  },
-  {
-    "uid": "XdqRrIjHV4gDTSOhYNW5qgzDHlf",
-    "hash": "a599e69f3f",
-    "name": "Pursuit - Abandoned Playground",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 86
-  },
-  {
-    "uid": "Dj06ETrCoeSx3gdbSWpNUkPhRe0",
-    "hash": "f63e972364",
-    "name": "Pursuit - Crayzee Rampage",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 105
-  },
-  {
-    "uid": "eSZYU_ghH6w2T_hLtwDNPWDYLL5",
-    "hash": "6518794495",
-    "name": "Pursuit - The Pit",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 31
-  },
-  {
-    "uid": "Dbgclq2Wrayqi0gnqXZV2xHaUq4",
-    "hash": "b969e186c5",
-    "name": "B a t t l e g r o u n d  b y  z i y x",
-    "yn_rating": 3.1,
-    "yn_votes": 1167,
-    "stars_avg": 3.7,
-    "stars_total": 511
   },
   {
     "uid": "JqiRf3D7T8AvjUi92h0l3ZUrTs",
@@ -675,60 +36,6 @@
     "stars_total": 123
   },
   {
-    "uid": "z3hQYcJfbOm8IVYXeQWXYGGBO7j",
-    "hash": "31925a41a0",
-    "name": "Pursuit - Surrounded",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.2,
-    "stars_total": 42
-  },
-  {
-    "uid": "V8oaUy9Vit8TUqi1fncJMHNv1ac",
-    "hash": "e415b0e408",
-    "name": "Pursuit - Turn Around",
-    "yn_rating": 3.5,
-    "yn_votes": 682,
-    "stars_avg": 3.9,
-    "stars_total": 133
-  },
-  {
-    "uid": "t7U0ha1NOYMfM7PNkuEttUSyBie",
-    "hash": "d26a21607c",
-    "name": "Pursuit - Who needs space anyway",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 32
-  },
-  {
-    "uid": "8h2q2UD7RFrzuWeT9RoJdu0u3ik",
-    "hash": "4f8d6176ea",
-    "name": "Pursuit - BaseValley!",
-    "yn_rating": 2.3,
-    "yn_votes": 15,
-    "stars_avg": 3.5,
-    "stars_total": 86
-  },
-  {
-    "uid": "WF3dPj81WGyASVy3A9kB1twBuf0",
-    "hash": "29624df4d4",
-    "name": "Pursuit - Chaos Oval!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.2,
-    "stars_total": 47
-  },
-  {
-    "uid": "qmOWBBgmgJbOt4NK0fkhsR45oji",
-    "hash": "d021464448",
-    "name": "Pursuit - Pursuit Party #03",
-    "yn_rating": 3.3,
-    "yn_votes": 121,
-    "stars_avg": 3.7,
-    "stars_total": 697
-  },
-  {
     "uid": "vbimDYCwWO7bapdgAHkZJQqB0gg",
     "hash": "0fcdc9b835",
     "name": "[Lati Goal Hunt] Lagoon City",
@@ -738,112 +45,13 @@
     "stars_total": 637
   },
   {
-    "uid": "NOfajMueuhlqaGMZBUk_Trdni98",
-    "hash": "743c537a2e",
-    "name": "Pursuit -  Tunnels areFun!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 31
-  },
-  {
-    "uid": "Qa273lZmWFaj1dayQF1U0s0kuA5",
-    "hash": "d51b4907fd",
-    "name": "Pursuit - Ferizz Wheel (v1)",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 41
-  },
-  {
-    "uid": "boDlJcAVBL1IwDHoosHEq3NE0Ab",
-    "hash": "a937347e3f",
-    "name": "Pursuit - ckeyunk Mountain (V3)",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 36
-  },
-  {
-    "uid": "gSep7XW7Zw5P4BoiebD5t0B10Gb",
-    "hash": "e7aade6dec",
-    "name": "Pursuit - FourCrappyRoads",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 35
-  },
-  {
-    "uid": "BZ0IqECzcfGkMbiyC3bcWBaz_Z7",
-    "hash": "cfea2cf2b9",
-    "name": "Pursuit - Tanker v1",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.2,
-    "stars_total": 24
-  },
-  {
-    "uid": "oI11eYwLHJnCuFxLs2j7XNWYy5m",
-    "hash": "6e3d518abb",
-    "name": "Goal Hunt - *Insert Cool Name*!",
-    "yn_rating": 2.8,
-    "yn_votes": 66,
-    "stars_avg": 3.2,
-    "stars_total": 90
-  },
-  {
-    "uid": "ZL5g6IB6_gA5sGtFkdR0IxXHgUa",
-    "hash": "118a523d13",
-    "name": "Pursuit - RageReef",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 28
-  },
-  {
-    "uid": "qnNtXaZ_lBGkqlq8P0fGE8SbsI7",
-    "hash": "b0fc039c49",
-    "name": "Pursuit? -  TotallyNormal ip",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 40
-  },
-  {
-    "uid": "iYrlTpCUEVlQLEzBvQ_gRsVbVJ0",
-    "hash": "30cf6713a6",
-    "name": "Pursuit - Underwater Fuel Hunt Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 28
-  },
-  {
-    "uid": "I3wwm6Woy97CJOScWK8vG3jRoGc",
-    "hash": "04aee28748",
-    "name": "Pursuit - Simple Fuel Hunt",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 28
-  },
-  {
     "uid": "A7TstZsq_1tWYzol63C8YqGMf5b",
     "hash": "1bb1a2f112",
     "name": "Goal Hunt - Lagoon A08!",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 53
-  },
-  {
-    "uid": "qGEN0_FtU43r70GN4PB_BDryp1h",
-    "hash": "60e3943529",
-    "name": "Pursuit - WatchTheStep2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 37
+    "stars_avg": 3.4,
+    "stars_total": 54
   },
   {
     "uid": "y4jXpEcqxwLX1hc7Z7dImz1mhEa",
@@ -864,51 +72,6 @@
     "stars_total": 62
   },
   {
-    "uid": "FXANO9aDYQN3J636Kn35wdNrS4e",
-    "hash": "c77f946d0d",
-    "name": "Goal Hunt - Stadium A08!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 48
-  },
-  {
-    "uid": "aSxchJbm6peSciOzZBPqgQBwusk",
-    "hash": "8f2e4d751c",
-    "name": "Pursuit - Gotta Catch &#039;Em ALL!",
-    "yn_rating": 3.4,
-    "yn_votes": 28,
-    "stars_avg": 3.6,
-    "stars_total": 53
-  },
-  {
-    "uid": "Wd75RP7edOa6HuxAWVxiYQHpGz3",
-    "hash": "594ebb36e3",
-    "name": "[Lati Goal Hunt] Tracked Out",
-    "yn_rating": 3.1,
-    "yn_votes": 112,
-    "stars_avg": 3.2,
-    "stars_total": 158
-  },
-  {
-    "uid": "eSiU9sBP23Y4Be2H1qPoBPppMAk",
-    "hash": "e5559c1579",
-    "name": "Pursuit - Open Air",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 49
-  },
-  {
-    "uid": "C5keqE1VRqaqbgfB4PtIaCQZJc2",
-    "hash": "00d65b95ac",
-    "name": "Castle Club",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 56
-  },
-  {
     "uid": "fy4cohzUMJfI8axqwpkJldAz7d9",
     "hash": "ee15a1eb07",
     "name": "Goal Hunt - Islands!",
@@ -918,130 +81,13 @@
     "stars_total": 53
   },
   {
-    "uid": "hHo3hi7C5eWTmekItwICpImJT6f",
-    "hash": "b1bfc51611",
-    "name": "Pursuit - SNES Battle Course 4 Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 40
-  },
-  {
-    "uid": "ak7SevlfBWWaOTKV5_CYhb7QY_e",
-    "hash": "9ec1f8bca1",
-    "name": "Pursuit - Priority Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 12
-  },
-  {
-    "uid": "LDyf8yJhz8HJq3B_ps0M1dRXzcf",
-    "hash": "739e3a1fa5",
-    "name": "Pursuit - Police Chase Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 14
-  },
-  {
-    "uid": "MEOq1gVjgGV2VxceUF1O8acMXub",
-    "hash": "731bc8240f",
-    "name": "Pursuit - Disco Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 35
-  },
-  {
-    "uid": "5vF28Z1zmNNT3XIz1KbQXTXsEa7",
-    "hash": "d5eb89722d",
-    "name": "Pursuit - #4 Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 24
-  },
-  {
-    "uid": "9C8TiB1kqsFRP2astnEZAIuhfPd",
-    "hash": "ec2d6cd7f3",
-    "name": "Pursuit - Arena! (by hubble) Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 27
-  },
-  {
-    "uid": "jF54KjpJ5duxWnGjbjGNdLwjknd",
-    "hash": "ff8e007e20",
-    "name": "Pursuit - 4 Elements",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 49
-  },
-  {
-    "uid": "w8RLI9aelWP0ljskUbq8E7ktGZ6",
-    "hash": "60da454f3c",
-    "name": "Pursuit - Squares Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 36
-  },
-  {
-    "uid": "NBxzeB83RrnRpdLn20D5YSIuGB1",
-    "hash": "4b6e381490",
-    "name": "Pursuit - Beer &amp; Dane by Hazard Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 18
-  },
-  {
-    "uid": "zetGSy_SNea1zuG_LFi3geXLsr9",
-    "hash": "d90b9d94b2",
-    "name": "Pursuit - Train Wipeout",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 70
-  },
-  {
-    "uid": "qUyIkD7QpihSK_CSs8EaLfxJ6w3",
-    "hash": "eea62fb93a",
-    "name": "[Pursuit][LOL][Big] UpsideDown Demo Revised",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 15
-  },
-  {
-    "uid": "Dc6uEbFd3M6dlUL6Xw8WeOQHyff",
-    "hash": "825950e71b",
-    "name": "Pursuit - Grandiosa",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 36
-  },
-  {
-    "uid": "JdYyzYYVPzknJbD9ZuxPhwDaIek",
-    "hash": "e506575fc8",
-    "name": "Pursuit - Deep Dip Floor 0 and 1 but from Temu",
+    "uid": "FXANO9aDYQN3J636Kn35wdNrS4e",
+    "hash": "c77f946d0d",
+    "name": "Goal Hunt - Stadium A08!",
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.4,
-    "stars_total": 27
-  },
-  {
-    "uid": "uJKeNpfieeCdSWDu5LS7WkcjDNj",
-    "hash": "ff779d79a4",
-    "name": "Pursuit - Mud Cake",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 38
+    "stars_total": 48
   },
   {
     "uid": "RFJR7p2qJABgNZyeTREj1NfDPZ7",
@@ -1049,8 +95,8 @@
     "name": "Goal Hunt - Underwater Park",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 14
+    "stars_avg": 3.3,
+    "stars_total": 15
   },
   {
     "uid": "924DTjPG8t1nbbDuMKxGqSdRgB0",
@@ -1087,15 +133,6 @@
     "yn_votes": 0,
     "stars_avg": 3.6,
     "stars_total": 26
-  },
-  {
-    "uid": "c569tdJsd8NuVA0FzNQncfM4xNf",
-    "hash": "30261840f5",
-    "name": "[Pursuit] - First Contribution",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 27
   },
   {
     "uid": "pq4JadwDbsKeKCPsvLNaMHx7f0a",
@@ -1143,15 +180,6 @@
     "stars_total": 39
   },
   {
-    "uid": "j7uLU45C1TQ1O0fpGrFGEPxze7a",
-    "hash": "f7bc74935c",
-    "name": "Pursuit - Lunar Landing",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.3,
-    "stars_total": 32
-  },
-  {
     "uid": "MueOpY0PjYXJ79AoCXsHzQG5lKe",
     "hash": "97e602cf26",
     "name": "Goal Hunt Christmas #8 Lunar Landing DX",
@@ -1184,8 +212,8 @@
     "name": "Goal Hunt Christmas #11 Ferris Harbor",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 4.2,
-    "stars_total": 20
+    "stars_avg": 4.0,
+    "stars_total": 23
   },
   {
     "uid": "5SodGFVmT3uJ04dvp4DzOWSKD05",
@@ -1251,15 +279,6 @@
     "stars_total": 31
   },
   {
-    "uid": "e4L_gsHuWXrc0UqAlP01i56mvOc",
-    "hash": "0c5d86869c",
-    "name": "Pursuit - Living On The Edge!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 23
-  },
-  {
     "uid": "3OVOJyVcNx2LYezju0O8JGpITG5",
     "hash": "9a10d98b1b",
     "name": "Goal Hunt Christmas #19 Ice Cold Water",
@@ -1284,7 +303,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 4.0,
-    "stars_total": 50
+    "stars_total": 51
   },
   {
     "uid": "QLPlUIKV7lQ7NZ8nXcklI1Lj6F9",
@@ -1332,24 +351,6 @@
     "stars_total": 34
   },
   {
-    "uid": "T8MxHlIMkxRwFYm9eA0zjlptFtf",
-    "hash": "03246417f6",
-    "name": "Interstate Valley",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 29
-  },
-  {
-    "uid": "0WC1RENo8qnrj7BE1Vw8Zm5OiFm",
-    "hash": "295dc8ffea",
-    "name": "pursuit - a difficult map about climbing V2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 28
-  },
-  {
     "uid": "vtsrtSFzqdJr8cVETNlfPIyvTR9",
     "hash": "30709e80d7",
     "name": "goal hunt-i dont know what to name this bnfvghvndxsc",
@@ -1357,15 +358,6 @@
     "yn_votes": 0,
     "stars_avg": 3.9,
     "stars_total": 37
-  },
-  {
-    "uid": "NGZyRTBMUHKkePXJ4oEzLgi_vH2",
-    "hash": "5077a50e0b",
-    "name": "pursuit - 1 block",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 43
   },
   {
     "uid": "EKXOKCDqqe5aIlF7wCcORErwWp",
@@ -1386,49 +378,13 @@
     "stars_total": 25
   },
   {
-    "uid": "0abcU7gkG2kxklRSpjg9NOY6k6d",
-    "hash": "3c41f9e2e4",
-    "name": "Goal Hunt - HIGH (no not like that)",
+    "uid": "DbAmvEYgq2Zs6G4VcmYRcJR3Yod",
+    "hash": "4969f0f231",
+    "name": "Goal Hunt - Slug Hunt",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 24
-  },
-  {
-    "uid": "YdyS2JVylhcn8S2VcsU5f8e6Hz1",
-    "hash": "5305d521c1",
-    "name": "Pursuit - what is my purpose on the planet?",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 22
-  },
-  {
-    "uid": "vCqoFAEA_5HtD4dV2i_Yep7KSz7",
-    "hash": "0c442c3c4a",
-    "name": "42K ants [WR]",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.2,
-    "stars_total": 27
-  },
-  {
-    "uid": "b2auhSU4iUXGxLxijtfz1r8zXee",
-    "hash": "6a1bd4a450",
-    "name": "Pursuit  - Memory of Molki&#039;s Dream",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 29
-  },
-  {
-    "uid": "fWEZIViAgaRfqUlruvS4q2ZtyAb",
-    "hash": "2dd45ea0bc",
-    "name": "Pursuit - Journey to Arnhemland",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 24
+    "stars_avg": 3.6,
+    "stars_total": 28
   },
   {
     "uid": "Pmbh4NLUWQzJk2pwxj6kIBEHzT",
@@ -1440,42 +396,6 @@
     "stars_total": 31
   },
   {
-    "uid": "DbAmvEYgq2Zs6G4VcmYRcJR3Yod",
-    "hash": "4969f0f231",
-    "name": "Goal Hunt - Slug Hunt",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 28
-  },
-  {
-    "uid": "IAx5XHPuvJGpETPnWtnMxT_S14h",
-    "hash": "370920d06a",
-    "name": "Pursuit - Manifest Destiny",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 19
-  },
-  {
-    "uid": "PxrhjfURIqIr2rsCu8n1ZZHrEaj",
-    "hash": "5e6c19cc9a",
-    "name": "Pursuit - Rocket Mania",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.2,
-    "stars_total": 39
-  },
-  {
-    "uid": "Vy9tufPZV7exCND5mAPJLUhHF78",
-    "hash": "fbca209c5a",
-    "name": "Pursuit - When The Elevator Stops Working Revised! V2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 37
-  },
-  {
     "uid": "1J1_SFuNLNXsZozZvs6IsZxjHLa",
     "hash": "b3c72bee92",
     "name": "Goal Hunt TMNF E03",
@@ -1485,166 +405,13 @@
     "stars_total": 52
   },
   {
-    "uid": "oWry1EETuN8WOWrIgY6sreAaIA",
-    "hash": "e90d0e2e4c",
-    "name": "Pursuit - BaseLagoon!",
-    "yn_rating": 2.1,
-    "yn_votes": 21,
-    "stars_avg": 3.6,
-    "stars_total": 34
-  },
-  {
-    "uid": "YjrPVTU08xNKBMcBhLlktUSClr4",
-    "hash": "114a2b83ed",
-    "name": "Pursuit - Toyland",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 43
-  },
-  {
-    "uid": "xmPnj0qC1jmfw6x4X53VjWNXfpj",
-    "hash": "681c244dbe",
-    "name": "Liminal Maze Tower",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 32
-  },
-  {
-    "uid": "QL9dwAlhjV1pwqnmzcLGVfdSmjm",
-    "hash": "6755563af0",
-    "name": "Pursuit - Balloonia",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 31
-  },
-  {
-    "uid": "kV0YYCwBXkM13KU_1_Se2VCVpma",
-    "hash": "9ba7e374a0",
-    "name": "Pursuit - Virtual Insanity",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 15
-  },
-  {
-    "uid": "nk3FzWYbDSwJtnRnJ2tZOOngo6b",
-    "hash": "0a2b7a95a1",
-    "name": "Pursuit - Didjerama",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 17
-  },
-  {
     "uid": "naaeMXUARQETV1sfMzL2FyWWw6b",
     "hash": "97c00feacd",
     "name": "Goal Hunt - Use the Force",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 30
-  },
-  {
-    "uid": "jb1AxqUbgxAXkzbilSnVPzOakU0",
-    "hash": "602ef5338f",
-    "name": "Pursuit - BaseCanyon!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
     "stars_avg": 3.5,
-    "stars_total": 60
-  },
-  {
-    "uid": "4DuFx8VHnSaiudOfDX6RwHoReX9",
-    "hash": "37a5cdd5d5",
-    "name": "Pursuit - islands",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.2,
-    "stars_total": 29
-  },
-  {
-    "uid": "jmJtJfJzqMR0VfEJW3guJXl2Yec",
-    "hash": "dde44b4b4d",
-    "name": "Pursuit - Blow Your Mind",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 23
-  },
-  {
-    "uid": "6RPGZNE55_Hg0KMy7pyJ3iMb7Yk",
-    "hash": "4dda4fe914",
-    "name": "Pursuit - Roberto",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 21
-  },
-  {
-    "uid": "HViaKhTXNjt9NugjiBa2ltKrbW2",
-    "hash": "41c558d1c5",
-    "name": "Pursuit - Morning Glory",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 13
-  },
-  {
-    "uid": "nAJAbntpi_4EkizLNi7howlLzo9",
-    "hash": "309899ccec",
-    "name": "Pursuit - Kakjallamonumentano Mountain",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.3,
     "stars_total": 33
-  },
-  {
-    "uid": "zIf8Dke5IGF78c3lQbbssgF93qf",
-    "hash": "602d67c373",
-    "name": "Pursuit - Riolu Colloseum",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 25
-  },
-  {
-    "uid": "7x13aRTGBmv0oxceeTHDee7SiId",
-    "hash": "45a3457ee8",
-    "name": "GH - SuperBowl",
-    "yn_rating": 2.4,
-    "yn_votes": 184,
-    "stars_avg": 3.4,
-    "stars_total": 204
-  },
-  {
-    "uid": "U_y9lP7XvPxwEhUSOvDSsMJ51Pj",
-    "hash": "610935b848",
-    "name": "Pursuit - bowl",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.2,
-    "stars_total": 30
-  },
-  {
-    "uid": "Kp6mEk4u3IV3RyWaHXY9V3Xz_cc",
-    "hash": "6fc57de916",
-    "name": "[Lati Goal Hunt] Surfing Stadium",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 49
-  },
-  {
-    "uid": "Z0b8MaNyoYynDVx45ROI_BeREaf",
-    "hash": "2333d7d538",
-    "name": "Pursuit - this map exists because im bored V2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.3,
-    "stars_total": 27
   },
   {
     "uid": "N56JFDomW7SgjStH3W4MOmJNY93",
@@ -1656,13 +423,22 @@
     "stars_total": 29
   },
   {
-    "uid": "ATMZzNLpglWrqTVmL0areccHVp3",
-    "hash": "17bc720608",
-    "name": "MESA PROSPEKT",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 18
+    "uid": "eNJq1Gd3Hgbsy4dCKjjqJRy5A97",
+    "hash": "b31dd66433",
+    "name": "Goal Hunt - Complex",
+    "yn_rating": 3.0,
+    "yn_votes": 92,
+    "stars_avg": 3.7,
+    "stars_total": 154
+  },
+  {
+    "uid": "ynC2nHFfvBj_APKAGNObnsqjU3",
+    "hash": "5a9b108021",
+    "name": "Goal Hunt - Rolling Out",
+    "yn_rating": 3.9,
+    "yn_votes": 170,
+    "stars_avg": 3.7,
+    "stars_total": 207
   },
   {
     "uid": "8cPdCKF3tqehj2D_2uZzuJSUChd",
@@ -1671,115 +447,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 4.0,
-    "stars_total": 32
-  },
-  {
-    "uid": "L10av8HNvUwQK6dOO_1kb__YLhc",
-    "hash": "fbc5f84cf6",
-    "name": "Pursuit - Bugslide Hell",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 21
-  },
-  {
-    "uid": "QR9lgsB0v0zdcUhpvrCD3OONGRm",
-    "hash": "6041f6ec1b",
-    "name": "Pursuit - Thunderbowl",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 22
-  },
-  {
-    "uid": "uDe9rtl4dS_ngmbn7NUv68JAVQ9",
-    "hash": "f95c69dd60",
-    "name": "Pursuit-you like empty maps like turn around so here you go!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 31
-  },
-  {
-    "uid": "05xfUXiASci979Soiq88mJepJv4",
-    "hash": "55ce18b227",
-    "name": "Pursuit - Interstate Valley 2  -  City Chase",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 20
-  },
-  {
-    "uid": "egbMAGbvBgQn0KLVn8Dqj_F_ad4",
-    "hash": "5e0823f778",
-    "name": "Pursuit - Interstate Valley 2  -  Trap Trenches",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 7
-  },
-  {
-    "uid": "yK7bQf4SiHsHoxPUr0vG3sf_c7h",
-    "hash": "cee81506ae",
-    "name": "Pursuit - Interstate Valley 2  - Open Outskirts",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 16
-  },
-  {
-    "uid": "Lcx2FQC6VY_FwxMx7f28j17fXJ5",
-    "hash": "bc931e7a8e",
-    "name": "Pursuit - Interstate Valley 2  - Magnet Madness",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 2.9,
-    "stars_total": 20
-  },
-  {
-    "uid": "pdHcfgrPuzYKYG84amT6KREpj97",
-    "hash": "ad4ef5fc43",
-    "name": "[Pursuit] - Third Contribution",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 15
-  },
-  {
-    "uid": "mp_fQSprsxxVxokVdNApaY5l9Gi",
-    "hash": "a62226d53a",
-    "name": "Pursuit - MapObjetive´s Party",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 15
-  },
-  {
-    "uid": "glQAV8RtdlimHXIfx_WKppDKRu0",
-    "hash": "eec43fe4f4",
-    "name": "Pursuit - The Not So Crazy Rampage!",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 584
-  },
-  {
-    "uid": "r5HKjyhE4rm1VIrtwsXP0umxyKa",
-    "hash": "5a239d3528",
-    "name": "Pursuit - Community Map #01",
-    "yn_rating": 2.6,
-    "yn_votes": 53,
-    "stars_avg": 4.1,
-    "stars_total": 12
-  },
-  {
-    "uid": "VqKYM3aTsgqm1F1hBj2MqZL2x2n",
-    "hash": "e6c4ae3364",
-    "name": "Pursuit !!! - FIND YOUR TARGET",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 41
+    "stars_total": 33
   },
   {
     "uid": "BSW45khBDPApIybih1uQygk0M5h",
@@ -1788,88 +456,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 4.1,
-    "stars_total": 28
-  },
-  {
-    "uid": "MENRbMmgAMZghsbeb1vsj7CilZ5",
-    "hash": "666d3883ec",
-    "name": "Pursuit - actual one block map",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 2.8,
-    "stars_total": 19
-  },
-  {
-    "uid": "KzlhEADO_aFN4fBKjqJZPeAMwjj",
-    "hash": "cde7550486",
-    "name": "Pursuit - Power Slider",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 523
-  },
-  {
-    "uid": "Azb9sYN4ihp_wzxg_F3f4Kq2t8j",
-    "hash": "496c21cf5d",
-    "name": "Pursuit - The Sun",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 21
-  },
-  {
-    "uid": "SVkh_6JNgEANoEymZJdMrxe13zg",
-    "hash": "9a0f14d5cc",
-    "name": "F l a r i s  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 21
-  },
-  {
-    "uid": "cApDdXnHY9WRtSXe5fH8C3vtR37",
-    "hash": "4fa7b7c08e",
-    "name": "Z e n i t h  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 18
-  },
-  {
-    "uid": "FN1R_33tBlvQw3DjYHa_gFc2y4f",
-    "hash": "3e34cbb6d5",
-    "name": "P l u s  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.3,
-    "stars_total": 27
-  },
-  {
-    "uid": "Vyv2ouggAC7P0WuWtONbBo5S_Ol",
-    "hash": "5eadb42d89",
-    "name": "L o b o  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.3,
-    "stars_total": 20
-  },
-  {
-    "uid": "J_ujENLwNFnghfHxHuV9lRExp1n",
-    "hash": "75254e4701",
-    "name": "L o k o m o  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 28
-  },
-  {
-    "uid": "_8a3sQFrZNbS4A8bKejRHiwqor3",
-    "hash": "41afe83c39",
-    "name": "P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 26
+    "stars_total": 29
   },
   {
     "uid": "LrZjErzClJQITQoeFxbQBVI0aa8",
@@ -1895,8 +482,8 @@
     "name": "GHC2! #3 Bugslide Ice",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.3,
-    "stars_total": 35
+    "stars_avg": 3.2,
+    "stars_total": 37
   },
   {
     "uid": "ELepl7QY_3X0aGZ0EDijVIbBlc3",
@@ -1968,7 +555,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 4.2,
-    "stars_total": 27
+    "stars_total": 28
   },
   {
     "uid": "DfJrRNWZCG9UEKrdVWBl42SfjBf",
@@ -2012,8 +599,8 @@
     "name": "GHC2! #16 Who needs space anyway 4!!!",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.1,
-    "stars_total": 8
+    "stars_avg": 2.7,
+    "stars_total": 9
   },
   {
     "uid": "Cx8s5uEbCEjzBlkYLz0aOJfZoz3",
@@ -2021,8 +608,8 @@
     "name": "GHC2! #17 Simple Goal Hunt 2!",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 4.4,
-    "stars_total": 10
+    "stars_avg": 4.5,
+    "stars_total": 11
   },
   {
     "uid": "da8LooPaWspSPSVvL6onzA_cAme",
@@ -2039,8 +626,8 @@
     "name": "GHC2! #19 Bowl Hopping",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 4.1,
-    "stars_total": 16
+    "stars_avg": 3.9,
+    "stars_total": 18
   },
   {
     "uid": "fQCg2UAiFMm1r9FhhkwDas_ygs4",
@@ -2097,60 +684,6 @@
     "stars_total": 10
   },
   {
-    "uid": "0lzsElcgT1KkMRi7AA9JhOxb2Tb",
-    "hash": "3b69007244",
-    "name": "The future is REALLY bright",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 11
-  },
-  {
-    "uid": "ttj0Bw_ACkSta4uqfxj80_8iSh4",
-    "hash": "734686d2b5",
-    "name": "PURSUIT - Salon",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 19
-  },
-  {
-    "uid": "eVSO1sFc2sYip8vlEv4OQ_pgqOe",
-    "hash": "9d05207d4a",
-    "name": "pursuit - my first map",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 11
-  },
-  {
-    "uid": "O6dyHlHftJTD5Y0Kj2rlcr7FsN1",
-    "hash": "7557d2692a",
-    "name": "Pursuit - three islands",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 6
-  },
-  {
-    "uid": "b0838y0TaQdkxQCZEG1ZwLVK0q2",
-    "hash": "3ca990f5c1",
-    "name": "Pursuit - Big Village",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 12
-  },
-  {
-    "uid": "4VL0mPspn7oAkNaIPkTSds2KA40",
-    "hash": "bfdfda379e",
-    "name": "Pursuit - snail race",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 14
-  },
-  {
     "uid": "Vo4FS0SqRkxTjtw3TKQ8wzON0O5",
     "hash": "3f27fb6a98",
     "name": "Goal Hunt - map name",
@@ -2160,130 +693,13 @@
     "stars_total": 9
   },
   {
-    "uid": "sQkgqquk_sNj73lS2me91lrVZNi",
-    "hash": "39a3dd1de2",
-    "name": "Pursuit - IslandCar Vs BayCar",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 11
-  },
-  {
-    "uid": "T45ZfL8kMr390_VlsTUKI5RZ8F0",
-    "hash": "82d0c5c1be",
-    "name": "Pursuit - wanted to make a -1 star map, deal with it",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.8,
-    "stars_total": 10
-  },
-  {
-    "uid": "_wU_BDYSLIXkV_SdQFOeVuf_hA9",
-    "hash": "9f32c5cf9f",
-    "name": "PRIL FOOLS #1",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.3,
-    "stars_total": 16
-  },
-  {
-    "uid": "f_jrojLYyvhRFq6i1NYUAq6aZZ8",
-    "hash": "794314161a",
-    "name": "Pursuit - 6^3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.4,
-    "stars_total": 9
-  },
-  {
-    "uid": "9zMow0b58EphH0h5ek_Aapvmjzc",
-    "hash": "2ba3799179",
-    "name": "Pursuit - The Mall &#039;&#039;&#039;&#039;",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.8,
-    "stars_total": 8
-  },
-  {
-    "uid": "TISJLeThBMr8PQ1rNSDxktLk6Zi",
-    "hash": "497b048185",
-    "name": "Pursuit - Community Map #04",
-    "yn_rating": 2.7,
-    "yn_votes": 489,
-    "stars_avg": 3.3,
-    "stars_total": 551
-  },
-  {
-    "uid": "I_IMo6U2DdD9bQRqAhQrI3Sjoxl",
-    "hash": "6d5f5a5f7c",
-    "name": "Pursuit - Homelo",
-    "yn_rating": 2.2,
-    "yn_votes": 101,
-    "stars_avg": 4.1,
-    "stars_total": 26
-  },
-  {
-    "uid": "3xzSY_zL1kNbKsoLfVevb3rOClc",
-    "hash": "5e7fff0d0d",
-    "name": "Pursuit - Thundertown MK2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 23
-  },
-  {
-    "uid": "uvwyrhNAKofaxcvVW8o6xxu0n3",
-    "hash": "d1a96b9c73",
-    "name": "S K A L U S H  b y  z i y x",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.2,
-    "stars_total": 328
-  },
-  {
-    "uid": "As6tFsKjAEofNtPkno5ihJcHO1e",
-    "hash": "ec47121519",
-    "name": "Pursuit - Abomination",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.7,
-    "stars_total": 123
-  },
-  {
-    "uid": "9woASkEmEmHCQ7TBtLlIGn7erS1",
-    "hash": "c90ce21363",
-    "name": "Pursuit - Half Grid",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 8
-  },
-  {
     "uid": "Os3xxux6wDlqtivWgl6o6ySRHU3",
     "hash": "7d041c80ce",
     "name": "Goal Hunt - SPEEDMAPPING",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 4.4,
-    "stars_total": 14
-  },
-  {
-    "uid": "_pNrGbqqaEjK_fmwCDJQfx3amV4",
-    "hash": "9a5442f800",
-    "name": "PEEDMAPPING",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 11
-  },
-  {
-    "uid": "79E2FX1bSJzlnJlEO7iELCmh_Y6",
-    "hash": "607110cbf9",
-    "name": "Pursuit - BLOCKY WORLD #1",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 5
+    "stars_avg": 4.3,
+    "stars_total": 15
   },
   {
     "uid": "YXy2hhueATrWWxHv7slQVmUDoj",
@@ -2293,59 +709,5 @@
     "yn_votes": 0,
     "stars_avg": 4.1,
     "stars_total": 14
-  },
-  {
-    "uid": "tqJKdXobUN6ktsGLEaGg1IOG7S9",
-    "hash": "c93ef31183",
-    "name": "PursuitFUN - B15 Part I",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 0.0,
-    "stars_total": 0
-  },
-  {
-    "uid": "pQElSFhfgFiaY_vEeXPQBWre6E9",
-    "hash": "03f91cfbec",
-    "name": "PursuitFUN - B15 Part II",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 5.0,
-    "stars_total": 2
-  },
-  {
-    "uid": "A3iBTx7hGmMaGLFE5l0AUwCIXo4",
-    "hash": "ade539c663",
-    "name": "Pursuit - BLOCK WORLD #2",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 2
-  },
-  {
-    "uid": "0m_1QQsHilDTzBvDuXyHF3R4Mw5",
-    "hash": "f601eddaad",
-    "name": "Pursuit! - BLOCKY WORLD #3",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 16
-  },
-  {
-    "uid": "Aq4MoFUG5Totm3ubFb3L4oaxWx6",
-    "hash": "2d9ac76be7",
-    "name": "Goal Hunt - 1 block",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 1.0,
-    "stars_total": 1
-  },
-  {
-    "uid": "BALEPiJuf5gydyrzmaE6VhGy0He",
-    "hash": "2b3b0c8b71",
-    "name": "Pursuit - A recipe to spark a fail",
-    "yn_rating": 0.0,
-    "yn_votes": 0,
-    "stars_avg": 3.6,
-    "stars_total": 24
   }
 ]
