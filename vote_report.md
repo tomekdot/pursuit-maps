@@ -1,21 +1,20 @@
-# Vote Report - 2026-08-29 11:25 UTC
+# Vote Report - 2026-08-30 10:11 UTC
 
-Generated: 2026-08-29 11:25 UTC | Previous: 2026-08-28 17:00 UTC
+Generated: 2026-08-30 10:11 UTC | Previous: 2026-08-29 11:25 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 2
+- Maps with rating changes: 1
 - Ratings risen: 0
-- Ratings fallen: 2
-- New maps: 182
+- Ratings fallen: 1
+- New maps: 0
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | [Lati Goal Hunt] Arena Alpha | N/A | N/A | 3.7/5 | 3.6/5 |
-| 2 | Goal Hunt Christmas #14 Speedmapping this is | N/A | N/A | 4.0/5 | 3.9/5 |
+| 1 | Pursuit - Grandiosa | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
