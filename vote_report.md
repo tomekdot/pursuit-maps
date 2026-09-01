@@ -1,27 +1,20 @@
-# Vote Report - 2026-08-31 11:14 UTC
+# Vote Report - 2026-09-01 09:40 UTC
 
-Generated: 2026-08-31 11:14 UTC | Previous: 2026-08-30T11:20:18Z
+Generated: 2026-09-01 09:40 UTC | Previous: 2026-08-31 11:14 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 3
-- Ratings risen: 2
+- Maps with rating changes: 1
+- Ratings risen: 0
 - Ratings fallen: 1
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
-| 2 | GHC2! #22 Snowy Castle | N/A | N/A | 4.1/5 | 4.2/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part II | N/A | N/A | 5.0/5 | 4.2/5 |
+| 1 | Pursuit - Pursuit Party #02 | 2.8/5 | 2.8/5 | 4.0/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
