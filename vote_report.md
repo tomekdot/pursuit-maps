@@ -1,20 +1,14 @@
-# Vote Report - 2026-09-01 09:40 UTC
+# Vote Report - 2026-09-02 09:11 UTC
 
-Generated: 2026-09-01 09:40 UTC | Previous: 2026-08-31 11:14 UTC
+Generated: 2026-09-02 09:11 UTC | Previous: 2026-09-01 09:40 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Pursuit Party #02 | 2.8/5 | 2.8/5 | 4.0/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
