@@ -127100,6 +127100,722 @@
           "stars_total": 24
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-04 09:11 UTC",
+      "maps": [
+        {
+          "uid": "ZEnvC9gioY_n_Zmz5qcyiWfeVC4",
+          "hash": "d60d2a0f88",
+          "name": "[Lati Goal Hunt] Arena Alpha",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 66
+        },
+        {
+          "uid": "pPUGeJufxt7e2zbRScCSBnf90zd",
+          "hash": "e12217ae16",
+          "name": "Goal Hunt - Pancake Muffins",
+          "yn_rating": 3.5,
+          "yn_votes": 136,
+          "stars_avg": 3.7,
+          "stars_total": 159
+        },
+        {
+          "uid": "ltBzlCugLrBZ02eKfWsvrmlVNY1",
+          "hash": "53a342a209",
+          "name": "Goal Hunt - Merwood Lagoon",
+          "yn_rating": 2.9,
+          "yn_votes": 164,
+          "stars_avg": 3.9,
+          "stars_total": 123
+        },
+        {
+          "uid": "JqiRf3D7T8AvjUi92h0l3ZUrTs",
+          "hash": "065ecb72f3",
+          "name": "Goal Hunt - Fortness Canyon",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 123
+        },
+        {
+          "uid": "vbimDYCwWO7bapdgAHkZJQqB0gg",
+          "hash": "0fcdc9b835",
+          "name": "[Lati Goal Hunt] Lagoon City",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 637
+        },
+        {
+          "uid": "A7TstZsq_1tWYzol63C8YqGMf5b",
+          "hash": "1bb1a2f112",
+          "name": "Goal Hunt - Lagoon A08!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.4,
+          "stars_total": 54
+        },
+        {
+          "uid": "y4jXpEcqxwLX1hc7Z7dImz1mhEa",
+          "hash": "875710d806",
+          "name": "Goal Hunt - Valley A08!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 53
+        },
+        {
+          "uid": "ZwFCeZ1nVNE5aRviAG2BV1F_GAm",
+          "hash": "d6a41fd1a7",
+          "name": "Goal Hunt - Canyon A08!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 62
+        },
+        {
+          "uid": "fy4cohzUMJfI8axqwpkJldAz7d9",
+          "hash": "ee15a1eb07",
+          "name": "Goal Hunt - Islands!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 53
+        },
+        {
+          "uid": "FXANO9aDYQN3J636Kn35wdNrS4e",
+          "hash": "c77f946d0d",
+          "name": "Goal Hunt - Stadium A08!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.4,
+          "stars_total": 48
+        },
+        {
+          "uid": "RFJR7p2qJABgNZyeTREj1NfDPZ7",
+          "hash": "b8f32313a6",
+          "name": "Goal Hunt - Underwater Park",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.3,
+          "stars_total": 15
+        },
+        {
+          "uid": "924DTjPG8t1nbbDuMKxGqSdRgB0",
+          "hash": "205d726752",
+          "name": "[Lati Goal Hunt] Fast Rotation",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 45
+        },
+        {
+          "uid": "lG8Umw70a8twWeOvrizhTzo_aJ7",
+          "hash": "9206988d93",
+          "name": "Goal Hunt - Puddingland",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 82
+        },
+        {
+          "uid": "MZDl05mhswd8uJrAaqTTh2bMTZg",
+          "hash": "b928eb7544",
+          "name": "Goal Hunt Christmas #1 Candy Cane Hunt",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 21
+        },
+        {
+          "uid": "9iX2DjsMLXwaTSNuajkMtxZZyF7",
+          "hash": "80e222c37d",
+          "name": "Goal Hunt Christmas #2 Winter Basin",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 26
+        },
+        {
+          "uid": "pq4JadwDbsKeKCPsvLNaMHx7f0a",
+          "hash": "c0e309e28a",
+          "name": "Goal Hunt Christmas #3 Stadium A08 but with more A08",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 39
+        },
+        {
+          "uid": "nJyyxAwZ8yn0UK9SZofVAKpM7Aj",
+          "hash": "26b0393cb5",
+          "name": "Goal Hunt Christmas #4 Who needs space anyway 2",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 30
+        },
+        {
+          "uid": "zxjxVNSkqIWbnykecBIoBKO44s7",
+          "hash": "6153bbe6af",
+          "name": "Goal Hunt Christmas #5 I heard you like wood",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.3,
+          "stars_total": 24
+        },
+        {
+          "uid": "pjI5bIv_AwgVAlCGaUhTiNJPVud",
+          "hash": "c916753876",
+          "name": "Goal Hunt Christmas #6 Train Wipeout 2",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 31
+        },
+        {
+          "uid": "2Rud58wLhMUqeaIQMfdH2MOlC6c",
+          "hash": "b8cc157f2e",
+          "name": "Goal Hunt Christmas #7 Snowy Offroad",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 2.8,
+          "stars_total": 39
+        },
+        {
+          "uid": "MueOpY0PjYXJ79AoCXsHzQG5lKe",
+          "hash": "97e602cf26",
+          "name": "Goal Hunt Christmas #8 Lunar Landing DX",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.3,
+          "stars_total": 30
+        },
+        {
+          "uid": "vzocE7kMeQ0AKF1eBZUt8OLNG3f",
+          "hash": "9300f5b36e",
+          "name": "Goal Hunt Christmas #9 Simple Goal Hunt",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 26
+        },
+        {
+          "uid": "WHm4vrOPrJyY9yVlOd9_5atQx82",
+          "hash": "a8746699e4",
+          "name": "Goal Hunt Christmas #10 Goal Hunt Bowl",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 31
+        },
+        {
+          "uid": "zhX6JxVZqSRPpKqdryUORlouBM0",
+          "hash": "ef48c67a82",
+          "name": "Goal Hunt Christmas #11 Ferris Harbor",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 23
+        },
+        {
+          "uid": "5SodGFVmT3uJ04dvp4DzOWSKD05",
+          "hash": "c3554e4bd4",
+          "name": "Goal Hunt Christmas #12 Smol",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 41
+        },
+        {
+          "uid": "kEYxPyEaktZwaKVmx22vF7b59ac",
+          "hash": "0c254fc640",
+          "name": "Goal Hunt Christmas #13 Snow Fields",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 34
+        },
+        {
+          "uid": "6Pw0SoS1jDKqTPTj7WlZQvANb2g",
+          "hash": "4b0eef3d14",
+          "name": "Goal Hunt Christmas #14 Speedmapping this is",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 37
+        },
+        {
+          "uid": "vQyYZ4FhboV5u_o2FJKnEUDYTH2",
+          "hash": "ddf80ff53d",
+          "name": "Goal Hunt Christmas #15 When the H",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 39
+        },
+        {
+          "uid": "6BEsU8_Zf8emodVlY6L6DvLOBH5",
+          "hash": "43026380a5",
+          "name": "Goal Hunt Christmas #16 Night Rush",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 24
+        },
+        {
+          "uid": "8mK2IS_NdpfbBi8vnnX_xQRB2h3",
+          "hash": "1c80f2205b",
+          "name": "Goal Hunt Christmas #17 Ice Trenches",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 34
+        },
+        {
+          "uid": "eAqUluWdO53x2Lz5q1LE1fbp1n3",
+          "hash": "7c4b981ae5",
+          "name": "Goal Hunt - 2I6C",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.1,
+          "stars_total": 31
+        },
+        {
+          "uid": "3OVOJyVcNx2LYezju0O8JGpITG5",
+          "hash": "9a10d98b1b",
+          "name": "Goal Hunt Christmas #19 Ice Cold Water",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 22
+        },
+        {
+          "uid": "sIQHk_Zg30pJo3UXqIX1BS_0waa",
+          "hash": "57ce528aed",
+          "name": "Goal Hunt Christmas #20 &quot;Another dirt map?&quot; &quot;yes al&quot;",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.1,
+          "stars_total": 24
+        },
+        {
+          "uid": "zfNXsMexjMu48Qo3ri8qza2zR_n",
+          "hash": "c64b2ca003",
+          "name": "Goal Hunt Christmas #21 It&#039;s a map",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 51
+        },
+        {
+          "uid": "QLPlUIKV7lQ7NZ8nXcklI1Lj6F9",
+          "hash": "2e62a0866a",
+          "name": "Goal Hunt Christmas #22 Deck the Halls",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 38
+        },
+        {
+          "uid": "gOUHfNVXudhQfPfwAygQvEl4bui",
+          "hash": "31a395455f",
+          "name": "Goal Hunt Christmas #23 Who needs space anyway 3!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 28
+        },
+        {
+          "uid": "yWjIt03xFOQ2ZS49Fk5psughqB9",
+          "hash": "68f416fee7",
+          "name": "Goal Hunt Christmas #24 + 25 Christmas Plaza",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.1,
+          "stars_total": 33
+        },
+        {
+          "uid": "38wvynxgUhlRgh2aiF2HOqKxw_a",
+          "hash": "c87dfc1f33",
+          "name": "Goal Hunt - Lightshow",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 54
+        },
+        {
+          "uid": "H6kyeR1uiGFUbgePWp1xK3Om1Lj",
+          "hash": "d9155e5698",
+          "name": "Goal Hunt - Ula Ula",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 34
+        },
+        {
+          "uid": "vtsrtSFzqdJr8cVETNlfPIyvTR9",
+          "hash": "30709e80d7",
+          "name": "goal hunt-i dont know what to name this bnfvghvndxsc",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 37
+        },
+        {
+          "uid": "EKXOKCDqqe5aIlF7wCcORErwWp",
+          "hash": "8035247a11",
+          "name": "Goal Hunt - Dirty Adventure",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 44
+        },
+        {
+          "uid": "4AUlnsqhuuPVIgPPf51Xt83xZD0",
+          "hash": "f7cacda55e",
+          "name": "Goal Hunt - Space Claw",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.2,
+          "stars_total": 25
+        },
+        {
+          "uid": "DbAmvEYgq2Zs6G4VcmYRcJR3Yod",
+          "hash": "4969f0f231",
+          "name": "Goal Hunt - Slug Hunt",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 28
+        },
+        {
+          "uid": "Pmbh4NLUWQzJk2pwxj6kIBEHzT",
+          "hash": "b0441d310b",
+          "name": "KEKL - GoalHunt but it&#039;s finishes and you finish the map instead of getting points but it&#039;s actually GoalHunt now",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.2,
+          "stars_total": 31
+        },
+        {
+          "uid": "1J1_SFuNLNXsZozZvs6IsZxjHLa",
+          "hash": "b3c72bee92",
+          "name": "Goal Hunt TMNF E03",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 52
+        },
+        {
+          "uid": "naaeMXUARQETV1sfMzL2FyWWw6b",
+          "hash": "97c00feacd",
+          "name": "Goal Hunt - Use the Force",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 33
+        },
+        {
+          "uid": "N56JFDomW7SgjStH3W4MOmJNY93",
+          "hash": "c7ca9164af",
+          "name": "[GoalHunt] - Second Contribuiton",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 29
+        },
+        {
+          "uid": "eNJq1Gd3Hgbsy4dCKjjqJRy5A97",
+          "hash": "b31dd66433",
+          "name": "Goal Hunt - Complex",
+          "yn_rating": 3.0,
+          "yn_votes": 92,
+          "stars_avg": 3.7,
+          "stars_total": 154
+        },
+        {
+          "uid": "ynC2nHFfvBj_APKAGNObnsqjU3",
+          "hash": "5a9b108021",
+          "name": "Goal Hunt - Rolling Out",
+          "yn_rating": 3.9,
+          "yn_votes": 170,
+          "stars_avg": 3.7,
+          "stars_total": 207
+        },
+        {
+          "uid": "8cPdCKF3tqehj2D_2uZzuJSUChd",
+          "hash": "a26434d3d7",
+          "name": "Goal Hunt - Bolognaland",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 33
+        },
+        {
+          "uid": "BSW45khBDPApIybih1uQygk0M5h",
+          "hash": "390029cc73",
+          "name": "Goal Hunt - A05 !",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.1,
+          "stars_total": 29
+        },
+        {
+          "uid": "LrZjErzClJQITQoeFxbQBVI0aa8",
+          "hash": "8f0ec87910",
+          "name": "GHC2! #1 Freezing Canyon",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.1,
+          "stars_total": 14
+        },
+        {
+          "uid": "VOmaIEBfk6ELYUZvgcOxrud0mWf",
+          "hash": "63cb2478bf",
+          "name": "GHC2! #2 Icy Park",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.2,
+          "stars_total": 16
+        },
+        {
+          "uid": "EVDnPdRQP6j19NWSv_fHFQedCe0",
+          "hash": "7721cc2eef",
+          "name": "GHC2! #3 Bugslide Ice",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.2,
+          "stars_total": 37
+        },
+        {
+          "uid": "ELepl7QY_3X0aGZ0EDijVIbBlc3",
+          "hash": "c0d00c9a12",
+          "name": "GHC2! #4 I heard you like wood + freewheel",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 8
+        },
+        {
+          "uid": "tMcIZUX6xSc5MAxaIzWmS_bsCc9",
+          "hash": "300ab20b1f",
+          "name": "GHC2! #5 Valley A08 but with more A08",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 18
+        },
+        {
+          "uid": "KQpREicgsqwxx3P6GcCJl1MTbJj",
+          "hash": "e0d80537b1",
+          "name": "GHC2! #6 Jolly Ravine",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.4,
+          "stars_total": 12
+        },
+        {
+          "uid": "u3Ac0gI3XM_Iu5qKmmMkMuR31Tb",
+          "hash": "e4e64e3d90",
+          "name": "GHC2! #7 Snowy Paradise",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.6,
+          "stars_total": 14
+        },
+        {
+          "uid": "ga5e9iGUwjIbUEM6vdDNL70cnNh",
+          "hash": "50435cc304",
+          "name": "GHC2! #8 Negative Degrees",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 17
+        },
+        {
+          "uid": "zmd8KewHTCbAH8UDT55JeDyspd3",
+          "hash": "9391ecade6",
+          "name": "GHC2! #9 Going Up and Down!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 2.8,
+          "stars_total": 18
+        },
+        {
+          "uid": "xtbaAU4YFq6obybySFCmTsl8J_b",
+          "hash": "cb1b6d9e0a",
+          "name": "GHC2! #10 Glacial Plains",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 15
+        },
+        {
+          "uid": "WpLujS9GJcfajH916tKF67ow77k",
+          "hash": "5c9c814f62",
+          "name": "GHC2! #11 Cold Heights",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.2,
+          "stars_total": 28
+        },
+        {
+          "uid": "DfJrRNWZCG9UEKrdVWBl42SfjBf",
+          "hash": "00f2937603",
+          "name": "GHC2! #12 Chilly Sunset",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 20
+        },
+        {
+          "uid": "h6kd081bYtAab_QElzy6fV6fMDb",
+          "hash": "73de534bbb",
+          "name": "GHC2! #13 when did J",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.4,
+          "stars_total": 19
+        },
+        {
+          "uid": "PZTTXM4M_b7AECwnHus6GMbQY0h",
+          "hash": "31a04308f0",
+          "name": "GHC2! #14 Unpredictable Slides",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 22
+        },
+        {
+          "uid": "3juzuVbKXlMDhJjkrbOCDTKz7Ki",
+          "hash": "e109431b48",
+          "name": "GHC2! #15 Wallriding",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.3,
+          "stars_total": 19
+        },
+        {
+          "uid": "wn10bvhXffy3PmOjSfI1kkJvL93",
+          "hash": "656498484c",
+          "name": "GHC2! #16 Who needs space anyway 4!!!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 2.7,
+          "stars_total": 9
+        },
+        {
+          "uid": "Cx8s5uEbCEjzBlkYLz0aOJfZoz3",
+          "hash": "3ecfd8408e",
+          "name": "GHC2! #17 Simple Goal Hunt 2!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.5,
+          "stars_total": 11
+        },
+        {
+          "uid": "da8LooPaWspSPSVvL6onzA_cAme",
+          "hash": "8fda126e46",
+          "name": "GHC2! #18 Goal Hunt Bowl 2!",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 16
+        },
+        {
+          "uid": "8SElzvb0sNlE3R6zLVBjjJsHjAf",
+          "hash": "e645025a25",
+          "name": "GHC2! #19 Bowl Hopping",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 18
+        },
+        {
+          "uid": "fQCg2UAiFMm1r9FhhkwDas_ygs4",
+          "hash": "20067e0e2e",
+          "name": "GHC2! #20 Magnet Chaos",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.2,
+          "stars_total": 12
+        },
+        {
+          "uid": "8gMdIVP0OJl9UvbADYFEQ7tL1we",
+          "hash": "c711b1b353",
+          "name": "GHC2! #21 Winter Wonderland",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.8,
+          "stars_total": 18
+        },
+        {
+          "uid": "3kq7b2PWJiotnAKwyKDKabNbOLg",
+          "hash": "a86ffd97ca",
+          "name": "GHC2! #22 Snowy Castle",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.2,
+          "stars_total": 16
+        },
+        {
+          "uid": "cZw7rokIRiEuKRTytyRLR4aPWn9",
+          "hash": "ec26397506",
+          "name": "GHC2! #23 Shiver Bay",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.5,
+          "stars_total": 11
+        },
+        {
+          "uid": "s3oZLUyEdXk35eEB0MZ6m2H31j2",
+          "hash": "58f0cce12d",
+          "name": "GHC2! #24 Christmas Square",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.9,
+          "stars_total": 10
+        },
+        {
+          "uid": "CY_2q_cDXvPKO07ICNaQOphLjY0",
+          "hash": "4341837394",
+          "name": "GoalHunt - AlienSignal",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.0,
+          "stars_total": 10
+        },
+        {
+          "uid": "Vo4FS0SqRkxTjtw3TKQ8wzON0O5",
+          "hash": "3f27fb6a98",
+          "name": "Goal Hunt - map name",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 3.7,
+          "stars_total": 9
+        },
+        {
+          "uid": "Os3xxux6wDlqtivWgl6o6ySRHU3",
+          "hash": "7d041c80ce",
+          "name": "Goal Hunt - SPEEDMAPPING",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.3,
+          "stars_total": 15
+        },
+        {
+          "uid": "YXy2hhueATrWWxHv7slQVmUDoj",
+          "hash": "cc003b30f1",
+          "name": "Goal Hunt - BLOCKY WORLD #1",
+          "yn_rating": 0.0,
+          "yn_votes": 0,
+          "stars_avg": 4.1,
+          "stars_total": 14
+        }
+      ]
     }
   ]
 }
