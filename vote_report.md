@@ -1,12 +1,12 @@
-# Vote Report - 2026-09-06 09:03 UTC
+# Vote Report - 2026-09-07 09:50 UTC
 
-Generated: 2026-09-06 09:03 UTC | Previous: 2026-09-05 08:42 UTC
+Generated: 2026-09-07 09:50 UTC | Previous: 2026-09-06T10:20:00Z
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 2
-- Ratings risen: 1
+- Maps with rating changes: 3
+- Ratings risen: 2
 - Ratings fallen: 1
 - New maps: 0
 
@@ -14,13 +14,14 @@ Generated: 2026-09-06 09:03 UTC | Previous: 2026-09-05 08:42 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3 | N/A | N/A | 3.8/5 | 3.9/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
+| 2 | Goal Hunt Christmas #3 Stadium A08 but with more A | N/A | N/A | 3.6/5 | 3.7/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | G a y R o u g h !  b y  z i y x | 2.4/5 | 2.4/5 | 3.7/5 | 3.6/5 |
+| 1 | Pursuit - Half Grid | N/A | N/A | 3.5/5 | 3.4/5 |
 
 ## Top 10 by 5-Star Rating
 
