@@ -1,20 +1,14 @@
-# Vote Report - 2026-09-08 09:15 UTC
+# Vote Report - 2026-09-09 09:18 UTC
 
-Generated: 2026-09-08 09:15 UTC | Previous: 2026-09-07 09:50 UTC
+Generated: 2026-09-09 09:18 UTC | Previous: 2026-09-08 09:15 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - RageReef | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
