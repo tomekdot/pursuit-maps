@@ -1,20 +1,27 @@
-# Vote Report - 2026-09-12 08:57 UTC
+# Vote Report - 2026-09-13 09:53 UTC
 
-Generated: 2026-09-12 08:57 UTC | Previous: 2026-09-11 09:16 UTC
+Generated: 2026-09-13 09:53 UTC | Previous: 2026-09-12 08:57 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 1
+- Maps with rating changes: 3
 - Ratings risen: 1
-- Ratings fallen: 0
-- New maps: 182
+- Ratings fallen: 2
+- New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #23 Who needs space anyway 3! | N/A | N/A | 3.5/5 | 3.6/5 |
+| 1 | GHC2! #9 Going Up and Down! | N/A | N/A | 2.8/5 | 3.0/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | GHC2! #7 Snowy Paradise | N/A | N/A | 3.6/5 | 3.4/5 |
+| 2 | pursuit - 1 block | N/A | N/A | 3.4/5 | 3.3/5 |
 
 ## Top 10 by 5-Star Rating
 
