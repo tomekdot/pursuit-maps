@@ -1,14 +1,20 @@
-# Vote Report - 2026-09-16 09:36 UTC
+# Vote Report - 2026-09-17 09:44 UTC
 
-Generated: 2026-09-16 09:36 UTC | Previous: 2026-09-15 09:41 UTC
+Generated: 2026-09-17 09:44 UTC | Previous: 2026-09-16 09:36 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 0
-- Ratings risen: 0
+- Maps with rating changes: 1
+- Ratings risen: 1
 - Ratings fallen: 0
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit - Interstate Valley 2  -  Trap Trenches | N/A | N/A | 3.7/5 | 4.0/5 |
 
 ## Top 10 by 5-Star Rating
 
