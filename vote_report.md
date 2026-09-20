@@ -1,22 +1,20 @@
-# Vote Report - 2026-09-19 09:04 UTC
+# Vote Report - 2026-09-20 09:31 UTC
 
-Generated: 2026-09-19 09:04 UTC | Previous: 2026-09-17 09:44 UTC
+Generated: 2026-09-20 09:31 UTC | Previous: 2026-09-19 09:04 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 3
-- Ratings risen: 0
-- Ratings fallen: 3
+- Maps with rating changes: 1
+- Ratings risen: 1
+- Ratings fallen: 0
 - New maps: 0
 
-## Ratings Fallen
+## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #9 Simple Goal Hunt | N/A | N/A | 3.9/5 | 3.8/5 |
-| 2 | Goal Hunt - Use the Force | N/A | N/A | 3.5/5 | 3.4/5 |
-| 3 | GHC2! #13 when did J | N/A | N/A | 3.4/5 | 3.3/5 |
+| 1 | Pursuit - Interstate Valley 2  - Magnet Madness | N/A | N/A | 2.9/5 | 3.0/5 |
 
 ## Top 10 by 5-Star Rating
 
