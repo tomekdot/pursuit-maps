@@ -1,28 +1,26 @@
-# Vote Report - 2026-09-21 10:18 UTC
+# Vote Report - 2026-09-22 09:33 UTC
 
-Generated: 2026-09-21 10:18 UTC | Previous: 2026-09-20T10:42:25Z
+Generated: 2026-09-22 09:33 UTC | Previous: 2026-09-21 10:18 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 4
-- Ratings risen: 2
-- Ratings fallen: 2
+- Maps with rating changes: 2
+- Ratings risen: 1
+- Ratings fallen: 1
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
-| 2 | Pursuit - Open Air | N/A | N/A | 3.9/5 | 4.0/5 |
+| 1 | Goal Hunt - 1 block | N/A | N/A | 1.0/5 | 2.4/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | L o b o  b y  K i K i 1 1 3 | N/A | N/A | 4.3/5 | 4.1/5 |
-| 2 | Z e n i t h  b y  K i K i 1 1 3 | N/A | N/A | 3.8/5 | 3.6/5 |
+| 1 | Pursuit - Cliff Hopper | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
