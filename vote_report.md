@@ -1,26 +1,14 @@
-# Vote Report - 2026-09-22 09:33 UTC
+# Vote Report - 2026-09-23 09:38 UTC
 
-Generated: 2026-09-22 09:33 UTC | Previous: 2026-09-21 10:18 UTC
+Generated: 2026-09-23 09:38 UTC | Previous: 2026-09-22 09:33 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 2
-- Ratings risen: 1
-- Ratings fallen: 1
+- Maps with rating changes: 0
+- Ratings risen: 0
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - 1 block | N/A | N/A | 1.0/5 | 2.4/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Cliff Hopper | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
