@@ -1,14 +1,20 @@
-# Vote Report - 2026-09-24 09:38 UTC
+# Vote Report - 2026-09-25 09:55 UTC
 
-Generated: 2026-09-24 09:38 UTC | Previous: 2026-09-23 09:38 UTC
+Generated: 2026-09-25 09:55 UTC | Previous: 2026-09-24 09:38 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 0
+- Maps with rating changes: 1
 - Ratings risen: 0
-- Ratings fallen: 0
+- Ratings fallen: 1
 - New maps: 0
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt Christmas #16 Night Rush | N/A | N/A | 4.0/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
