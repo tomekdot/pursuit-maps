@@ -1,27 +1,14 @@
-# Vote Report - 2026-09-29 10:59 UTC
+# Vote Report - 2026-09-30 10:49 UTC
 
-Generated: 2026-09-29 10:59 UTC | Previous: 2026-09-28 11:20 UTC
+Generated: 2026-09-30 10:49 UTC | Previous: 2026-09-29 10:59 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 3
-- Ratings risen: 2
-- Ratings fallen: 1
+- Maps with rating changes: 0
+- Ratings risen: 0
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - 6^3 | N/A | N/A | 3.4/5 | 3.6/5 |
-| 2 | Pursuit - Pursuit Party #02 | 2.8/5 | 2.8/5 | 3.9/5 | 4.0/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Bugslide Hell | N/A | N/A | 3.9/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
