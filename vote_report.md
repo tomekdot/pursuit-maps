@@ -1,6 +1,6 @@
-# Vote Report - 2026-10-01 11:16 UTC
+# Vote Report - 2026-10-02 10:48 UTC
 
-Generated: 2026-10-01 11:16 UTC | Previous: 2026-09-30 10:49 UTC
+Generated: 2026-10-02 10:48 UTC | Previous: 2026-10-01 11:16 UTC
 
 ## Summary
 
@@ -14,7 +14,7 @@ Generated: 2026-10-01 11:16 UTC | Previous: 2026-09-30 10:49 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part I | N/A | N/A | 5.0/5 | 4.3/5 |
+| 1 | P a c m a n &#039; s  P a r k  b y  K i K i 1 1 3 | N/A | N/A | 3.9/5 | 3.8/5 |
 
 ## Top 10 by 5-Star Rating
 
