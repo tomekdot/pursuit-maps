@@ -1,20 +1,20 @@
-# Vote Report - 2026-10-04 10:48 UTC
+# Vote Report - 2026-10-05 11:56 UTC
 
-Generated: 2026-10-04 10:48 UTC | Previous: 2026-10-03 10:08 UTC
+Generated: 2026-10-05 11:56 UTC | Previous: 2026-10-04T11:50:09Z
 
 ## Summary
 
 - Total maps: 261
 - Maps with rating changes: 1
-- Ratings risen: 0
-- Ratings fallen: 1
-- New maps: 182
+- Ratings risen: 1
+- Ratings fallen: 0
+- New maps: 0
 
-## Ratings Fallen
+## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Bolognaland | N/A | N/A | 4.0/5 | 3.9/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
 
 ## Top 10 by 5-Star Rating
 
