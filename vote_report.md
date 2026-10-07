@@ -1,20 +1,20 @@
-# Vote Report - 2026-10-05 11:56 UTC
+# Vote Report - 2026-10-07 11:26 UTC
 
-Generated: 2026-10-05 11:56 UTC | Previous: 2026-10-04T11:50:09Z
+Generated: 2026-10-07 11:26 UTC | Previous: 2026-10-05 11:56 UTC
 
 ## Summary
 
 - Total maps: 261
 - Maps with rating changes: 1
-- Ratings risen: 1
-- Ratings fallen: 0
+- Ratings risen: 0
+- Ratings fallen: 1
 - New maps: 0
 
-## Ratings Risen
+## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
+| 1 | Liminal Maze Tower | N/A | N/A | 3.9/5 | 3.8/5 |
 
 ## Top 10 by 5-Star Rating
 
