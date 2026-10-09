@@ -1,20 +1,21 @@
-# Vote Report - 2026-10-07 11:26 UTC
+# Vote Report - 2026-10-09 11:35 UTC
 
-Generated: 2026-10-07 11:26 UTC | Previous: 2026-10-05 11:56 UTC
+Generated: 2026-10-09 11:35 UTC | Previous: 2026-10-07 11:26 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 1
-- Ratings risen: 0
-- Ratings fallen: 1
+- Maps with rating changes: 2
+- Ratings risen: 2
+- Ratings fallen: 0
 - New maps: 0
 
-## Ratings Fallen
+## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Liminal Maze Tower | N/A | N/A | 3.9/5 | 3.8/5 |
+| 1 | GHC2! #6 Jolly Ravine | N/A | N/A | 4.1/5 | 4.2/5 |
+| 2 | The future is REALLY bright | N/A | N/A | 3.6/5 | 3.7/5 |
 
 ## Top 10 by 5-Star Rating
 
