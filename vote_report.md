@@ -1,12 +1,12 @@
-# Vote Report - 2026-10-12 12:35 UTC
+# Vote Report - 2026-10-13 12:20 UTC
 
-Generated: 2026-10-12 12:35 UTC | Previous: 2026-10-11T12:10:26Z
+Generated: 2026-10-13 12:20 UTC | Previous: 2026-10-12 12:35 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 1
-- Ratings risen: 1
+- Maps with rating changes: 2
+- Ratings risen: 2
 - Ratings fallen: 0
 - New maps: 0
 
@@ -14,7 +14,8 @@ Generated: 2026-10-12 12:35 UTC | Previous: 2026-10-11T12:10:26Z
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
+| 1 | Pursuit - snail race | N/A | N/A | 3.8/5 | 4.0/5 |
+| 2 | Pursuit - When The Elevator Stops Working Revised! | N/A | N/A | 3.8/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
