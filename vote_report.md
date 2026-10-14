@@ -1,21 +1,14 @@
-# Vote Report - 2026-10-13 12:20 UTC
+# Vote Report - 2026-10-14 09:50 UTC
 
-Generated: 2026-10-13 12:20 UTC | Previous: 2026-10-12 12:35 UTC
+Generated: 2026-10-14 09:50 UTC | Previous: 2026-10-13 12:20 UTC
 
 ## Summary
 
 - Total maps: 261
-- Maps with rating changes: 2
-- Ratings risen: 2
+- Maps with rating changes: 0
+- Ratings risen: 0
 - Ratings fallen: 0
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - snail race | N/A | N/A | 3.8/5 | 4.0/5 |
-| 2 | Pursuit - When The Elevator Stops Working Revised! | N/A | N/A | 3.8/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
