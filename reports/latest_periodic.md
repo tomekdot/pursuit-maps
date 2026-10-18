@@ -1,14 +1,14 @@
-# 🌙 Weekly Pursuit Maps Report — 2026-10-11
+# 🌙 Weekly Pursuit Maps Report — 2026-10-18
 
-_Generated 2026-10-11 12:10 UTC · Moon phase: **New Moon** · Reports every 4 moon phases (~weekly)_
+_Generated 2026-10-18 10:27 UTC · Moon phase: **First Quarter** · Reports every 4 moon phases (~weekly)_
 
 ## 📊 Snapshot
 
-- Total maps tracked: **305**
-- Maps with a 5-Star rating: **263**
+- Total maps tracked: **306**
+- Maps with a 5-Star rating: **264**
 - Maps with a YES/NO rating: **52**
 - Total YES/NO votes cast: **13,524**
-- Total 5-Star votes cast: **26,509**
+- Total 5-Star votes cast: **26,516**
 - Average 5-Star rating: **3.68/5**
 - Average YES/NO rating: **3.01/5**
 - Vote-history snapshots on file: **91**
@@ -24,7 +24,7 @@ _Generated 2026-10-11 12:10 UTC · Moon phase: **New Moon** · Reports every 4 m
 | 5 | Pursuit - Pursuit Party #02 | 4.0/5 | 73 | 2.8/5 |
 | 6 | Pursuit - On The Move! | 3.9/5 | 751 | — |
 | 7 | Pursuit - Scadroy Town | 3.9/5 | 672 | 3.8/5 |
-| 8 | Pursuit - The Not So Crazy Rampage! | 3.9/5 | 584 | — |
+| 8 | Pursuit - The Not So Crazy Rampage! | 3.9/5 | 585 | — |
 | 9 | Pursuit - Turn Around | 3.9/5 | 133 | 3.5/5 |
 | 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 123 | 2.9/5 |
 
@@ -72,20 +72,20 @@ Stadium                  ██████████████████�
 Canyon                   ██████████████░░░░░░░░░░░░░░ 69
 Lagoon                   █████████░░░░░░░░░░░░░░░░░░░ 46
 Valley                   █████████░░░░░░░░░░░░░░░░░░░ 42
-Unknown                  ██░░░░░░░░░░░░░░░░░░░░░░░░░░ 11
+Unknown                  ██░░░░░░░░░░░░░░░░░░░░░░░░░░ 12
 
 ## 🎯 Maps by Mode (MapType)
 
 PursuitArena             ████████████████████████████ 206
 GoalHuntArena            ████████████░░░░░░░░░░░░░░░░ 87
-Unknown                  █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6
+Unknown                  █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7
 Trackmania\Race          █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
 HuntersArena             █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
 
 ## 👤 Top Authors (by map count, top 12)
 
 dogestar_tm              ████████████████████████████ 62
-Unknown                  ███████████████░░░░░░░░░░░░░ 33
+Unknown                  ███████████████░░░░░░░░░░░░░ 34
 owen8900                 ██████████████░░░░░░░░░░░░░░ 32
 lukin27                  ████████████░░░░░░░░░░░░░░░░ 26
 cime62                   █████████░░░░░░░░░░░░░░░░░░░ 20
@@ -107,21 +107,21 @@ piotrunio                ███░░░░░░░░░░░░░░░�
 2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2
 3.0                      ████░░░░░░░░░░░░░░░░░░░░░░░░ 19
 3.5                      ████████████████████████████ 129
-4.0                      ███████████████████████░░░░░ 107
+4.0                      ███████████████████████░░░░░ 108
 4.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5
 5.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 
 ## 📈 How Ratings Changed Over Time
 
-_Comparing first snapshot (2026-07-17T14:56:09Z) with latest (2026-10-10 10:52 UTC)._
+_Comparing first snapshot (2026-07-22 07:29 UTC) with latest (2026-10-18 09:14 UTC)._
 
 **▲ Most improved**
 
 | # | Map | 5★ before→after | YN before→after |
 |---|-----|-----------------|-----------------|
-| 1 | Goal Hunt - Lagoon A08! | —→3.4/5 | —→— |
-| 2 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
-| 3 | GHC2! #22 Snowy Castle | 4.0/5→4.2/5 | —→— |
+| 1 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
+| 2 | GHC2! #22 Snowy Castle | 4.0/5→4.2/5 | —→— |
+| 3 | GHC2! #23 Shiver Bay | 3.5/5→3.7/5 | —→— |
 | 4 | GHC2! #20 Magnet Chaos | 4.1/5→4.2/5 | —→— |
 | 5 | Goal Hunt - Canyon A08! | 3.6/5→3.7/5 | —→— |
 | 6 | Goal Hunt Christmas #3 Stadium A08 but with  | 3.6/5→3.7/5 | —→— |
@@ -142,9 +142,13 @@ _Comparing first snapshot (2026-07-17T14:56:09Z) with latest (2026-10-10 10:52 U
 | 6 | Goal Hunt Christmas #9 Simple Goal Hunt | 4.0/5→3.8/5 | —→— |
 | 7 | Goal Hunt Christmas #11 Ferris Harbor | 4.2/5→4.0/5 | —→— |
 | 8 | GHC2! #7 Snowy Paradise | 3.6/5→3.4/5 | —→— |
-| 9 | GHC2! #23 Shiver Bay | 3.7/5→3.5/5 | —→— |
+| 9 | GHC2! #16 Who needs space anyway 4!!! | 3.1/5→2.9/5 | —→— |
 | 10 | Goal Hunt - SPEEDMAPPING | 4.5/5→4.3/5 | —→— |
 
 ## 🆕 New Since Last Report
 
-_No new maps since the previous periodic report._
+**1** map(s) added since the last periodic report (2026-10-11):
+
+| # | Map | Author | Env | 5★ Avg |
+|---|-----|--------|-----|--------|
+| 1 | Pursuit - ragebait V2 | — | — | 3.2/5 |
