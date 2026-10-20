@@ -1,37 +1,20 @@
-# Vote Report - 2026-10-19 10:24 UTC
+# Vote Report - 2026-10-20 09:43 UTC
 
-Generated: 2026-10-19 10:24 UTC | Previous: 2026-10-18T10:27:43Z
+Generated: 2026-10-20 09:43 UTC | Previous: 2026-10-19 10:24 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 13
-- Ratings risen: 6
-- Ratings fallen: 7
+- Maps with rating changes: 1
+- Ratings risen: 0
+- Ratings fallen: 1
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
-| 2 | GHC2! #16 Who needs space anyway 4!!! | N/A | N/A | 2.9/5 | 3.1/5 |
-| 3 | Pursuit  Fustercluck | 2.5/5 | 2.5/5 | 3.6/5 | 3.7/5 |
-| 4 | Goal Hunt - Islands! | N/A | N/A | 3.5/5 | 3.6/5 |
-| 5 | MESA PROSPEKT | N/A | N/A | 3.3/5 | 3.4/5 |
-| 6 | Z e n i t h  b y  K i K i 1 1 3 | N/A | N/A | 3.6/5 | 3.7/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - BLOCKY WORLD #1 | N/A | N/A | 4.1/5 | 3.8/5 |
-| 2 | Pursuit - Tanker v1 | N/A | N/A | 3.2/5 | 3.1/5 |
-| 3 | Goal Hunt - Ula Ula | N/A | N/A | 3.9/5 | 3.8/5 |
-| 4 | Pursuit - When The Elevator Stops Working Revised! | N/A | N/A | 3.9/5 | 3.8/5 |
-| 5 | Pursuit - Bugslide Hell | N/A | N/A | 3.6/5 | 3.5/5 |
-| 6 | Goal Hunt - A05 ! | N/A | N/A | 4.0/5 | 3.9/5 |
-| 7 | Pursuit - Half Grid | N/A | N/A | 3.4/5 | 3.3/5 |
+| 1 | GHC2! #24 Christmas Square | N/A | N/A | 3.9/5 | 3.7/5 |
 
 ## Top 10 by 5-Star Rating
 
