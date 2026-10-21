@@ -1,20 +1,14 @@
-# Vote Report - 2026-10-20 09:43 UTC
+# Vote Report - 2026-10-21 09:44 UTC
 
-Generated: 2026-10-20 09:43 UTC | Previous: 2026-10-19 10:24 UTC
+Generated: 2026-10-21 09:44 UTC | Previous: 2026-10-20 09:43 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | GHC2! #24 Christmas Square | N/A | N/A | 3.9/5 | 3.7/5 |
 
 ## Top 10 by 5-Star Rating
 
