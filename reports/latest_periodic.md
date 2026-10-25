@@ -1,6 +1,6 @@
-# 🌙 Weekly Pursuit Maps Report — 2026-10-18
+# 🌙 Weekly Pursuit Maps Report — 2026-10-25
 
-_Generated 2026-10-18 10:27 UTC · Moon phase: **First Quarter** · Reports every 4 moon phases (~weekly)_
+_Generated 2026-10-25 10:48 UTC · Moon phase: **Full Moon** · Reports every 4 moon phases (~weekly)_
 
 ## 📊 Snapshot
 
@@ -8,7 +8,7 @@ _Generated 2026-10-18 10:27 UTC · Moon phase: **First Quarter** · Reports ever
 - Maps with a 5-Star rating: **264**
 - Maps with a YES/NO rating: **52**
 - Total YES/NO votes cast: **13,524**
-- Total 5-Star votes cast: **26,516**
+- Total 5-Star votes cast: **26,560**
 - Average 5-Star rating: **3.68/5**
 - Average YES/NO rating: **3.01/5**
 - Vote-history snapshots on file: **91**
@@ -18,15 +18,15 @@ _Generated 2026-10-18 10:27 UTC · Moon phase: **First Quarter** · Reports ever
 | # | Map | 5★ Avg | Votes | YN |
 |---|-----|--------|-------|----|
 | 1 | Pursuit - Surrounded | 4.2/5 | 42 | — |
-| 2 | Pursuit - Homelo | 4.1/5 | 26 | 2.2/5 |
-| 3 | Pursuit - BlockFort | 4.0/5 | 84 | 3.7/5 |
-| 4 | Pursuit - The Crazy Rampage! | 4.0/5 | 82 | — |
+| 2 | Pursuit - The Crazy Rampage! | 4.1/5 | 83 | — |
+| 3 | Pursuit - Homelo | 4.1/5 | 26 | 2.2/5 |
+| 4 | Pursuit - BlockFort | 4.0/5 | 84 | 3.7/5 |
 | 5 | Pursuit - Pursuit Party #02 | 4.0/5 | 73 | 2.8/5 |
 | 6 | Pursuit - On The Move! | 3.9/5 | 751 | — |
 | 7 | Pursuit - Scadroy Town | 3.9/5 | 672 | 3.8/5 |
 | 8 | Pursuit - The Not So Crazy Rampage! | 3.9/5 | 585 | — |
 | 9 | Pursuit - Turn Around | 3.9/5 | 133 | 3.5/5 |
-| 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 123 | 2.9/5 |
+| 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 124 | 2.9/5 |
 
 ## 🔥 Most Popular (by 5-Star vote count)
 
@@ -40,7 +40,7 @@ _Generated 2026-10-18 10:27 UTC · Moon phase: **First Quarter** · Reports ever
 | 6 | Pursuit - Sayonara Chloe | 760 | 3.5/5 |
 | 7 | Pursuit - On The Move! | 751 | 3.9/5 |
 | 8 | Pursuit - Bugslide Heaven | 736 | 3.4/5 |
-| 9 | Pursuit - Block Fort Canyon | 733 | 3.8/5 |
+| 9 | Pursuit - Block Fort Canyon | 735 | 3.8/5 |
 | 10 | Pursuit - Volley | 718 | 3.5/5 |
 
 ## ✅ Community Favourites (by YES/NO, min. 20 votes)
@@ -64,7 +64,10 @@ _We don't have raw play logs, so 'commonly played' is inferred from vote activit
 
 **biggest vote growth since previous snapshot (proxy for 'actively played/rated')**
 
-_No vote growth detected yet between snapshots. This section fills in once history accumulates._
+| # | Map | 5★ Total | YN Votes | Recent vote growth |
+|---|-----|----------|----------|--------------------|
+| 1 | A r e n a  b y  z i y x | 63 | 0 | +1 |
+| 2 | [Lati Goal Hunt] Lagoon City | 639 | 0 | +1 |
 
 ## 🌍 Maps by Environment
 
@@ -105,50 +108,46 @@ piotrunio                ███░░░░░░░░░░░░░░░�
 1.5                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 2.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
 2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2
-3.0                      ████░░░░░░░░░░░░░░░░░░░░░░░░ 19
-3.5                      ████████████████████████████ 129
-4.0                      ███████████████████████░░░░░ 108
-4.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5
+3.0                      ████░░░░░░░░░░░░░░░░░░░░░░░░ 17
+3.5                      ████████████████████████████ 132
+4.0                      ███████████████████████░░░░░ 109
+4.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
 5.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 
 ## 📈 How Ratings Changed Over Time
 
-_Comparing first snapshot (2026-07-22 07:29 UTC) with latest (2026-10-18 09:14 UTC)._
+_Comparing first snapshot (2026-07-31 07:45 UTC) with latest (2026-10-25 09:30 UTC)._
 
 **▲ Most improved**
 
 | # | Map | 5★ before→after | YN before→after |
 |---|-----|-----------------|-----------------|
-| 1 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
-| 2 | GHC2! #22 Snowy Castle | 4.0/5→4.2/5 | —→— |
-| 3 | GHC2! #23 Shiver Bay | 3.5/5→3.7/5 | —→— |
-| 4 | GHC2! #20 Magnet Chaos | 4.1/5→4.2/5 | —→— |
-| 5 | Goal Hunt - Canyon A08! | 3.6/5→3.7/5 | —→— |
-| 6 | Goal Hunt Christmas #3 Stadium A08 but with  | 3.6/5→3.7/5 | —→— |
-| 7 | Goal Hunt Christmas #8 Lunar Landing DX | 3.3/5→3.4/5 | —→— |
-| 8 | Goal Hunt - 2I6C | 3.1/5→3.2/5 | —→— |
-| 9 | Goal Hunt Christmas #23 Who needs space anyw | 3.5/5→3.6/5 | —→— |
-| 10 | Goal Hunt - Lightshow | 3.8/5→3.9/5 | —→— |
+| 1 | PursuitFUN - B15 Part II | —→4.2/5 | —→— |
+| 2 | PursuitFUN - B15 Part I | —→3.8/5 | —→— |
+| 3 | The future is REALLY bright | 3.3/5→3.7/5 | —→— |
+| 4 | Pursuit - Interstate Valley 2  -  Trap Trenc | 3.7/5→4.0/5 | —→— |
+| 5 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
+| 6 | Goal Hunt Christmas #23 Who needs space anyw | 3.4/5→3.6/5 | —→— |
+| 7 | Pursuit - Balloonia | 3.8/5→4.0/5 | —→— |
+| 8 | GHC2! #22 Snowy Castle | 4.0/5→4.2/5 | —→— |
+| 9 | GHC2! #23 Shiver Bay | 3.5/5→3.7/5 | —→— |
+| 10 | Pursuit - 6^3 | 3.4/5→3.6/5 | —→— |
 
 **▼ Most declined**
 
 | # | Map | 5★ before→after | YN before→after |
 |---|-----|-----------------|-----------------|
-| 1 | GoalHunt - AlienSignal | 4.3/5→3.8/5 | —→— |
-| 2 | GHC2! #19 Bowl Hopping | 4.1/5→3.7/5 | —→— |
-| 3 | GHC2! #1 Freezing Canyon | 4.4/5→4.1/5 | —→— |
-| 4 | GHC2! #13 when did J | 3.6/5→3.3/5 | —→— |
-| 5 | GHC2! #6 Jolly Ravine | 4.5/5→4.2/5 | —→— |
-| 6 | Goal Hunt Christmas #9 Simple Goal Hunt | 4.0/5→3.8/5 | —→— |
-| 7 | Goal Hunt Christmas #11 Ferris Harbor | 4.2/5→4.0/5 | —→— |
-| 8 | GHC2! #7 Snowy Paradise | 3.6/5→3.4/5 | —→— |
-| 9 | GHC2! #16 Who needs space anyway 4!!! | 3.1/5→2.9/5 | —→— |
-| 10 | Goal Hunt - SPEEDMAPPING | 4.5/5→4.3/5 | —→— |
+| 1 | Pursuit - BLOCKY WORLD #1 | 4.3/5→3.6/5 | —→— |
+| 2 | GoalHunt - AlienSignal | 4.2/5→3.8/5 | —→— |
+| 3 | Pursuit - Bugslide Hell | 3.9/5→3.5/5 | —→— |
+| 4 | GHC2! #19 Bowl Hopping | 4.1/5→3.7/5 | —→— |
+| 5 | GHC2! #1 Freezing Canyon | 4.4/5→4.1/5 | —→— |
+| 6 | GHC2! #13 when did J | 3.6/5→3.3/5 | —→— |
+| 7 | L o b o  b y  K i K i 1 1 3 | 4.3/5→4.0/5 | —→— |
+| 8 | GHC2! #6 Jolly Ravine | 4.5/5→4.2/5 | —→— |
+| 9 | Pursuit - snail race | 4.3/5→4.0/5 | —→— |
+| 10 | Pursuit - IslandCar Vs BayCar | 4.1/5→3.8/5 | —→— |
 
 ## 🆕 New Since Last Report
 
-**1** map(s) added since the last periodic report (2026-10-11):
-
-| # | Map | Author | Env | 5★ Avg |
-|---|-----|--------|-----|--------|
-| 1 | Pursuit - ragebait V2 | — | — | 3.2/5 |
+_No new maps since the previous periodic report._
