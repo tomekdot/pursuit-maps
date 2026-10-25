@@ -1,20 +1,14 @@
-# Vote Report - 2026-10-24 09:13 UTC
+# Vote Report - 2026-10-25 09:30 UTC
 
-Generated: 2026-10-24 09:13 UTC | Previous: 2026-10-23 09:40 UTC
+Generated: 2026-10-25 09:30 UTC | Previous: 2026-10-24 09:13 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part I | N/A | N/A | 4.3/5 | 3.8/5 |
 
 ## Top 10 by 5-Star Rating
 
