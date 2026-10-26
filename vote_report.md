@@ -1,26 +1,32 @@
-# Vote Report - 2026-10-25 09:30 UTC
+# Vote Report - 2026-10-26 10:38 UTC
 
-Generated: 2026-10-25 09:30 UTC | Previous: 2026-10-24 09:13 UTC
+Generated: 2026-10-26 10:38 UTC | Previous: 2026-10-25T10:48:47Z
 
 ## Summary
 
-- Total maps: 262
-- Maps with rating changes: 0
-- Ratings risen: 0
+- Total maps: 79
+- Maps with rating changes: 1
+- Ratings risen: 1
 - Ratings fallen: 0
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
 
 ## Top 10 by 5-Star Rating
 
 | # | Map | 5-Star Avg | Total Votes | YN Rating |
 |---|-----|------------|-------------|-----------|
 | 1 | GHC2! #17 Simple Goal Hunt 2! | 4.5/5 | 11 | N/A |
-| 2 | Pursuit - The Mall &#039;&#039;&#039;&#039; | 4.5/5 | 12 | N/A |
-| 3 | P l u s  b y  K i K i 1 1 3 | 4.3/5 | 27 | N/A |
-| 4 | Pursuit - Surrounded | 4.2/5 | 42 | N/A |
-| 5 | Pursuit - Lunar Landing | 4.2/5 | 33 | N/A |
-| 6 | Goal Hunt - Space Claw | 4.2/5 | 25 | N/A |
-| 7 | 42K ants [WR] | 4.2/5 | 27 | N/A |
-| 8 | Pursuit - Rocket Mania | 4.2/5 | 39 | N/A |
-| 9 | Pursuit - this map exists because im bored V2 | 4.2/5 | 27 | N/A |
-| 10 | Pursuit - Thunderbowl | 4.2/5 | 24 | N/A |
+| 2 | Goal Hunt - Space Claw | 4.2/5 | 25 | N/A |
+| 3 | GHC2! #6 Jolly Ravine | 4.2/5 | 16 | N/A |
+| 4 | GHC2! #11 Cold Heights | 4.2/5 | 28 | N/A |
+| 5 | GHC2! #20 Magnet Chaos | 4.2/5 | 12 | N/A |
+| 6 | GHC2! #22 Snowy Castle | 4.2/5 | 16 | N/A |
+| 7 | Goal Hunt - SPEEDMAPPING | 4.2/5 | 16 | N/A |
+| 8 | Goal Hunt Christmas #20 &quot;Another dirt map?&qu | 4.1/5 | 24 | N/A |
+| 9 | Goal Hunt Christmas #21 It&#039;s a map | 4.1/5 | 54 | N/A |
+| 10 | Goal Hunt Christmas #24 + 25 Christmas Plaza | 4.1/5 | 34 | N/A |
