@@ -1,21 +1,14 @@
-# Vote Report - 2026-10-27 10:07 UTC
+# Vote Report - 2026-10-28 10:54 UTC
 
-Generated: 2026-10-27 10:07 UTC | Previous: 2026-10-26 10:38 UTC
+Generated: 2026-10-28 10:54 UTC | Previous: 2026-10-27 10:07 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 2
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 2
-- New maps: 183
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | GHC2! #22 Snowy Castle | N/A | N/A | 4.2/5 | 4.0/5 |
-| 2 | Goal Hunt - Islands! | N/A | N/A | 3.6/5 | 3.5/5 |
+- Ratings fallen: 0
+- New maps: 0
 
 ## Top 10 by 5-Star Rating
 
