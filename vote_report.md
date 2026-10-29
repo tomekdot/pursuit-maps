@@ -1,14 +1,20 @@
-# Vote Report - 2026-10-28 10:54 UTC
+# Vote Report - 2026-10-29 11:12 UTC
 
-Generated: 2026-10-28 10:54 UTC | Previous: 2026-10-27 10:07 UTC
+Generated: 2026-10-29 11:12 UTC | Previous: 2026-10-28 10:54 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 0
-- Ratings risen: 0
+- Maps with rating changes: 1
+- Ratings risen: 1
 - Ratings fallen: 0
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Pursuit - IslandCar Vs BayCar | N/A | N/A | 3.8/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
