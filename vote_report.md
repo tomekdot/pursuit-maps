@@ -1,27 +1,22 @@
-# Vote Report - 2026-10-30 11:06 UTC
+# Vote Report - 2026-10-31 10:40 UTC
 
-Generated: 2026-10-30 11:06 UTC | Previous: 2026-10-29 11:12 UTC
+Generated: 2026-10-31 10:40 UTC | Previous: 2026-10-30 11:06 UTC
 
 ## Summary
 
 - Total maps: 262
 - Maps with rating changes: 3
-- Ratings risen: 2
-- Ratings fallen: 1
+- Ratings risen: 3
+- Ratings fallen: 0
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Bunker | N/A | N/A | 3.8/5 | 3.9/5 |
-| 2 | Pursuit - Mud Cake | N/A | N/A | 3.4/5 | 3.5/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | L o b o  b y  K i K i 1 1 3 | N/A | N/A | 4.0/5 | 3.9/5 |
+| 1 | Goal Hunt - HIGH (no not like that) | N/A | N/A | 3.3/5 | 3.5/5 |
+| 2 | Pursuit - Beer &amp; Dane by Hazard Revised | N/A | N/A | 3.9/5 | 4.0/5 |
+| 3 | Pursuit - Bugslide Hell | N/A | N/A | 3.5/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
