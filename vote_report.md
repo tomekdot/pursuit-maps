@@ -1,20 +1,14 @@
-# Vote Report - 2026-11-03 12:30 UTC
+# Vote Report - 2026-11-04 12:40 UTC
 
-Generated: 2026-11-03 12:30 UTC | Previous: 2026-11-02 12:58 UTC
+Generated: 2026-11-04 12:40 UTC | Previous: 2026-11-03 12:30 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 1
-- Ratings risen: 1
+- Maps with rating changes: 0
+- Ratings risen: 0
 - Ratings fallen: 0
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - The Mall &#039;&#039;&#039;&#039; | N/A | N/A | 4.5/5 | 4.8/5 |
 
 ## Top 10 by 5-Star Rating
 
