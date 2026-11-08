@@ -1,27 +1,20 @@
-# Vote Report - 2026-11-07 11:24 UTC
+# Vote Report - 2026-11-08 11:36 UTC
 
-Generated: 2026-11-07 11:24 UTC | Previous: 2026-11-06 12:35 UTC
+Generated: 2026-11-08 11:36 UTC | Previous: 2026-11-07 11:24 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 3
+- Maps with rating changes: 1
 - Ratings risen: 1
-- Ratings fallen: 2
+- Ratings fallen: 0
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #19 Ice Cold Water | N/A | N/A | 3.6/5 | 3.7/5 |
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part II | N/A | N/A | 4.2/5 | 3.6/5 |
-| 2 | E x k a l i b u r  b y  z i y x | 3.0/5 | 3.0/5 | 3.7/5 | 3.6/5 |
+| 1 | Pursuit - Manifest Destiny | N/A | N/A | 3.6/5 | 3.7/5 |
 
 ## Top 10 by 5-Star Rating
 
