@@ -1,6 +1,6 @@
-# 🌙 Weekly Pursuit Maps Report — 2026-11-01
+# 🌙 Weekly Pursuit Maps Report — 2026-11-08
 
-_Generated 2026-11-01 12:43 UTC · Moon phase: **Last Quarter** · Reports every 4 moon phases (~weekly)_
+_Generated 2026-11-08 12:49 UTC · Moon phase: **New Moon** · Reports every 4 moon phases (~weekly)_
 
 ## 📊 Snapshot
 
@@ -8,7 +8,7 @@ _Generated 2026-11-01 12:43 UTC · Moon phase: **Last Quarter** · Reports every
 - Maps with a 5-Star rating: **264**
 - Maps with a YES/NO rating: **52**
 - Total YES/NO votes cast: **13,524**
-- Total 5-Star votes cast: **26,567**
+- Total 5-Star votes cast: **26,580**
 - Average 5-Star rating: **3.68/5**
 - Average YES/NO rating: **3.01/5**
 - Vote-history snapshots on file: **91**
@@ -26,7 +26,7 @@ _Generated 2026-11-01 12:43 UTC · Moon phase: **Last Quarter** · Reports every
 | 7 | Pursuit - Scadroy Town | 3.9/5 | 672 | 3.8/5 |
 | 8 | Pursuit - The Not So Crazy Rampage! | 3.9/5 | 585 | — |
 | 9 | Pursuit - Turn Around | 3.9/5 | 133 | 3.5/5 |
-| 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 125 | 2.9/5 |
+| 10 | Goal Hunt - Merwood Lagoon | 3.9/5 | 126 | 2.9/5 |
 
 ## 🔥 Most Popular (by 5-Star vote count)
 
@@ -104,45 +104,46 @@ piotrunio                ███░░░░░░░░░░░░░░░�
 1.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 1.5                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
 2.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
-2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2
-3.0                      ████░░░░░░░░░░░░░░░░░░░░░░░░ 17
-3.5                      ████████████████████████████ 133
+2.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
+3.0                      ███░░░░░░░░░░░░░░░░░░░░░░░░░ 16
+3.5                      ████████████████████████████ 132
 4.0                      ███████████████████████░░░░░ 108
 4.5                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3
-5.0                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0
+5.0                      █░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1
 
 ## 📈 How Ratings Changed Over Time
 
-_Comparing first snapshot (2026-08-08 05:35 UTC) with latest (2026-11-01 11:34 UTC)._
+_Comparing first snapshot (2026-08-16 05:19 UTC) with latest (2026-11-08 11:36 UTC)._
 
 **▲ Most improved**
 
 | # | Map | 5★ before→after | YN before→after |
 |---|-----|-----------------|-----------------|
-| 1 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
-| 2 | GHC2! #23 Shiver Bay | 3.5/5→3.7/5 | —→— |
-| 3 | GHC2! #20 Magnet Chaos | 4.1/5→4.2/5 | —→— |
-| 4 | Goal Hunt - Canyon A08! | 3.6/5→3.7/5 | —→— |
-| 5 | Goal Hunt Christmas #3 Stadium A08 but with  | 3.6/5→3.7/5 | —→— |
-| 6 | Goal Hunt Christmas #8 Lunar Landing DX | 3.3/5→3.4/5 | —→— |
-| 7 | Goal Hunt - 2I6C | 3.1/5→3.2/5 | —→— |
-| 8 | Goal Hunt - Lightshow | 3.8/5→3.9/5 | —→— |
-| 9 | GHC2! #10 Glacial Plains | 3.8/5→3.9/5 | —→— |
+| 1 | PursuitFUN - B15 Part I | —→3.8/5 | —→— |
+| 2 | Goal Hunt - 1 block | —→2.4/5 | —→— |
+| 3 | Pursuit - Interstate Valley 2  -  Trap Trenc | 3.7/5→4.0/5 | —→— |
+| 4 | GHC2! #9 Going Up and Down! | 2.7/5→3.0/5 | —→— |
+| 5 | Goal Hunt - HIGH (no not like that) | 3.3/5→3.5/5 | —→— |
+| 6 | GHC2! #23 Shiver Bay | 3.5/5→3.7/5 | —→— |
+| 7 | The future is REALLY bright | 3.5/5→3.7/5 | —→— |
+| 8 | Pursuit - 6^3 | 3.4/5→3.6/5 | —→— |
+| 9 | Pursuit - Bunker | 3.7/5→3.9/5 | —→— |
+| 10 | Pursuit - Thundertown MK2 | 3.6/5→3.8/5 | —→— |
 
 **▼ Most declined**
 
 | # | Map | 5★ before→after | YN before→after |
 |---|-----|-----------------|-----------------|
-| 1 | GHC2! #1 Freezing Canyon | 4.4/5→4.0/5 | —→— |
-| 2 | GHC2! #19 Bowl Hopping | 4.1/5→3.7/5 | —→— |
-| 3 | Goal Hunt - SPEEDMAPPING | 4.6/5→4.2/5 | —→— |
+| 1 | PursuitFUN - B15 Part II | 5.0/5→3.6/5 | —→— |
+| 2 | L o b o  b y  K i K i 1 1 3 | 4.3/5→3.9/5 | —→— |
+| 3 | GHC2! #19 Bowl Hopping | 4.1/5→3.7/5 | —→— |
 | 4 | GHC2! #13 when did J | 3.6/5→3.3/5 | —→— |
-| 5 | GHC2! #6 Jolly Ravine | 4.5/5→4.2/5 | —→— |
-| 6 | Goal Hunt - BLOCKY WORLD #1 | 4.1/5→3.8/5 | —→— |
-| 7 | Goal Hunt Christmas #9 Simple Goal Hunt | 4.0/5→3.8/5 | —→— |
-| 8 | GHC2! #7 Snowy Paradise | 3.6/5→3.4/5 | —→— |
-| 9 | GoalHunt - AlienSignal | 4.0/5→3.8/5 | —→— |
-| 10 | Goal Hunt - A05 ! | 4.1/5→3.9/5 | —→— |
+| 5 | Pursuit - Bugslide Hell | 3.9/5→3.6/5 | —→— |
+| 6 | GHC2! #6 Jolly Ravine | 4.5/5→4.2/5 | —→— |
+| 7 | Goal Hunt - BLOCKY WORLD #1 | 4.1/5→3.8/5 | —→— |
+| 8 | Goal Hunt Christmas #11 Ferris Harbor | 4.2/5→4.0/5 | —→— |
+| 9 | GHC2! #1 Freezing Canyon | 4.2/5→4.0/5 | —→— |
+| 10 | GHC2! #7 Snowy Paradise | 3.6/5→3.4/5 | —→— |
 
 ## 🆕 New Since Last Report
 
