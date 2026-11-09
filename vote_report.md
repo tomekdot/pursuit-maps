@@ -1,10 +1,10 @@
-# Vote Report - 2026-11-08 11:36 UTC
+# Vote Report - 2026-11-09 13:29 UTC
 
-Generated: 2026-11-08 11:36 UTC | Previous: 2026-11-07 11:24 UTC
+Generated: 2026-11-09 13:29 UTC | Previous: 2026-11-08T12:49:29Z
 
 ## Summary
 
-- Total maps: 262
+- Total maps: 79
 - Maps with rating changes: 1
 - Ratings risen: 1
 - Ratings fallen: 0
@@ -14,19 +14,19 @@ Generated: 2026-11-08 11:36 UTC | Previous: 2026-11-07 11:24 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Manifest Destiny | N/A | N/A | 3.6/5 | 3.7/5 |
+| 1 | Goal Hunt - Lagoon A08! | N/A | N/A | N/A | 3.4/5 |
 
 ## Top 10 by 5-Star Rating
 
 | # | Map | 5-Star Avg | Total Votes | YN Rating |
 |---|-----|------------|-------------|-----------|
-| 1 | Pursuit - The Mall &#039;&#039;&#039;&#039; | 4.8/5 | 12 | N/A |
-| 2 | GHC2! #17 Simple Goal Hunt 2! | 4.5/5 | 11 | N/A |
-| 3 | P l u s  b y  K i K i 1 1 3 | 4.3/5 | 28 | N/A |
-| 4 | Goal Hunt - SPEEDMAPPING | 4.3/5 | 16 | N/A |
-| 5 | Pursuit - Surrounded | 4.2/5 | 42 | N/A |
-| 6 | Pursuit - Lunar Landing | 4.2/5 | 33 | N/A |
-| 7 | Goal Hunt - Space Claw | 4.2/5 | 25 | N/A |
-| 8 | 42K ants [WR] | 4.2/5 | 27 | N/A |
-| 9 | Pursuit - Rocket Mania | 4.2/5 | 42 | N/A |
-| 10 | Pursuit - this map exists because im bored V2 | 4.2/5 | 27 | N/A |
+| 1 | GHC2! #17 Simple Goal Hunt 2! | 4.5/5 | 11 | N/A |
+| 2 | Goal Hunt - SPEEDMAPPING | 4.3/5 | 16 | N/A |
+| 3 | Goal Hunt - Space Claw | 4.2/5 | 25 | N/A |
+| 4 | GHC2! #6 Jolly Ravine | 4.2/5 | 16 | N/A |
+| 5 | GHC2! #11 Cold Heights | 4.2/5 | 28 | N/A |
+| 6 | GHC2! #20 Magnet Chaos | 4.2/5 | 12 | N/A |
+| 7 | Goal Hunt Christmas #20 &quot;Another dirt map?&qu | 4.1/5 | 24 | N/A |
+| 8 | Goal Hunt Christmas #21 It&#039;s a map | 4.1/5 | 55 | N/A |
+| 9 | Goal Hunt Christmas #24 + 25 Christmas Plaza | 4.1/5 | 34 | N/A |
+| 10 | GHC2! #18 Goal Hunt Bowl 2! | 4.1/5 | 17 | N/A |
