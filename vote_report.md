@@ -1,27 +1,20 @@
-# Vote Report - 2026-11-11 12:17 UTC
+# Vote Report - 2026-11-12 13:27 UTC
 
-Generated: 2026-11-11 12:17 UTC | Previous: 2026-11-09 13:29 UTC
+Generated: 2026-11-12 13:27 UTC | Previous: 2026-11-11 12:17 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 3
-- Ratings risen: 1
-- Ratings fallen: 2
-- New maps: 183
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #20 &quot;Another dirt map?&qu | N/A | N/A | 4.1/5 | 4.2/5 |
+- Maps with rating changes: 1
+- Ratings risen: 0
+- Ratings fallen: 1
+- New maps: 0
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt - map name | N/A | N/A | 3.8/5 | 3.5/5 |
-| 2 | GHC2! #19 Bowl Hopping | N/A | N/A | 3.7/5 | 3.6/5 |
+| 1 | GHC2! #16 Who needs space anyway 4!!! | N/A | N/A | 3.2/5 | 3.1/5 |
 
 ## Top 10 by 5-Star Rating
 
