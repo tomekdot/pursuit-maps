@@ -1,6 +1,6 @@
-# Vote Report - 2026-11-12 13:27 UTC
+# Vote Report - 2026-11-13 12:43 UTC
 
-Generated: 2026-11-12 13:27 UTC | Previous: 2026-11-11 12:17 UTC
+Generated: 2026-11-13 12:43 UTC | Previous: 2026-11-12 13:27 UTC
 
 ## Summary
 
@@ -14,7 +14,7 @@ Generated: 2026-11-12 13:27 UTC | Previous: 2026-11-11 12:17 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | GHC2! #16 Who needs space anyway 4!!! | N/A | N/A | 3.2/5 | 3.1/5 |
+| 1 | GHC2! #23 Shiver Bay | N/A | N/A | 3.7/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
