@@ -1,6 +1,6 @@
-# Vote Report - 2026-11-13 12:43 UTC
+# Vote Report - 2026-11-14 11:52 UTC
 
-Generated: 2026-11-13 12:43 UTC | Previous: 2026-11-12 13:27 UTC
+Generated: 2026-11-14 11:52 UTC | Previous: 2026-11-13 12:43 UTC
 
 ## Summary
 
@@ -14,7 +14,7 @@ Generated: 2026-11-13 12:43 UTC | Previous: 2026-11-12 13:27 UTC
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | GHC2! #23 Shiver Bay | N/A | N/A | 3.7/5 | 3.6/5 |
+| 1 | Pursuit - BLOCK WORLD #2 | N/A | N/A | 4.0/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
