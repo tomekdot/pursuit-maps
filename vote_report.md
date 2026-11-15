@@ -1,20 +1,14 @@
-# Vote Report - 2026-11-14 11:52 UTC
+# Vote Report - 2026-11-15 12:22 UTC
 
-Generated: 2026-11-14 11:52 UTC | Previous: 2026-11-13 12:43 UTC
+Generated: 2026-11-15 12:22 UTC | Previous: 2026-11-14 11:52 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 1
+- Maps with rating changes: 0
 - Ratings risen: 0
-- Ratings fallen: 1
+- Ratings fallen: 0
 - New maps: 0
-
-## Ratings Fallen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - BLOCK WORLD #2 | N/A | N/A | 4.0/5 | 3.9/5 |
 
 ## Top 10 by 5-Star Rating
 
