@@ -1,14 +1,26 @@
-# Vote Report - 2026-11-19 14:01 UTC
+# Vote Report - 2026-11-20 13:44 UTC
 
-Generated: 2026-11-19 14:01 UTC | Previous: 2026-11-18 13:34 UTC
+Generated: 2026-11-20 13:44 UTC | Previous: 2026-11-19 14:01 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 0
-- Ratings risen: 0
-- Ratings fallen: 0
+- Maps with rating changes: 2
+- Ratings risen: 1
+- Ratings fallen: 1
 - New maps: 0
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt Christmas #9 Simple Goal Hunt | N/A | N/A | 3.8/5 | 3.9/5 |
+
+## Ratings Fallen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | Goal Hunt Christmas #14 Speedmapping this is | N/A | N/A | 3.9/5 | 3.8/5 |
 
 ## Top 10 by 5-Star Rating
 
