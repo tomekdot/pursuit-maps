@@ -1,26 +1,28 @@
-# Vote Report - 2026-11-20 13:44 UTC
+# Vote Report - 2026-11-21 13:09 UTC
 
-Generated: 2026-11-20 13:44 UTC | Previous: 2026-11-19 14:01 UTC
+Generated: 2026-11-21 13:09 UTC | Previous: 2026-11-20 13:44 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 2
-- Ratings risen: 1
-- Ratings fallen: 1
+- Maps with rating changes: 4
+- Ratings risen: 2
+- Ratings fallen: 2
 - New maps: 0
 
 ## Ratings Risen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #9 Simple Goal Hunt | N/A | N/A | 3.8/5 | 3.9/5 |
+| 1 | Pursuit - Half Grid | N/A | N/A | 3.3/5 | 3.8/5 |
+| 2 | PURSUIT - Salon | N/A | N/A | 3.5/5 | 3.7/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | Goal Hunt Christmas #14 Speedmapping this is | N/A | N/A | 3.9/5 | 3.8/5 |
+| 1 | PursuitFUN - B15 Part I | N/A | N/A | 3.8/5 | 3.6/5 |
+| 2 | Goal Hunt Christmas #15 When the H | N/A | N/A | 3.7/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 
