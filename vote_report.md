@@ -1,28 +1,22 @@
-# Vote Report - 2026-11-21 13:09 UTC
+# Vote Report - 2026-11-22 12:56 UTC
 
-Generated: 2026-11-21 13:09 UTC | Previous: 2026-11-20 13:44 UTC
+Generated: 2026-11-22 12:56 UTC | Previous: 2026-11-21 13:09 UTC
 
 ## Summary
 
 - Total maps: 262
-- Maps with rating changes: 4
-- Ratings risen: 2
-- Ratings fallen: 2
+- Maps with rating changes: 3
+- Ratings risen: 0
+- Ratings fallen: 3
 - New maps: 0
-
-## Ratings Risen
-
-| # | Map | YN before | YN after | Stars before | Stars after |
-|---|-----|-----------|----------|--------------|-------------|
-| 1 | Pursuit - Half Grid | N/A | N/A | 3.3/5 | 3.8/5 |
-| 2 | PURSUIT - Salon | N/A | N/A | 3.5/5 | 3.7/5 |
 
 ## Ratings Fallen
 
 | # | Map | YN before | YN after | Stars before | Stars after |
 |---|-----|-----------|----------|--------------|-------------|
-| 1 | PursuitFUN - B15 Part I | N/A | N/A | 3.8/5 | 3.6/5 |
-| 2 | Goal Hunt Christmas #15 When the H | N/A | N/A | 3.7/5 | 3.6/5 |
+| 1 | PURSUIT - Edge of the Past | N/A | N/A | 3.6/5 | 3.5/5 |
+| 2 | Pursuit - Pursuit Party #02 | 2.8/5 | 2.8/5 | 4.0/5 | 3.9/5 |
+| 3 | Pursuit - A recipe to spark a fail | N/A | N/A | 3.6/5 | 3.5/5 |
 
 ## Top 10 by 5-Star Rating
 
