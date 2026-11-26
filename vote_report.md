@@ -1,14 +1,22 @@
-# Vote Report - 2026-11-25 15:10 UTC
+# Vote Report - 2026-11-26 14:36 UTC
 
-Generated: 2026-11-25 15:10 UTC | Previous: 2026-11-24 15:25 UTC
+Generated: 2026-11-26 14:36 UTC | Previous: 2026-11-25 15:10 UTC
 
 ## Summary
 
-- Total maps: 267
-- Maps with rating changes: 0
-- Ratings risen: 0
+- Total maps: 268
+- Maps with rating changes: 3
+- Ratings risen: 3
 - Ratings fallen: 0
-- New maps: 188
+- New maps: 2
+
+## Ratings Risen
+
+| # | Map | YN before | YN after | Stars before | Stars after |
+|---|-----|-----------|----------|--------------|-------------|
+| 1 | P a c m a n &#039; s  S p a c e  B a s e  b y  K i | N/A | N/A | 4.0/5 | 4.2/5 |
+| 2 | I s l a n d  C a r  P o w e r  b y  K i K i 1 1 3 | N/A | N/A | 3.9/5 | 4.1/5 |
+| 3 | A r i t o  b y  K i K i 1 1 3 | N/A | N/A | 3.5/5 | 3.6/5 |
 
 ## Top 10 by 5-Star Rating
 

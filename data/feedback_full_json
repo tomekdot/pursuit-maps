@@ -321,7 +321,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.6,
-    "stars_total": 585
+    "stars_total": 586
   },
   {
     "uid": "P3YTSRSKX23u48LNKRjwmNTiZ2b",
@@ -528,7 +528,7 @@
     "yn_rating": 2.9,
     "yn_votes": 164,
     "stars_avg": 3.9,
-    "stars_total": 127
+    "stars_total": 129
   },
   {
     "uid": "swCSsUGUPim7lTe1mynNOHTdKS1",
@@ -1176,7 +1176,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.7,
-    "stars_total": 31
+    "stars_total": 33
   },
   {
     "uid": "zhX6JxVZqSRPpKqdryUORlouBM0",
@@ -1419,7 +1419,7 @@
     "yn_rating": 0.0,
     "yn_votes": 0,
     "stars_avg": 3.9,
-    "stars_total": 30
+    "stars_total": 31
   },
   {
     "uid": "fWEZIViAgaRfqUlruvS4q2ZtyAb",
@@ -2363,17 +2363,17 @@
     "name": "I s l a n d  C a r  P o w e r  b y  K i K i 1 1 3",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.9,
-    "stars_total": 7
+    "stars_avg": 4.1,
+    "stars_total": 10
   },
   {
     "uid": "BIZanf94Jt5NUGujGWK2P00_18f",
-    "hash": "a3ee66fb00",
+    "hash": "7c3c1d8fe1",
     "name": "A r i t o  b y  K i K i 1 1 3",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 3.5,
-    "stars_total": 6
+    "stars_avg": 3.6,
+    "stars_total": 8
   },
   {
     "uid": "gmAErhFlOw5VO00MZijR7GdI8Dg",
@@ -2381,8 +2381,8 @@
     "name": "P a c m a n &#039; s  S p a c e  B a s e  b y  K i K i 1 1 3",
     "yn_rating": 0.0,
     "yn_votes": 0,
-    "stars_avg": 4.0,
-    "stars_total": 7
+    "stars_avg": 4.2,
+    "stars_total": 9
   },
   {
     "uid": "mq9Cqfqh1H8U1R3HATe7M8UkZUg",
@@ -2394,8 +2394,17 @@
     "stars_total": 0
   },
   {
-    "uid": "PQFrhZcKg02FZwJYkY9T8QZCoP6",
-    "hash": "af48ca656e",
+    "uid": "WrewwJCJBNm8zVG6E6wIaf58Pdm",
+    "hash": "6019c9d2ea",
+    "name": "F l a r i s  b y  K i K i 1 1 3",
+    "yn_rating": 0.0,
+    "yn_votes": 0,
+    "stars_avg": 0.0,
+    "stars_total": 0
+  },
+  {
+    "uid": "_lDPVfk7ENsh59f2eI4XUedvsQb",
+    "hash": "62f0c63346",
     "name": "S o r t  t h e  G a r b a g e  b y  K i K i 1 1 3",
     "yn_rating": 0.0,
     "yn_votes": 0,
